@@ -1,0 +1,21 @@
+@charset "UTF-8";
+.toptext {
+		text-align: center;
+		position: relative;
+		left: 50px;
+		border-right: solid;
+		height: 50px;
+	}
+	
+	.information {
+		text-align: center;
+		position: relative;
+		top: 100px;
+	}
+	
+	.information2 {
+		text-align: center;
+		position: relative;
+		top: 100px;
+		left: 40px;
+	}

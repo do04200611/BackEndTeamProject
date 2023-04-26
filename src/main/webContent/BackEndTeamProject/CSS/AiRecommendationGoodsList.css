@@ -1,0 +1,19 @@
+.toptext {
+		text-align: center;
+		position: relative;
+		right: 500px;
+	}
+	
+	.information {
+		text-align: center;
+		position: relative;
+		top: 3px;
+		border-left: solid;
+		height: 50px;
+	}
+	
+	.information2 {
+		text-align: center;
+		position: relative;
+		top: 10px;
+	}

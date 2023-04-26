@@ -1,0 +1,12 @@
+@charset "UTF-8";
+table {
+		width: 400px;
+		text-align: center;
+		position: relative;
+		top: 200px;
+		left: 500px;
+	}
+	
+	th {
+		background-color: cyan;
+	}

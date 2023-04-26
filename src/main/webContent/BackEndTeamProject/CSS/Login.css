@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+
+/*div class form의 스타일을 설정해주는 코드입니다.*/
+	#forest-brand-mark{
+	position: relative;
+	left: 150px;
+	width: 500px;
+	height: 100px;
+	text-align: center;
+	}
+	.pageexplanation{
+	text-align: center;
+	}
+	.userId {
+		width: 300px;
+		height: 50px;
+		border-radius: 10px;
+	}
+	#userIdimage{
+	width: 30px;
+	height: 30px;
+	}
+	#userPasswordimage{
+	width: 30px;
+	height: 30px;
+	}
+	
+	
+	.userPassword {
+		width: 300px;
+		height: 50px;
+		border-radius: 10px;
+	}
+	
+	
+	.loginbutton {
+		background-color: blue;
+		height: 50px;
+		width: 200px;
+		text-align: center;
+		color: white text-shadow200px;
+		text-align: center;
+		color: white;
+		border-radius: 10px;
+		left: 50px;
+		text-shadow: 2px 2px 2px #000000;
+	}
+	
+	.membership-registration-button{
+		background-color: white;
+		height: 50px;
+		width: 200px;
+		text-align: center;
+		color: blue;
+		border-radius: 10px;
+	}
+	
+	/*div mybox에 스타일을 지정해준다.*/
+	
+	/*div 태그 container의 스타일을 설정해주는 코드입니다.*/	
+	   .page {
+			width: 40%;
+			margin: 0 auto;
+			padding: 20px;
+			background-color: #f2f2f2;
+			text-align: center;
+		}
+		.column {
+		flex-basis: 48%;
+		margin-bottom: 20px;
+		}
+		/*반응형 웹디자인을 실행해주는 코드*/
+		@media only screen and (max-width: 600px) {
+			#forest-brand-mark {
+				width: 100px;
+				height: 70px;
+				position: relative;
+				left:200px;
+				text-align: center;
+			}
+			.userId {
+				width: 90%;
+				height: 50px;
+				border-radius: 10px;
+			}
+			#userIdimage {
+				width: 20px;
+				height: 20px;
+			}
+			#userPasswordimage {
+				width: 20px;
+				height: 20px;
+			}
+			.userPassword {
+				width: 90%;
+				height: 50px;
+				border-radius: 10px;
+			}
+			.loginbutton {
+				background-color: blue;
+				height: 50px;
+				width: 90%;
+				text-align: center;
+				color: white;
+				text-shadow: 2px 2px 2px #000000;
+				text-align: center;
+				color: white;
+				border-radius: 10px;
+				margin-top: 20px;
+			}
+			.membership-registration-button {
+				background-color: white;
+				height: 50px;
+				width: 90%;
+				text-align: center;
+			}
+			}
+			.page{
+				width: 40%;
+				height:400px;
+				margin: 0 auto;
+				padding: 20px;
+				background-color: #f2f2f2;
+				text-align: center;
+			}
+			.column {
+				flex-basis: 100%;
+				margin-bottom: 20px;
+			}
+			
+			@media only screen and (max-width: 300px) {
+			#forest-brand-mark {
+				width: 400px;
+				height: 70px;
+				position: relative;
+				left: 300px;
+				text-align: center;
+			}
+			}
+			@media only screen and (max-width: 900px) {
+			#forest-brand-mark {
+				width: 400px;
+				height: 70px;
+				position: relative;
+				left: 50px;
+				text-align: center;
+			}
+			}
+			@media only screen and (min-width: 1504px) {
+			#forest-brand-mark {
+				width: 500px;
+				height: 70px;
+				position: relative;
+				left: 250px;
+				text-align: center;
+			}
+			}
+			@media only screen and (max-width: 1200px) {
+			#forest-brand-mark {
+				width: 500px;
+				height: 70px;
+				position: relative;
+				left: 150px;
+				text-align: center;
+			}
+			}
+			
+			
+			
+	
+	
+	
+	

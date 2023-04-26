@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+	#forest-brand-mark{
+	position: relative;
+	left: 200px;
+	width: auto;
+	height: 100px;
+	text-align: center;
+	}
+	.pageexplanation{
+	text-align: center;
+	}
+	.userId {
+	width: 300px;
+	height: 50px;
+	border-radius: 10px;
+	}
+	#userIdimage{
+	width: 30px;
+	height: 30px;
+	}
+	#userPasswordimage{
+	width: 30px;
+	height: 30px;
+	
+	}
+	
+	
+	.userPassword {
+	width: 300px;
+	height: 50px;
+	border-radius: 10px;
+	}
+	
+	
+	
+	.userPasswordcheck {
+	width: 300px;
+	height: 50px;
+	border-radius: 10px;
+	}
+	#userPasswordcheckimage{
+	width: 30px;
+	height: 30px;
+	}
+
+	.userEmail {
+	width: 300px;
+	height: 50px;
+	border-radius: 10px;
+	}
+	#userEmailimage{
+	width: 30px;
+	height: 30px;
+	}
+
+	.userGender {
+	width: 300px;
+	height: 50px;
+	border-radius: 10px;
+	}
+	#userGenderimage{
+	width: 30px;
+	height: 30px;
+	}
+
+	.loginbutton {
+	background-color: blue;
+	height: 50px;
+	width: 200px;
+	text-align: center;
+	color: white;
+	border-radius: 10px;
+	}
+	.page {
+	width: 40%;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+	}
+	.column {
+	flex-basis: 48%;
+	margin-top: 20px;
+	}
+	

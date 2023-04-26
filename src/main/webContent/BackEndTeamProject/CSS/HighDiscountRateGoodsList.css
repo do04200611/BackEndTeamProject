@@ -1,0 +1,43 @@
+	@charset "UTF-8";
+	.today {
+		color: red;
+		position: relative;
+		top: 30px;
+	}
+	#appleimgage{
+		width:100px;
+		height:100px;
+		position: relative;
+		left:100px;
+	}
+	#napcabbageimage{
+		width:100px;
+		height:100px;
+		position: relative;
+		left:150px;
+	}
+	#napcabbageimage2{
+		width:100px;
+		height:100px;
+		position: relative;
+		left:250px;
+	}
+	#napcabbageimage3{
+		width:100px;
+		height:100px;
+		position: relative;
+		left:500px;
+	}
+	#napcabbageimage4{
+		width:100px;
+		height:100px;
+		position: relative;
+		left:900px;
+	}
+	.column {
+		position: absolute;
+		top: 150px;
+		line-height:100%; 
+		letter-spacing: 200%;
+	}
+	
