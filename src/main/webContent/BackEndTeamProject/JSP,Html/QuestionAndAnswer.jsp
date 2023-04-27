@@ -4,14 +4,16 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="../CSS/MemberManagementBullteinBoard.css">
-<link rel="stylesheet" href="../CSS/Menubar.css">
 <link rel="shortcut icon" type="image/x-icon" href="../../images/forest-brand-mark.png">
+<link rel="stylesheet" href="../CSS/QuestionAndAnswer.css">
 <link rel="stylesheet" href="../CSS/Menubar.css">
+<meta charset="UTF-8" name="viewport" 
+	  content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	 
 <title>Forest</title>
 </head>
-	<body>
-		<nav class="navbar navbar-default">
+<body>
+	<nav class="navbar navbar-default">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed"
 					data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
@@ -40,22 +42,24 @@
 				</ul>
 			</div>
 	</nav>
-		
-		<h1 class="member">회원 관리 게시판</h1>
-		<table>
+	<table>
 				<tr>
-					<th>번호</th>
-					<th>회원명</th>
-					<th>아이디</th>
-					<th>비밀번호</th>
-					<th>이메일</th>
-					<th>성별</th>
+					<th class="tabletop">번호</th>
+					<th class="tabletop">제목</th>
+					<th class="tabletop">작성일</th>
 				</tr>
 				<tr>
-					<td>1</td><td>2</td>
-					<td>3</td>
-					<td>4</td>
+					<td>1</td><td>로그인은 어떻게 하나요?</td><td>2023.03.02</td>	
+				</tr>
+				<tr>
+					<td>2</td><td>물건 구매는 어떻게 하나요?</td><td>2023.01.03</td>
+				</tr>
+				<tr>
+					<td>3</td><td>배송은 언제 되나요?</td><td>2021.12.31</td>
+				</tr>
+				<tr>
+					<td>4</td><td>환불은 어떻게 하나요?</td><td>2022.12.03</td>
 				</tr>
 		</table>
-	</body>
+</body>
 </html>

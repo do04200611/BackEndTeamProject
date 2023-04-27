@@ -47,8 +47,8 @@ userEmail -->
 					<a href="HomePage.jsp" class="dropdown-toggle"
 						data-toggle="dropdown" role="button" aria-haspopup="true"
 						aria-expanded="false">홈페이지<span class="caret"></span></a>
+						<li class="active"><a href="Login.jsp">로그인</a></li>
 					<ul class="dropdown-menu">
-						<li class="active"><a href="과제2.jsp">로그인</a></li>
 					</ul>
 				</li>
 			</ul>
@@ -94,12 +94,7 @@ userEmail -->
 				<input type="submit" value="로그인" class="loginbutton">
 				</form>
 			</div>
-			</div>
-
-			
-				
-			
-			
+			</div>	
 		
 	</body>
 </html>
