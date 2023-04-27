@@ -7,6 +7,7 @@
 <title>Forest</title>
 	<link rel="stylesheet" href="../CSS/HomePage.css">
 	<link rel="stylesheet" href="../CSS/Menubar.css">
+	<link rel="stylesheet" href="../CSS/BrandMark.css">
 	<link rel="shortcut icon" type="image/x-icon" href="../../images/forest-brand-mark.png">
 	<meta charset="UTF-8" name="viewport" 
 	  content="width=device-width, initial-scale=1">
@@ -54,37 +55,47 @@
 				<p class="objectintroduce">AI가 선정한 판매량 급증 상품 목록 추천 인기 상품 최근 많이 구매된
 					상품을 소개합니다.</p>
 		
-			<table>
-				<tr>
-					<td class="thead"><img src="../../images/hompageimage/dongseorichisgoods.png"  id="dongseorichisgoods"width="200px" height="100px"></td>
-					<td class="thead"><img src="../../images/hompageimage/namyanggoods.png"  id="namyanggoods"width="200px" height="100px"></td>
-				</tr>
-				<tr>
-				
-					<td class="tbody">
-					<img src="../../images/hompageimage/othernongsimgoods.jpg"  id="othernongsimgoods"width="200px" height="100px">
-					</td>
-					<td class="tbody">
-					<img src="../../images/hompageimage/samyanggoods.png"  id="samyanggoods"width="200px" height="100px">
-					</td>
-					<td class="tbody"><img src="../../images/hompageimage/nongsimgoods.png"  id="nongsimgoods"width="200px" height="100px">
-					</td>
-					<td class="tbody">
-					<img src="../../images/daeseonglifesciencegoods.png"  id="daeseonglifesciencegoods"width="200px" height="100px">
-					</td>
-				</tr>
-				<tr>
-					<td class="tbody">
-					<img src="../../images/hompageimage/daesangwelllifegoods.jpg"  id="daeseonglifesciencegoods"width="500px" height="500px">
-					</td>
-					<td class="tbody">
-					<img src="../../images/hompageimage/jwgoods.jpg"  id="daeseonglifesciencegoods"width="500px" height="500px">
-					</td>
-					<td class="tbody">
-					<img src="../../images/hompageimage/v.png"  id="daeseonglifesciencegoods"width="500px" height="500px">
-					</td>
-				</tr>
-			</table>
+			<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0pky">
+    <img src="../../images/hompageimage/dongseorichisgoods.png" 
+    id="dongseorichisgoods" class="goodsimage">
+    </th>
+    <th class="tg-0pky" colspan="3">
+    <img src="../../images/hompageimage/namyanggoods.png" 
+     id="namyanggoods" class="goodsimage">
+    </th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">
+    <img src="../../images/hompageimage/othernongsimgoods.jpg" value="othernongsimgoods" id="othernongsimgoods" class="goodsimage">
+    </td>
+    <td class="tg-0pky">
+    <img src="../../images/hompageimage/samyanggoods.png"  id="samyanggoods" class="goodsimage">
+    </td>
+    <td class="tg-0pky">
+    <img src="../../images/hompageimage/nongsimgoods.png"  id="nongsimgoods" class="goodsimage">
+    </td>
+    <td class="tg-0pky">
+    <img src="../../images/daeseonglifesciencegoods.png"  id="daeseonglifesciencegoods" class="goodsimage">
+    </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">
+    <img src="../../images/hompageimage/daesangwelllifegoods.jpg"  id="daeseonglifesciencegoods" class="goodsimage">
+    </td>
+    <td class="tg-0pky">
+    <img src="../../images/hompageimage/jwgoods.jpg"  id="daeseonglifesciencegoods" class="goodsimage">
+    </td>
+    <td class="tg-0pky" colspan="2">
+     <img src="../../images/hompageimage/v.png"  id="v" class="goodsimage">
+    </td>
+  </tr>
+</tbody>
+</table>
 	
 	</body>
 </html>

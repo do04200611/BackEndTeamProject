@@ -1,0 +1,13 @@
+@charset "UTF-8";
+	  .pagetitle {
+        display: inline-block; /* enable border-right to work */
+        font-size: 24px; /* set font size */
+      }
+      .pagetitle span {
+        display: inline-block; /* enable border-right to work */
+        border-right: 2px solid black; /* create vertical line */
+        padding-right: 10px; /* add space between letters */
+      }
+      .pagetitle span:last-child {
+        border-right: none; /* remove border from last letter */
+      }

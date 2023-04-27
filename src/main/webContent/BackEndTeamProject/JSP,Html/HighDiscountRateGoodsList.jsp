@@ -9,6 +9,7 @@
 <title>Forest</title>
 <link rel="stylesheet" href="../CSS/HighDiscountRateGoodsList.css">
 <link rel="stylesheet" href="../CSS/Menubar.css">
+<link rel="stylesheet" href="../CSS/BrandMark.css">
 <link rel="shortcut icon" type="image/x-icon" href="../../images/forest-brand-mark.png">
 
 </head>
@@ -47,6 +48,10 @@
 		
 		
 		<h2>할인률이 높은 상품 항목</h2>
+		<div class="pagetitle">
+		 <span><strong>구매한 상품과 비슷한 상품 목록</strong></span>
+     	 <span>구매 데이터를 학습하고 고객님의 구매의도를 파악하여 AI모델이 제시하는 상품 목록</span>
+    </div> 
 		<hr>
 	<div class="pageintroduction">
 	<a class="today">오늘의</a>

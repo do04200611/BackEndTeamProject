@@ -6,6 +6,7 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" href="../CSS/AiRecommendationGoodsList.css">
 <link rel="stylesheet" href="../CSS/Menubar.css">
+<link rel="stylesheet" href="../CSS/BrandMark.css">
 <link rel="shortcut icon" type="image/x-icon" href="../../images/forest-brand-mark.png">
 <title>Forest</title>
 </head>
@@ -39,8 +40,11 @@
 			</ul>
 		</div>
 	</nav>
-		<h1 class="toptext">AI 추천 상품목록</h1>
-		<h2 class="information">오늘의 AI가 엄선한 가장 Hot한 상품 trend에 맞는 추천 광고상품</h2>
+	<div class="pagetitle">
+		<span><strong>AI 추천 상품목록</strong></span>
+		<span>오늘의 AI가 엄선한 가장 Hot한 상품 trend에 맞는 추천 광고상품</span>
+	</div>
+		 
 
 	</body>
 </html>

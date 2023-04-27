@@ -48,16 +48,16 @@
 					<th class="tabletop">제목</th>
 					<th class="tabletop">작성일</th>
 				</tr>
-				<tr>
+				<tr class="lower">
 					<td>1</td><td>로그인은 어떻게 하나요?</td><td>2023.03.02</td>	
 				</tr>
-				<tr>
+				<tr class="lower">
 					<td>2</td><td>물건 구매는 어떻게 하나요?</td><td>2023.01.03</td>
 				</tr>
-				<tr>
+				<tr class="lower">
 					<td>3</td><td>배송은 언제 되나요?</td><td>2021.12.31</td>
 				</tr>
-				<tr>
+				<tr class="lower">
 					<td>4</td><td>환불은 어떻게 하나요?</td><td>2022.12.03</td>
 				</tr>
 		</table>

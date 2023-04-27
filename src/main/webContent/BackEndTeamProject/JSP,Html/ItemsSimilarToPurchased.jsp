@@ -7,43 +7,45 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" href="../CSS/Menubar.css">
 <link rel="stylesheet" href="../CSS/ItemsSimilarToPurchased.css">
+<link rel="stylesheet" href="../CSS/BrandMark.css">
 <link rel="shortcut icon" type="image/x-icon" href="../../images/forest-brand-mark.png">
 <title>Forest</title>
 </head>
 	<body>
 	
 
-		<nav class="navbar navbar-default">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed"
-					data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-					aria-expanded="false">		
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="HomePage.jsp">
-				<img id="menubar-forestbrand-mark" src="../../images/forest-brand-mark.png" ></a>
-			</div>
-			<div class="coollapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav ">
-					<li><a href="MemberShipRegistration.jsp">회원가입</a></li>
-					<li><a href="MemberManagementBulletinBoard.jsp">게시판</a></li>
-				</ul>		
-				<ul class="nav navbar-nav navbar-right">
-					<li class="dropdown">
-						<a href="HomePage.jsp" class="dropdown-toggle"
-							data-toggle="dropdown" role="button" aria-haspopup="true"
-							aria-expanded="false">홈페이지<span class="caret"></span></a>
-						<ul class="dropdown-menu">
-							<li class="active"><a href="과제2.jsp">로그인</a></li>
-						</ul>
-					</li>
-				</ul>
-			</div>
-		</nav>
-	
-		<h1>구매한 상품과 비슷한 상품 목록</h1>
-		<p>구매 데이터를 학습하고 고객님의 구매의도를 파악하여 AI모델이 제시하는 상품 목록</p>
+	<nav class="navbar navbar-default">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed"
+				data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+				aria-expanded="false">		
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="HomePage.jsp">
+			<img id="menubar-forestbrand-mark" src="../../images/forest-brand-mark.png" ></a>
+		</div>
+		<div class="coollapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav ">
+				<li><a href="MemberShipRegistration.jsp">회원가입</a></li>
+				<li><a href="MemberManagementBulletinBoard.jsp">게시판</a></li>
+			</ul>		
+			<ul class="nav navbar-nav navbar-right">
+				<li class="dropdown">
+					<a href="HomePage.jsp" class="dropdown-toggle"
+						data-toggle="dropdown" role="button" aria-haspopup="true"
+						aria-expanded="false">홈페이지<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li class="active"><a href="과제2.jsp">로그인</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="pagetitle">
+		 <span><strong>구매한 상품과 비슷한 상품 목록</strong></span>
+     	 <span>구매 데이터를 학습하고 고객님의 구매의도를 파악하여 AI모델이 제시하는 상품 목록</span>
+    </div>  
 	</body>
 </html>

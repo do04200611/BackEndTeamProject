@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Show/Hide Table Example</title>
+	<style type="text/css">
+		.table-container {
+			border: 1px solid black;
+			padding: 10px;
+			margin-bottom: 10px;
+		}
+	</style>
+	<script type="text/javascript">
+		function handleJspClick() {
+			// Get the table container element
+			var tableContainer = document.getElementById('table-container');
+
+			// Check if the table is visible
+			if (tableContainer.style.display === 'none') {
+				// Show the table
+				tableContainer.style.display = 'block';
+			} else {
+				// Hide the table
+				tableContainer.style.display = 'none';
+			}
+		}
+	</script>
+</head>
+<body>
+	<table onclick="handleJspClick()">
+		<tr>
+			<th>Header 1</th>
+			<th>Header 2</th>
+			<th>Header 3</th>
+		</tr>
+		<tr>
+			<td>Row 1, Column 1</td>
+			<td>Row 1, Column 2</td>
+			<td>Row 1, Column 3</td>
+		</tr>
+		<tr>
+			<td>Row 2, Column 1</td>
+			<td>Row 2, Column 2</td>
+			<td>Row 2, Column 3</td>
+		</tr>
+	</table>
+	<div id="table-container" class="table-container" style="display: none;">
+		<table>
+			<tr>
+				<th>Header 1</th>
+				<th>Header 2</th>
+				<th>Header 3</th>
+			</tr>
+			<tr>
+				<td>Row 1, Column 1</td>
+				<td>Row 1, Column 2</td>
+				<td>Row 1, Column 3</td>
+			</tr>
+			<tr>
+				<td>Row 2, Column 1</td>
+				<td>Row 2, Column 2</td>
+				<td>Row 2, Column 3</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

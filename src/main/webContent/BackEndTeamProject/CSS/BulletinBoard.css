@@ -4,31 +4,29 @@
 /*div class form의 스타일을 설정해주는 코드입니다.*/
 	
 	.pageexplanation{
-		text-align: center;
+		position: relative;
+		right: 300px;
 	}
-	.userId {
-		width: 300px;
+	label{
+	 display: inline-block;
+     width: 100px; /* adjust the width to your preference */
+	}
+	input{
+	 display: inline-block;
+	}
+	.posttitle {
+		width: 1000px;
 		height: 50px;
 		border-radius: 10px;
 	}
-	#userIdimage{
-		width: 30px;
-		height: 30px;
-	}
-	#userPasswordimage{
-		width: 30px;
-		height: 30px;
-	}
-	
-	
-	.userPassword {
-		width: 300px;
-		height: 50px;
+	.content {
+		width: 1000px;
+		height: 500px;
 		border-radius: 10px;
 	}
 	
 	
-	.loginbutton {
+	.completedbutton {
 		background-color: blue;
 		height: 50px;
 		width: 200px;
@@ -41,7 +39,7 @@
 		text-shadow: 2px 2px 2px #000000;
 	}
 	
-	.membership-registration-button{
+	.writecancelbutton{
 		background-color: white;
 		height: 50px;
 		width: 200px;
@@ -49,11 +47,7 @@
 		color: blue;
 		border-radius: 10px;
 	}
-	
-	/*div mybox에 스타일을 지정해준다.*/
-	
-	/*div 태그 container의 스타일을 설정해주는 코드입니다.*/	
-	   .page {
+	   .bulletinboard {
 			margin: 0 auto;
 			padding: 20px;
 			text-align: center;
@@ -65,32 +59,22 @@
 	
 		/*반응형 웹디자인을 실행해주는 코드*/
 		@media only screen and (max-width: 680px) {
-			#forest-brand-mark {
-				width: 100px;
-				height: 70px;
+			.pageexplanation{
 				position: relative;
-				left:400px;
-				text-align: center;
+				right: 200px;
 			}
-			.userId {
-				width: 90%;
+			.posttitle {
+				width: 1000px;
 				height: 50px;
 				border-radius: 10px;
 			}
-			#userIdimage {
-				width: 20px;
-				height: 20px;
-			}
-			#userPasswordimage {
-				width: 20px;
-				height: 20px;
-			}
-			.userPassword {
-				width: 90%;
-				height: 50px;
+			.content {
+				width: 500px;
+				height: 500px;
 				border-radius: 10px;
 			}
-			.loginbutton {
+			
+			.completedbutton {
 				background-color: blue;
 				height: 50px;
 				width: 90%;
@@ -102,19 +86,18 @@
 				border-radius: 10px;
 				margin-top: 20px;
 			}
-			.membership-registration-button {
+			.writecancelbutton {
 				background-color: white;
 				height: 50px;
 				width: 90%;
 				text-align: center;
 			}
 			}
-			.page{
+			.bulletinboard{
 				width: 40%;
 				height:400px;
 				margin: 0 auto;
 				padding: 20px;
-				background-color: #f2f2f2;
 				text-align: center;
 			}
 			.column {

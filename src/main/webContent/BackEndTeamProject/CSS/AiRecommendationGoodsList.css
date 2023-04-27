@@ -1,33 +1,12 @@
-	.forest-brand-mark{
-		position: relative;
-		left: 500px;
-	}
-	#forest-brand-mark{
-		width: 30px;
-		height: 100px;
-	}
-
-	#forest-brand-marktext{
-		width: 500px;
-		height: 100px;
-		text-align: center;
-	}
-	.toptext {
-		text-align: center;
-		position: relative;
-		right: 500px;
-	}
-	
-	.information {
-		text-align: center;
-		position: relative;
-		top: 3px;
-		border-left: solid;
-		height: 50px;
-	}
-	
-	.information2 {
-		text-align: center;
-		position: relative;
-		top: 10px;
-	}
+	.pagetitle {
+        display: inline-block; /* enable border-right to work */
+        font-size: 24px; /* set font size */
+    }
+    .pagetitle span {
+      display: inline-block; /* enable border-right to work */
+      border-right: 2px solid black; /* create vertical line */
+      padding-right: 10px; /* add space between letters */
+    }
+    .pagetitle span:last-child {
+      border-right: none; /* remove border from last letter */
+    }

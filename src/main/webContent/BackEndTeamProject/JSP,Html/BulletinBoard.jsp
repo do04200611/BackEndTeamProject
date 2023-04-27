@@ -1,23 +1,20 @@
-<%@page import="org.apache.jasper.tagplugins.jstl.core.Import"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
-<%@page import="java.sql.*"%>
-<%@page import="javax.swing.text.html.CSS.*"%>
-
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="shortcut icon" type="image/x-icon" href="../../images/forest-brand-mark.png">
-<link rel="stylesheet" href="../CSS/Login.css">
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="../CSS/BulletinBoard.css">
 <link rel="stylesheet" href="../CSS/Menubar.css">
 <link rel="stylesheet" href="../CSS/BrandMark.css">
+<link rel="shortcut icon" type="image/x-icon" href="../../images/forest-brand-mark.png">
 <meta charset="UTF-8" name="viewport" 
 	  content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	 
-<title class="title">Forest</title>
 </head>
-	<body>	
-		 <nav class="navbar navbar-default">
+<body>
+	 <nav class="navbar navbar-default">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed"
 				data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
@@ -52,38 +49,28 @@
 				</a>
 			</div>
 				
-				<div class="page">
-
-					<p class="pageexplanation">회원정보를 입력해주세요</p><br>
+				<div class="bulletinboard">
+					<p class="pageexplanation">1:1문의 접수</p><br>
 				<div class="row">
 				<div class="column">
-					<input type="image" src="../../images/email.png"  id="userIdimage">
-			 		<input class="userId" type="text" name="userId"  
-					placeholder="userId" value="" id="userId"><br> 
-				</div>
-				<div class="column">
-					<input type="image" src="../../images/doorlock.png"  id="userPasswordimage" >
-					<input class="userPassword" type="password" name="userPassword" placeholder="userPassword"
-					value="" id="userPassword"><br> 
-				</div>
-				<div class="column">
-				<form action="HomePage.jsp">
-				<input type="submit" value="로그인" class="loginbutton">		
-				</form>
-				</div>
 				
+					<label>내용*</label><input class="posttitle" type="text" name="posttitle"
+			 		placeholder="제목을 입력해주세요" >
+				</div>
+				</div>
+				<div class="column">
+					<input class="content" type="text" name="content"
+					placeholder="빠른 답변을 위해서 10자 이상은 작성해주세요" ><br> 
+				</div>
+				<div class="column">
+					<form action="HomePage.jsp">
+						<input type="submit" value="작성완료" class="completedbutton">
+						<input type="submit" value="작성취소" class="writecancelbutton">		
+					</form>
+				
+				</div>
+				</div>
 			
 				<!-- 회원가입 버튼을 누르면 회원 가입 페이지로 이동시키는 코드 -->
-		<form action="MemberShipRegistration.jsp">
-				<!-- 회원 가입 버튼을 구현하는 코드 -->
-				<input type="submit" value="회원가입" class="membership-registration-button">
-					
-		</form>
-		</div>
-		</div>
-
-		
-			
-	
-	</body>
+</body>
 </html>

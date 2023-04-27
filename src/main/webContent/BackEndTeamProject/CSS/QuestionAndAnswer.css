@@ -3,11 +3,16 @@
 		width: 400px;
 		text-align: center;
 		position: relative;
-		top: 200px;
+		top: 50px;
 		left: 500px;
+		height: 400px;
 	}
 	
 	.tabletop {
 		background-color: cyan;
 		text-align: center;
+	}
+	.lower{
+	border-bottom: 1px solid #444444;
+    padding: 10px;
 	}

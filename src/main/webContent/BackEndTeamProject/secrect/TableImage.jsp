@@ -1,35 +1,12 @@
-@charset "UTF-8";
-	p {
-		margin: 0;
-	}
-
-	.introduce {
-		text-align: center;
-	}
-
-	.objectlist {
-		position: relative;
-		left: 100px;
-	}
-
-	.objectintroduce {
-		position: relative;
-		left: 100px;
-	}
-	
-
-	.mybox {
-		position: relative;
-		top: 100px;
-		/*class mybox의 div 태그를 원래 있어야할 위치보다 위쪽으로 100px 떨어지게 지정한다..*/
-		width: 800px; /*div 태그의 클래스 mybox의 폭을 800px로 지정한다. */
-		height: 500px; /*div 태그의 클래스 mybox의 높이를 500px로 지정한다. */
-		bottom: 100px;
-		/*class mybox의 div 태그를 원래 있어야할 위치보다 아래쪽으로 100px 떨어지게 지정한다..*/
-		margin: 0 auto;
-	}
-
-	table {
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      img {
+        display: block;
+        margin: auto;
+      }
+      table {
 		border-style: solid;
 		border-width: 3px;
 		border: 1px solid black; /* set border width and style */
@@ -71,13 +48,31 @@
 		text-align:left;
 		vertical-align:top;
 	}
-	.goodsimage{
-	 	display: block;
-        margin: auto;
-        width: 300px;
-        height: 100px;
-	}
-	#namyanggoods{
-	width: 300px;
-	}
-	
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td>Cell 1</td>
+        <td>Cell 2</td>
+        <td>Cell 3</td>
+      </tr>
+      <tr>
+        <td>Cell 4</td>
+        <td>Cell 5</td>
+        <td>Cell 6</td>
+      </tr>
+      <tr>
+        <td>Cell 7</td>
+        <td>Cell 8</td>
+        <td>
+          <img src="image.jpg" alt="Example Image">
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+
+
+
+
