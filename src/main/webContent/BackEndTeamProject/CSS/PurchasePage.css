@@ -1,5 +1,17 @@
 @charset "UTF-8";
-.toptext {
+	.forest-brand-mark{
+	
+	}
+	#forest-brand-mark{
+		width: 30px;
+		height: 30px;
+	}
+
+	#forest-brand-marktext{
+		width: 500px;
+		height: 30px;
+	}
+	.toptext {
 		text-align: center;
 		position: relative;
 		left: 50px;

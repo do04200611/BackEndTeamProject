@@ -1,4 +1,18 @@
-.toptext {
+	.forest-brand-mark{
+		position: relative;
+		left: 500px;
+	}
+	#forest-brand-mark{
+		width: 30px;
+		height: 100px;
+	}
+
+	#forest-brand-marktext{
+		width: 500px;
+		height: 100px;
+		text-align: center;
+	}
+	.toptext {
 		text-align: center;
 		position: relative;
 		right: 500px;
