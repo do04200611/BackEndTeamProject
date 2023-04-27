@@ -9,9 +9,10 @@
 <head>
   <link rel="shortcut icon" type="image/x-icon" href="../../images/forest-brand-mark.png">
 <link rel="stylesheet" href="../CSS/Login.css">
+<link rel="stylesheet" href="../CSS/Menubar.css">
 <meta charset="UTF-8" name="viewport" 
 	  content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	 
 <title class="title">Forest</title>
 </head>
 	<body>	
@@ -29,7 +30,7 @@
 		<div class="coollapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav ">
 				<li><a href="MemberShipRegistration.jsp">회원가입</a></li>
-				<li><a href="MemberManagementBullteinBoard.jsp">게시판</a></li>
+				<li><a href="MemberManagementBulletinBoard.jsp">게시판</a></li>
 			</ul>		
 			<ul class="nav navbar-nav navbar-right">
 				<li class="dropdown">

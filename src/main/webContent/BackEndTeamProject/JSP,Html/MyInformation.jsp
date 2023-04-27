@@ -17,7 +17,7 @@
 <meta charset="UTF-8">
 <title>Forest</title>
 </head>
-<body>
+	<body>
 
 <!-- 회원가입 양식
 u
@@ -56,12 +56,11 @@ userEmail -->
 	</nav>
 			
 				
-				
-				<div class="page"> 	
 				<a href="HomePage.jsp">
 				<img id="forest-brand-mark" src="../../images/forest-brand-mark.png">
 				<img id="forest-brand-mark" src="../../images/textforestbrandmark.png">
 				</a>
+				<div class="page"> 	
 				<p class="pageexplanation">회원정보를 입력해주세요</p><br>
 				<div class="row">
 				<div class="column">
@@ -102,5 +101,5 @@ userEmail -->
 			
 			
 		
-</body>
+	</body>
 </html>

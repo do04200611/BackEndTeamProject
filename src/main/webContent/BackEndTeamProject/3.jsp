@@ -1,16 +1,6 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<link rel="stylesheet" href="../CSS/AiRecommendationGoodsList.css">
+
 <link rel="stylesheet" href="../CSS/Menubar.css">
-<link rel="shortcut icon" type="image/x-icon" href="../../images/forest-brand-mark.png">
-<title>Forest</title>
-</head>
-	<body>
-	<nav class="navbar navbar-default">
+<nav class="navbar navbar-default">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed"
 				data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
@@ -39,8 +29,3 @@
 			</ul>
 		</div>
 	</nav>
-		<h1 class="toptext">AI 추천 상품목록</h1>
-		<h2 class="information">오늘의 AI가 엄선한 가장 Hot한 상품 trend에 맞는 추천 광고상품</h2>
-
-	</body>
-</html>
