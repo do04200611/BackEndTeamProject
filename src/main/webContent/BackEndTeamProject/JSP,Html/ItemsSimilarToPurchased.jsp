@@ -6,6 +6,7 @@
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="../CSS/ItemsSimilarToPurchased.css">
+<link rel="shortcut icon" type="image/x-icon" href="../../images/forest-brand-mark.png">
 <title>Forest</title>
 </head>
 	<body>

@@ -9,6 +9,7 @@
 	<meta charset="UTF-8" name="viewport" 
 	  content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	
+<link rel="shortcut icon" type="image/x-icon" href="../../images/forest-brand-mark.png">
 	</head>
 	<body>
 		<header>

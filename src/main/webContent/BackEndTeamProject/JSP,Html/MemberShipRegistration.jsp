@@ -9,6 +9,7 @@
 <html>
 <head>
 <link rel="stylesheet" href="../CSS/MemberShipRegistration.css">
+<link rel="shortcut icon" type="image/x-icon" href="../../images/forest-brand-mark.png">
 <meta charset="UTF-8" name="viewport" 
 	  content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	 

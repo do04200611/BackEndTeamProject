@@ -5,6 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="../CSS/AiRecommendationGoodsList.css">
+<link rel="shortcut icon" type="image/x-icon" href="../../images/forest-brand-mark.png">
 <title>Forest</title>
 	<style type="text/css">
 	

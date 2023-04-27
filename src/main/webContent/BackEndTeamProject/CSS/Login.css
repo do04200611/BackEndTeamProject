@@ -4,7 +4,7 @@
 /*div class form의 스타일을 설정해주는 코드입니다.*/
 	#forest-brand-mark{
 	position: relative;
-	left: 150px;
+	left: 500px;
 	width: 500px;
 	height: 100px;
 	text-align: center;
@@ -70,13 +70,17 @@
 		flex-basis: 48%;
 		margin-bottom: 20px;
 		}
+		.title{
+		color: #00FFFF;
+		}
+	
 		/*반응형 웹디자인을 실행해주는 코드*/
-		@media only screen and (max-width: 600px) {
+		@media only screen and (max-width: 680px) {
 			#forest-brand-mark {
 				width: 100px;
 				height: 70px;
 				position: relative;
-				left:200px;
+				left:400px;
 				text-align: center;
 			}
 			.userId {
@@ -129,42 +133,7 @@
 				margin-bottom: 20px;
 			}
 			
-			@media only screen and (max-width: 300px) {
-			#forest-brand-mark {
-				width: 400px;
-				height: 70px;
-				position: relative;
-				left: 300px;
-				text-align: center;
-			}
-			}
-			@media only screen and (max-width: 900px) {
-			#forest-brand-mark {
-				width: 400px;
-				height: 70px;
-				position: relative;
-				left: 50px;
-				text-align: center;
-			}
-			}
-			@media only screen and (min-width: 1504px) {
-			#forest-brand-mark {
-				width: 500px;
-				height: 70px;
-				position: relative;
-				left: 150px;
-				text-align: center;
-			}
-			}
-			@media only screen and (max-width: 1200px) {
-			#forest-brand-mark {
-				width: 500px;
-				height: 70px;
-				position: relative;
-				left: 150px;
-				text-align: center;
-			}
-			}
+			
 			
 			
 			

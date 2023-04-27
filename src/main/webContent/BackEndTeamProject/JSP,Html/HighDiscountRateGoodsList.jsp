@@ -8,6 +8,7 @@
 <meta charset="UTF-8">
 <title>Forest</title>
 <link rel="stylesheet" href="../CSS/HighDiscountRateGoodsList.css">
+<link rel="shortcut icon" type="image/x-icon" href="../../images/forest-brand-mark.png">
 </head>
 <body>
 		<h2>할인률이 높은 상품 항목</h2>

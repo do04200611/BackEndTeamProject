@@ -6,6 +6,7 @@
 <meta charset="UTF-8">
 <title>Forest</title>
 <link rel="stylesheet" href="../CSS/PurchasePage.css">
+<link rel="shortcut icon" type="image/x-icon" href="../../images/forest-brand-mark.png">
 </head>
 	<body>
 		<h1 class="toptext">구매 페이지</h1>
