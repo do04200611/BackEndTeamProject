@@ -13,7 +13,7 @@
 <style type="text/css">
 	h1{
 		position: absolute;
-		bottom: 600px;
+		bottom: 500px;
 		left: 500px;
 	}
 	.commonbasicinformation{
@@ -21,12 +21,14 @@
 		background-color: gray;
 	}
 	.basicinformation{
-		width: 1px;
+		width: 100px;
 	}
 	.table{
 		position: relative;
+		bottom: 50px;
+		left: 400px;
 		border-left: none;/* 표의 왼쪽 선이 없게 만든다.*/
-		border-right: none;/*표의 오른쪽 선이 없게 만든다.*/
+		
 	}
 	input{
 		width: 100px;
