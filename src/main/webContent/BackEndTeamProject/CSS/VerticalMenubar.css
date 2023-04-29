@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/*버튼 스타일 적용 ㅋ*/
+		ul {
+		  list-style: none; /* 기본 리스트 스타일 제거 */
+		  margin: 0;
+		  padding: 0;
+		  width: 200px; /* 메뉴바의 너비 지정 */
+		  background-color: #eee; /* 배경색 지정 */
+		}
+	
+		li {
+		  margin: 0;
+		  padding: 0;
+		  border-bottom: 1px solid #ddd; /* 항목간 경계선 스타일 지정 */
+		}
+		
+		li:last-child {
+		  border-bottom: none; /* 마지막 항목 경계선 스타일 제거 */
+		}
+		
+		.vertical {
+		  display: block; /* 링크를 블록 요소로 변경 */
+		  padding: 10px 15px; /* 링크 내부 여백 지정 */
+		  color: #333; /* 글자 색 지정 */
+		  text-decoration: none; /* 밑줄 제거 */
+		}
+		
+		.vertical:hover {
+		  background-color: red; /* 호버 시 배경색 변경 */
+		}

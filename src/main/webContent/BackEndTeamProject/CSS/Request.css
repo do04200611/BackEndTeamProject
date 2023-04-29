@@ -1,0 +1,30 @@
+@charset "UTF-8";
+			#wrap {
+	            width: 800px;
+	            margin: 0 auto 0 auto;
+	        }
+	        #topForm{
+	            text-align :right;
+	        }
+	        #board, #pageForm, #searchForm{
+	            text-align :center;
+	        }
+	        
+	        #bList{
+	            text-align :center;
+	        }
+	        #nobulletin{
+	        	
+	        }
+	        .searchbutton{
+	        width: 50px;
+	        height: 30px;
+	        background: blue;
+	        color: white;
+	        }
+	        .addbutton{
+	        width: 50px;
+	        height: 30px;
+	        background: blue;
+	        color: white;
+	        }

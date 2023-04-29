@@ -1,20 +1,51 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@ page import="java.io.PrintWriter" %>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="../CSS/BulletinBoard.css">
 <link rel="stylesheet" href="../CSS/Menubar.css">
 <link rel="stylesheet" href="../CSS/BrandMark.css">
+<link rel="stylesheet" href="../CSS/VerticalMenubar.css">
 <link rel="shortcut icon" type="image/x-icon" href="../../images/forest-brand-mark.png">
-<meta charset="UTF-8" name="viewport" 
-	  content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	 
+<script type="text/javascript">
+	function sendIt() {
+		
+	    f = document.myForm;
+	    
+	    str = f.subject.value;
+	    str = str.trim();
+	    if(!str) {
+	        alert("제목을 입력하세요 !!!");
+	        f.subject.focus();
+	        return;
+	    }
+	    f.subject.value = str;
+	
+	    str = f.uploadFile.value;
+	    if(!str) {
+	        alert("이미지 파일을 선택 하세요 !!!");
+	        f.uploadFile.focus();
+	        return;
+	    }
+	    
+	    f.action="/study/image/write_ok.do";
+	    f.submit();
+	}
+</script>
+<title>JSP 게시판 웹 사이트</title>
 </head>
 <body>
-	 <nav class="navbar navbar-default">
+	<%
+		String userID = null;
+		if (session.getAttribute("userID") != null) {
+			userID = (String) session.getAttribute("userID");
+		}
+	%>
+	<nav class="navbar navbar-default">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed"
 				data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
@@ -23,54 +54,94 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="HomePage.jsp"><img id="menubar-forestbrand-mark" src="../../images/forest-brand-mark.png" ></a>
+			<a class="navbar-brand" href="HomePage.jsp">
+			<img id="menubar-forestbrand-mark" src="../../images/forest-brand-mark.png" ></a>
 		</div>
 		<div class="coollapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav ">
-				<li><a href="MemberShipRegistration.jsp">회원가입</a></li>
-				<li><a href="MemberManagementBulletinBoard.jsp">게시판</a></li>
-			</ul>		
+				<li><a href="HomePage.jsp">메인</a></li>
+				<li class="active"><a href="BulletinBoard.jsp">게시판</a></li>
+			</ul>	
+			<%
+				if(userID == null) {
+			%>
 			<ul class="nav navbar-nav navbar-right">
 				<li class="dropdown">
-					<a href="HomePage.jsp" class="dropdown-toggle"
+					<a href="#" class="dropdown-toggle"
 						data-toggle="dropdown" role="button" aria-haspopup="true"
-						aria-expanded="false">홈페이지<span class="caret"></span></a>
+						aria-expanded="false">접속하기<span class="caret"></span></a>
 					<ul class="dropdown-menu">
-						<li class="active"><a href="과제2.jsp">로그인</a></li>
+						<li><a href="Login.jsp">로그인</a></li>
+						<li><a href="MembershipRegistration.jsp">회원가입</a></li>
 					</ul>
 				</li>
 			</ul>
+			<%		
+				} else {
+			%>
+			<ul class="nav navbar-nav navbar-right">
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle"
+						data-toggle="dropdown" role="button" aria-haspopup="true"
+						aria-expanded="false">회원관리<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="logoutAction.jsp">로그아웃</a></li>
+					</ul>
+				</li>
+			</ul>
+			<%
+				}
+			%>	
 		</div>
-	</nav>
-			<div class="forest-brand-mark">
-				<img id="forest-brand-mark" src="../../images/forest-brand-mark.png">
-				<a href="HomePage.jsp">
-				<img id="forest-brand-marktext" src="../../images/textforestbrandmark.png">
-				</a>
-			</div>
-				
-				<div class="bulletinboard">
-					<p class="pageexplanation">1:1문의 접수</p><br>
-				<div class="row">
-				<div class="column">
-				
-					<label>내용*</label><input class="posttitle" type="text" name="posttitle"
-			 		placeholder="제목을 입력해주세요" >
-				</div>
-				</div>
-				<div class="column">
-					<input class="content" type="text" name="content"
-					placeholder="빠른 답변을 위해서 10자 이상은 작성해주세요" ><br> 
-				</div>
-				<div class="column">
-					<form action="HomePage.jsp">
-						<input type="submit" value="작성완료" class="completedbutton">
-						<input type="submit" value="작성취소" class="writecancelbutton">		
-					</form>
-				
-				</div>
-				</div>
-			
-				<!-- 회원가입 버튼을 누르면 회원 가입 페이지로 이동시키는 코드 -->
+	</nav> 
+	<!--세로 메뉴바-->
+	<ul>
+	  <li><a class="vertical" href="#">메뉴 1</a></li>
+	  <li><a class="vertical" href="#">메뉴 2</a></li>
+	  <li><a class="vertical" href="#">메뉴 3</a></li>
+	  <li><a class="vertical" href="#">메뉴 4</a></li>
+	  <li><a class="vertical" href="#">메뉴 5</a></li>
+	</ul>
+	<!--게시글 양식-->
+	<div class="container">
+		<div class="row">
+			<form method="post" action="writeAction.jsp">
+				<table class="bulletintable" style="position: absolute;
+		bottom: 100px;
+		left: 500px;
+		text-align: center; 
+		border: 1px solid #dddddd;
+		width: 500px;
+		height: 500px;">
+					<thead>
+						<tr>
+							<th class="bulletinboardtitle" colspan="2" style="background-color: #eeeeee; 
+		text-align: center;">게시판 글쓰기</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><input type="text" class="form-control" placeholder="글 제목" name="bbsTitle" maxlength="50"></td>
+						</tr>
+						<tr>	
+							<td><textarea class="form-control" placeholder="글 내용" name="bbsContent" maxlength="2048" style="height: 350px;"></textarea></td>
+						</tr>
+					</tbody>
+				</table>
+			</form>
+		</div>
+		<div class="container">
+			<img id="imageplus" src="../../images/imageplus.png" style="">	
+		</div>
+		<div class="container">
+			<form action="QuestionAndAnswer.jsp">
+				<input type="submit" class="writecancelbutton" value="글쓰기" style="">
+			</form>
+		</div>
+		
+		
+	</div>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="js/bootstrap.js"></script>
 </body>
 </html>

@@ -1,0 +1,86 @@
+@charset "UTF-8";
+	/*표 스타일 적용 코드*/
+	.table  {
+		border-collapse:collapse;
+		border-spacing:0;
+		margin: 0 auto 0 auto;
+		border-left: none;/* 표의 왼쪽 선이 없게 만든다.*/
+		border-right: none;/*표의 오른쪽 선이 없게 만든다.*/
+   	}
+	.table td{
+		border-collapse: collapse;
+		border-color:black;
+		border-style:solid;
+		border-width:1px;
+		font-family:Arial, sans-serif;
+		font-size:14px;
+	    overflow:hidden;
+	    padding: 10px 5px;
+	    word-break: normal;
+	    border-left: none;/* 표의 왼쪽 선이 없게 만든다.*/
+		border-right: none;/*표의 오른쪽 선이 없게 만든다.*/
+	    }
+	.table th{
+		border-color:black;
+		border-style:solid;
+		border-width:1px;
+		font-family:Arial, sans-serif;
+		font-size:14px;
+	  	font-weight:normal;
+	  	overflow:hidden;
+	  	padding:10px 5px;
+	  	word-break:normal;
+	  	border-left: none;/* 표의 왼쪽 선이 없게 만든다.*/
+		border-right: none;/*표의 오른쪽 선이 없게 만든다.*/
+	}
+	.table .commonbasicinformation{
+		background-color:#036400;
+		border-color:#333333;
+		text-align:center;
+		vertical-align:top;
+		width: 10px;/* 표의 폭을 100px 만든다.*/
+		border-left: none;/* 표의 왼쪽 선이 없게 만든다.*/
+		border-right: none;/*표의 오른쪽 선이 없게 만든다.*/
+		}
+	.table .basicinformation{
+		border-color:#333333;
+		text-align:center;
+		vertical-align:top;
+		width: 10px;/* 표의 폭을 500px 만든다.*/
+		border-left: none;/* 표의 왼쪽 선이 없게 만든다.*/
+		border-right: none;/*표의 오른쪽 선이 없게 만든다.*/
+	}
+	h1{
+		position: absolute;
+		bottom: 600px;
+		left: 500px;
+	}
+	table {
+		text-align :center;
+		width:100px;;
+		border:"3";
+		border-color:"lightgray";
+		position: absolute;
+		bottom: 440px;
+		left: 500px;
+	}
+	
+	
+	input{
+		width: 100px;
+		height: 30px;
+		background-color: blue;
+		color: white;
+	}
+	.addbutton{
+		position: relative;
+		left: 1290px;
+	}
+	.comment{
+		position: relative;
+		left: 100px;
+	}
+	.content{
+		text-align: center;
+		position: relative;
+	}

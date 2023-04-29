@@ -7,32 +7,31 @@
 		position: relative;
 		right: 300px;
 	}
-	label{
-	 display: inline-block;
-     width: 100px; /* adjust the width to your preference */
-	}
-	input{
-	 display: inline-block;
-	}
-	.posttitle {
-		width: 1000px;
+	button{
 		height: 50px;
+		width: 200px;
+		text-align: center;
 		border-radius: 10px;
 	}
-	.content {
-		width: 1000px;
+	.bulletintable{
+		position: absolute;
+		bottom: 100px;
+		left: 500px;
+		text-align: center; 
+		border: 1px solid #dddddd;
+		width: 500px;
 		height: 500px;
-		border-radius: 10px;
+	}
+	.bulletinboardtitle{
+		background-color: #eeeeee; 
+		text-align: center;
 	}
 	
 	
 	.completedbutton {
-		background-color: blue;
-		height: 50px;
-		width: 200px;
+		background-color: blue;	
 		text-align: center;
 		color: white text-shadow200px;
-		text-align: center;
 		color: white;
 		border-radius: 10px;
 		left: 50px;
@@ -40,69 +39,27 @@
 	}
 	
 	.writecancelbutton{
-		background-color: white;
-		height: 50px;
-		width: 200px;
-		text-align: center;
-		color: blue;
-		border-radius: 10px;
+		background-color: blue;
+		color: white;
+		position: relative;
+		top: 380px;
+		left: 1000px;
 	}
-	   .bulletinboard {
-			margin: 0 auto;
-			padding: 20px;
-			text-align: center;
-		}
-		.column {
+	#imageplus{
+		height: 30px;
+		width: 30px;
+		position: relative;
+		top: 300px;
+		left: 300px;
+	}
+   .bulletinboardpage{
+		margin: 0 auto;
+		padding: 20px;
+		text-align: center;
+	}
+	.column {
 		flex-basis: 48%;
 		margin-bottom: 20px;
-		}
-	
-		/*반응형 웹디자인을 실행해주는 코드*/
-		@media only screen and (max-width: 680px) {
-			.pageexplanation{
-				position: relative;
-				right: 200px;
-			}
-			.posttitle {
-				width: 1000px;
-				height: 50px;
-				border-radius: 10px;
-			}
-			.content {
-				width: 500px;
-				height: 500px;
-				border-radius: 10px;
-			}
-			
-			.completedbutton {
-				background-color: blue;
-				height: 50px;
-				width: 90%;
-				text-align: center;
-				color: white;
-				text-shadow: 2px 2px 2px #000000;
-				text-align: center;
-				color: white;
-				border-radius: 10px;
-				margin-top: 20px;
-			}
-			.writecancelbutton {
-				background-color: white;
-				height: 50px;
-				width: 90%;
-				text-align: center;
-			}
-			}
-			.bulletinboard{
-				width: 40%;
-				height:400px;
-				margin: 0 auto;
-				padding: 20px;
-				text-align: center;
-			}
-			.column {
-				flex-basis: 100%;
-				margin-bottom: 20px;
-			}
-			
+	}
+
 	

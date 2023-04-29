@@ -14,7 +14,7 @@
 <meta charset="UTF-8" name="viewport" 
 	  content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	 
-<title class="title">Forest</title>
+<title >Forest</title>
 </head>
 	<body>	
 		 <nav class="navbar navbar-default">

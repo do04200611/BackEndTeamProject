@@ -2,8 +2,8 @@
 	table {
 		width: 400px;
 		text-align: center;
-		position: relative;
-		top: 200px;
+		position: absolute;
+		bottom: 200px;
 		left: 500px;
 	}
 	

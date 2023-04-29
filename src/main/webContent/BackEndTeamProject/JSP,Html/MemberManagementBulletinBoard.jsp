@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="../CSS/MemberManagementBullteinBoard.css">
 <link rel="stylesheet" href="../CSS/Menubar.css">
 <link rel="shortcut icon" type="image/x-icon" href="../../images/forest-brand-mark.png">
-<link rel="stylesheet" href="../CSS/Menubar.css">
+<link rel="stylesheet" href="../CSS/VerticalMenubar.css">
 <link rel="stylesheet" href="../CSS/BrandMark.css">
 <title>Forest</title>
 </head>
@@ -41,8 +41,15 @@
 			</ul>
 		</div>
 	</nav>
-	
 	<h1 class="member">회원 관리 게시판</h1>
+	<div>
+		<ul>
+		  <li><a href="#">메뉴 1</a></li>
+		  <li><a href="#">메뉴 2</a></li>
+		  <li><a href="#">메뉴 3</a></li>
+		  <li><a href="#">메뉴 4</a></li>
+		  <li><a href="#">메뉴 5</a></li>
+	</ul>
 	<table>
 			<tr>
 				<th>번호</th>
@@ -58,5 +65,7 @@
 				<td>4</td>
 			</tr>
 	</table>
+	</div>
+	
 </body>
 </html>
