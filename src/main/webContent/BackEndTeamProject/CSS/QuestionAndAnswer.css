@@ -5,17 +5,19 @@
 		left: 500px;
 	}
 	#wrap{
+		width: 800px;
         margin: 0 auto 0 auto;
         position: relative;
-		position: relative;
 		bottom: 50px;
 		left: 50px;
-		
+	
 		
 	}
-	.table {
+	#table {
 		border-left: none;
 		margin: 0 auto 0 auto;
-		border-left: none;
 		border-right: none;
+		text-align: center;
+		position: relative;
+		bottom: 100px;
 	}

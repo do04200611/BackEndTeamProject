@@ -55,33 +55,25 @@
 	  <li><a class="vertical" href="#">메뉴 5</a></li>
 	</ul>
 	<div id="wrap">
-		<table class="table" width="800" border="3">
-			<thead>
-			  <tr height="30">
-			   <th class="commonbasicinformation">1 </th>
-			    <th class="commonbasicinformation">로그인은 어떻게 하나요? </th>
-			    <th class="basicinformation">2023.03.02</th>
-			  </tr>
-			</thead>
-			<tbody>
-			  <tr height="30">
-			  	<td class="commonbasicinformation">2</td>
-			    <td class="commonbasicinformation">물건 구매는 어떻게 하나요?</td>
-			    <td class="basicinformation">2023.01.03</td>
-			  </tr>
-			  <tr height="30">
-			  	<td class="commonbasicinformation">3</td>
-			    <td class="commonbasicinformation">배송은 언제 되나요?</td>
-			    <td class="basicinformation">2023.03.04</td>
-			  </tr>
-			  <tr height="30">
-			  	<td class="commonbasicinformation">4</td>
-			    <td class="commonbasicinformation">환불은 어떻게 하나요?</td>
-			    <td class="basicinformation">2022.12.03</td>
-			  </tr>
-			</tbody>
-		</table>
+		        <table id="table" width="800" border="1" border-color="lightgray">
+		        	<thead>
+			  		<tr height="30">
+		                <td>로그인은 어떻게 하나요?</td>
+		            </tr>
+		            </thead>
+		            <tbody>
+		             <tr>
+			            <td>물건 구매는 어떻게 하나요?</td>
+		            </tr>
+		            <tr>
+			            <td>배송은 언제 되나요?</td>
+		            </tr>
+		            <tr>
+			            <td>환불은 어떻게 하나요?</td>
+		            </tr>
+		            </tbody>
+		           
+	         	</table>
 	</div>
-	
 </body>
 </html>
