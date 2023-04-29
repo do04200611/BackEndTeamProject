@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <%@page import="java.sql.*"%>
 <%@page import="javax.swing.text.html.CSS.*"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>  
@@ -10,6 +10,8 @@
 	<link rel="stylesheet" href="../../CSS/BrandMark.css">
 	<link rel="shortcut icon" type="image/x-icon" href="../../images/forest-brand-mark.png">
     <title>Forest</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
    		<script type="text/javascript">
 	        function writeForm(){
 	            location.href="BoardWriteForm.bo";
@@ -19,72 +21,57 @@
 	</head>
 	<body>    
 		<nav class="navbar navbar-default">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed"
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed"
 				data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
 				aria-expanded="false">		
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand" href="../HomePage.jsp">
-			<img id="menubar-forestbrand-mark" src="../../../images/forest-brand-mark.png" ></a>
-		</div>
-		<div class="coollapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			<ul class="nav navbar-nav ">
-				<li><a href="../HomePage.jsp">¸ÞÀÎ</a></li>
-				<li class="active"><a href="../BulletinBoard.jsp">°Ô½ÃÆÇ</a></li>
-			</ul>	
-			
-			<ul class="nav navbar-nav navbar-right">
-				<li class="dropdown">
-					<a href="#" class="dropdown-toggle"
-						data-toggle="dropdown" role="button" aria-haspopup="true"
-						aria-expanded="false">Á¢¼ÓÇÏ±â<span class="caret"></span></a>
-					<ul class="dropdown-menu">
-						<li><a href="../Login.jsp">·Î±×ÀÎ</a></li>
-						<li><a href="../MembershipRegistration.jsp">È¸¿ø°¡ÀÔ</a></li>
-					</ul>
-				</li>
-			</ul>
-			
-			<ul class="nav navbar-nav navbar-right">
-				<li class="dropdown">
-					<a href="#" class="dropdown-toggle"
-						data-toggle="dropdown" role="button" aria-haspopup="true"
-						aria-expanded="false">È¸¿ø°ü¸®<span class="caret"></span></a>
-					<ul class="dropdown-menu">
-						<li><a href="logoutAction.jsp">·Î±×¾Æ¿ô</a></li>
-					</ul>
-				</li>
-			</ul>
-			
-		</div>
-	</nav> 
+				</button>
+					<a class="navbar-brand" href="../HomePage.jsp"><img id="menubar-forestbrand-mark" src="../../../images/forest-brand-mark.png" ></a>
+			</div>
+			<div class="coollapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav ">
+					<li><a href="MemberShipRegistration.jsp">íšŒì›ê°€ìž…</a></li>
+					<li><a href="BulletinBoardList.jsp">ê²Œì‹œíŒ</a></li>
+				</ul>		
+				<ul class="nav navbar-nav navbar-right">
+					<li class="dropdown">
+						<a href="../HomePage.jsp" class="dropdown-toggle"
+							data-toggle="dropdown" role="button" aria-haspopup="true"
+							aria-expanded="false">í™ˆíŽ˜ì´ì§€<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li class="active"><a href=Login.jsp">ë¡œê·¸ì¸</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</nav>
  		
 		<div id="wrap">
 		 
-		    <!-- ±Û¸ñ·Ï À§ ºÎºÐ-->
+		   <!-- ê¸€ëª©ë¡ ìœ„ ë¶€ë¶„-->
 		    <br>
 		    <div id="topForm">
 		        <c:if test="${sessionScope.sessionID!=null}">
-		            <input type="button" value="±Û¾²±â" onclick="writeForm()">
+		            <input type="button" value="ê¸€ì“°ê¸°" onclick="writeForm()">
 		        </c:if>    
 		    </div>
 		    
-		    <!-- °Ô½Ã±Û ¸ñ·Ï ºÎºÐ -->
+		   <!-- ê²Œì‹œê¸€ ëª©ë¡ ë¶€ë¶„ -->
 		    <br>
 		    <div id="board">
 		        <table id="bList" width="800" border="3" border-color="lightgray">
 		            <tr height="30">
-		                <td>±Û¹øÈ£</td>
-		                <td>Á¦¸ñ</td>
-		                <td>ÀÛ¼ºÀÚ</td>
-		                <td>ÀÛ¼ºÀÏ</td>
-		                <td>Á¶È¸¼ö</td>
+		                <td>ê¸€ë²ˆí˜¸</td>
+		                <td>ì œëª©</td>
+		                <td>ìž‘ì„±ìž</td>
+		                <td>ìž‘ì„±ì¼</td>
+		                <td>ì¡°íšŒìˆ˜</td>
 		            </tr>
 		            <tr>
-		            <td colspan="5">°Ô½Ã¹°ÀÌ ¾ø½À´Ï´Ù.</td>
+		            <td colspan="5">ê²Œì‹œë¬¼ì´ ì—†ìŠµë‹ˆë‹¤.</td>
 		            </tr>
 		        <c:forEach var="board" items="${requestScope.list}">
 		            <tr>
@@ -92,7 +79,7 @@
 		                <td align="left">
 		                    <c:if test="${board.board_re_lev > 0}">
 		                        <c:forEach begin="1" end="${board.board_re_lev}">
-		                            &nbsp;&nbsp; <!-- ´äº¯±ÛÀÏ°æ¿ì ±Û Á¦¸ñ ¾Õ¿¡ °ø¹éÀ» ÁØ´Ù. -->
+		                            &nbsp;&nbsp; <!-- ë‹µë³€ê¸€ì¼ê²½ìš° ê¸€ ì œëª© ì•žì— ê³µë°±ì„ ì¤€ë‹¤. -->
 		                        </c:forEach>
 		                        RE : 
 		                    </c:if>
@@ -112,11 +99,11 @@
 		        </table>
 		    </div>
 		    
-		    <!-- ÆäÀÌÁö ³Ñ¹ö ºÎºÐ -->
+		    <!-- ê²Œì‹œê¸€ ëª©ë¡ ë¶€ë¶„ -->
 		    <br>
 		    <div id="pageForm">
 		        <c:if test="${startPage != 1}">
-		            <a href='BoardListAction.bo?page=${startPage-1}'>[ ÀÌÀü ]</a>
+		            <a href='BoardListAction.bo?page=${startPage-1}'>[ì´ì „]</a>
 		        </c:if>
 		        
 		        <c:forEach var="pageNum" begin="${startPage}" end="${endPage}">
@@ -129,36 +116,30 @@
 		        </c:forEach>
 		        
 		        <c:if test="${endPage != maxPage }">
-		            <a href='BoardListAction.bo?page=${endPage+1 }'>[´ÙÀ½]</a>
+		            <a href='BoardListAction.bo?page=${endPage+1 }'>[ë‹¤ìŒ]</a>
 		        </c:if>
 		    </div>
 		    
-		    <!--  °Ë»ö ºÎºÐ -->
+		    <!--  ê²€ìƒ‰ ë¶€ë¶„ -->
 		    <br>
 		    <div id="searchForm">
 		        <div>
 		            <select name="opt">
-		                <option value="0">Á¦¸ñ</option>
-		                <option value="1">³»¿ë</option>
-		                <option value="2">Á¦¸ñ+³»¿ë</option>
-		                <option value="3">±Û¾´ÀÌ</option>
+		                <option value="0">ì œëª©</option>
+		                <option value="1">ë‚´ìš©</option>
+		                <option value="2">ì œëª©+ë‚´ìš©</option>
+		                <option value="3">ê¸€ì“´ì´</option>
 		            </select>
 
 		            
 		            <input type="text" size="20" name="condition"/>
-		            <input type="submit" value="°Ë»ö" class="searchbutton"/>
-   		            <a href="../BulletinBoard.jsp"><input class="addbutton" type="submit" value="µî·Ï"></a>
+		            <input type="submit" value="ê²€ìƒ‰" class="searchbutton"/>
+   		            <a href="AlbumBulletinBoard.jsp"><input class="addbutton" type="submit" value="ë“±ë¡"></a>
 		            
 	            </div>
-		           
-		            
-		            </div>
-		             
-		    
-		      
-		       </div>
-		    
-		<div>
+	            </div>	 
+     		    	 </div>
+		    		<div>
 		
 		
 		</div>
