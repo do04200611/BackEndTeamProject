@@ -5,9 +5,9 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>  
 <html>
 <head>
-	<link rel="stylesheet" href="../CSS/Request.css">
-	<link rel="stylesheet" href="../CSS/Menubar.css">
-	<link rel="stylesheet" href="../CSS/BrandMark.css">
+	<link rel="stylesheet" href="../../CSS/BulletinBoard/BulletinBoardList.css">
+	<link rel="stylesheet" href="../../CSS/Menubar.css">
+	<link rel="stylesheet" href="../../CSS/BrandMark.css">
 	<link rel="shortcut icon" type="image/x-icon" href="../../images/forest-brand-mark.png">
     <title>Forest</title>
    		<script type="text/javascript">
@@ -27,13 +27,13 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="HomePage.jsp">
-			<img id="menubar-forestbrand-mark" src="../../images/forest-brand-mark.png" ></a>
+			<a class="navbar-brand" href="../HomePage.jsp">
+			<img id="menubar-forestbrand-mark" src="../../../images/forest-brand-mark.png" ></a>
 		</div>
 		<div class="coollapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav ">
-				<li><a href="HomePage.jsp">메인</a></li>
-				<li class="active"><a href="BulletinBoard.jsp">게시판</a></li>
+				<li><a href="../HomePage.jsp">메인</a></li>
+				<li class="active"><a href="../BulletinBoard.jsp">게시판</a></li>
 			</ul>	
 			
 			<ul class="nav navbar-nav navbar-right">
@@ -42,8 +42,8 @@
 						data-toggle="dropdown" role="button" aria-haspopup="true"
 						aria-expanded="false">접속하기<span class="caret"></span></a>
 					<ul class="dropdown-menu">
-						<li><a href="Login.jsp">로그인</a></li>
-						<li><a href="MembershipRegistration.jsp">회원가입</a></li>
+						<li><a href="../Login.jsp">로그인</a></li>
+						<li><a href="../MembershipRegistration.jsp">회원가입</a></li>
 					</ul>
 				</li>
 			</ul>
@@ -147,7 +147,7 @@
 		            
 		            <input type="text" size="20" name="condition"/>
 		            <input type="submit" value="검색" class="searchbutton"/>
-   		            <a href="BulletinBoard.jsp"><input class="addbutton" type="submit" value="등록"></a>
+   		            <a href="../BulletinBoard.jsp"><input class="addbutton" type="submit" value="등록"></a>
 		            
 	            </div>
 		           

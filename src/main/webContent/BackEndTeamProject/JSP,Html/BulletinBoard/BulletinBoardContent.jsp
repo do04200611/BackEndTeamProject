@@ -5,11 +5,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Forest</title>
-	<link rel="shortcut icon" type="image/x-icon" href="../../images/forest-brand-mark.png">
-	<link rel="stylesheet" href="../CSS/Menubar.css">
-	<link rel="stylesheet" href="../CSS/BrandMark.css">
-	<link rel="stylesheet" href="../CSS/BulletinBoardContent.css">
-	<link rel="stylesheet" href="../CSS/VerticalMenubar.css">
+	<link rel="shortcut icon" type="image/x-icon" href="../../../images/forest-brand-mark.png">
+	<link rel="stylesheet" href="../../CSS/Menubar.css">
+	<link rel="stylesheet" href="../../CSS/BrandMark.css">
+	<link rel="stylesheet" href="../../CSS/BulletinBoard/BulletinBoardContent.css">
+	<link rel="stylesheet" href="../../CSS/VerticalMenubar.css">
 </head>
 <body>
 		 <nav class="navbar navbar-default">
@@ -21,7 +21,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				</button>
-					<a class="navbar-brand" href="HomePage.jsp"><img id="menubar-forestbrand-mark" src="../../images/forest-brand-mark.png" ></a>
+					<a class="navbar-brand" href="../HomePage.jsp"><img id="menubar-forestbrand-mark" src="../../../images/forest-brand-mark.png" ></a>
 			</div>
 			<div class="coollapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav ">
@@ -30,7 +30,7 @@
 				</ul>		
 				<ul class="nav navbar-nav navbar-right">
 					<li class="dropdown">
-						<a href="HomePage.jsp" class="dropdown-toggle"
+						<a href="../HomePage.jsp" class="dropdown-toggle"
 							data-toggle="dropdown" role="button" aria-haspopup="true"
 							aria-expanded="false">홈페이지<span class="caret"></span></a>
 						<ul class="dropdown-menu">
@@ -78,7 +78,7 @@
 					<p class="content">화가 매우 나니 정중한 사과도 요구합니다.</p>
 				<hr>
 		            <input type="button" value="댓글" class="comment"/>
-		            <a href="Request.jsp"><input class="addbutton" type="button" value="목록"></a>		
+		            <a href="../BulletinBoardst.jsp"><input class="addbutton" type="button" value="목록"></a>		
 				
 	</body>
 </html>

@@ -10,11 +10,11 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Forest</title>
  
-<link rel="stylesheet" href="<%=cp %>/imageTest/css/style.css" type="text/css" />
-<link rel="shortcut icon" type="image/x-icon" href="../../../images/forest-brand-mark.png">
-<link rel="stylesheet" href="../../CSS/Menubar.css">
-<link rel="stylesheet" href="../../CSS/BrandMark.css">
-<link rel="stylesheet" href="../../CSS/AlbumBulletinBoard.css">
+	<link rel="stylesheet" href="<%=cp %>/imageTest/css/style.css" type="text/css" />
+	<link rel="shortcut icon" type="image/x-icon" href="../../../images/forest-brand-mark.png">
+	<link rel="stylesheet" href="../../CSS/Menubar.css">
+	<link rel="stylesheet" href="../../CSS/BrandMark.css">
+	<link rel="stylesheet" href="../../CSS/Album/AlbumBulletinBoard.css">
 <style type="text/css">
 
 </style>
@@ -55,21 +55,21 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="HomePage.jsp"><img id="menubar-forestbrand-mark" src="../../../images/forest-brand-mark.png" ></a>
+			<a class="navbar-brand" href="../HomePage.jsp"><img id="menubar-forestbrand-mark" src="../../../images/forest-brand-mark.png" ></a>
 		</div>
 		<div class="coollapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					
 			 <ul class="nav navbar-nav ">
-				<li><a href="MemberShipRegistration.jsp">회원가입</a></li>
-				<li><a href="MemberManagementBulletinBoard.jsp">게시판</a></li>
+				<li><a href="../MemberShipRegistration.jsp">회원가입</a></li>
+				<li><a href="../MemberManagementBulletinBoard.jsp">게시판</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
 				<li class="dropdown">
-					<a href="HomePage.jsp" class="dropdown-toggle"
+					<a href="../HomePage.jsp" class="dropdown-toggle"
 						data-toggle="dropdown" role="button" aria-haspopup="true"
 						aria-expanded="false">홈페이지<span class="caret"></span></a>
 					<ul class="dropdown-menu">
-						<li class="active"><a href="과제2.jsp">로그인</a></li>
+						<li class="active"><a href="../Login.jsp">로그인</a></li>
 					</ul>
 				</li>
 			</ul>
@@ -80,7 +80,7 @@
 					<thead>
 						<tr>
 							<th class="bulletinboardtitle" colspan="2" style="background-color: #eeeeee; 
-		text-align: center;">게시판 글쓰기</th>
+							text-align: center;">게시판 글쓰기</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -144,10 +144,10 @@
 		</table>	
 				</div>
            		<div>
-	      			<a href="Request.jsp">
+	      			<a href="../Request.jsp">
 		      			<button value="writecancelbutton" class="writebutton">글쓰기</button>
 	      			</a>
-	      			<a href="Request.jsp">
+	      			<a href="../Request.jsp">
 					    <button type="reset" value="writecancelbutton" class="writecancelbutton">작성취소</button>
 	      			</a>
 				</div>		
