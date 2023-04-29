@@ -12,6 +12,19 @@
 	<meta charset="UTF-8" name="viewport" 
 	  content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	
+<style type="text/css">
+.tablesqure{
+		width: 350px;
+		height: 150px; 
+		border: 1px solid black;
+	}
+	.productinpreparation{
+		text-align: center;
+		position: relative;
+		top: 50px;
+	}
+	
+</style>
 	</head>
 	<body>
 		
@@ -59,39 +72,60 @@
 				<thead>
 					  <tr>
 					    <th class="tablegoodslist">
-					    	<img src="../../images/hompageimage/dongseorichisgoods.png" 
-					    	id="dongseorichisgoods" class="goodsimage">
+					    	<div class="tablesqure">
+					    		<img src="../../images/hompageimage/dongseorichisgoods.png" 
+					    		id="dongseorichisgoods" class="goodsimage">
+					    	</div>
 					    </th>
 					    <th class="tablegoodslist" colspan="3">
-					    	<img src="../../images/hompageimage/namyanggoods.png" 
-					     	id="namyanggoods" class="goodsimage">
+					    	<div class="tablesqure">
+						    	<img src="../../images/hompageimage/namyanggoods.png" 
+						     	id="namyanggoods" class="goodsimage">
+					     	</div>
 					    </th>
 					  </tr>
 				</thead>
 				<tbody>
 					  <tr>
-					    <td style="border: 2.5px double black;"class="tablegoodslist">
-					    	<img src="../../images/hompageimage/othernongsimgoods.jpg" value="othernongsimgoods" id="othernongsimgoods" class="goodsimage">
+					    <td>	
+					    	<div class="tablesqure">
+					    		<img src="../../images/hompageimage/othernongsimgoods.jpg" value="othernongsimgoods" id="othernongsimgoods" class="goodsimage">
+							</div>					    
 					    </td>
-					    <td style="border: 4px double black;"class="tablegoodslist">
-					    	<img src="../../images/hompageimage/samyanggoods.png"  id="samyanggoods" class="goodsimage">
+					    <td>
+					    	<div class="tablesqure">
+					    		<img src="../../images/hompageimage/samyanggoods.png"  id="samyanggoods" class="goodsimage">
+					    	</div>
 					    </td>
 					    <td class="tablegoodslist">
-					    	<img src="../../images/hompageimage/nongsimgoods.png"  id="nongsimgoods" class="goodsimage">
+					    	<div class="tablesqure">
+					    		<img src="../../images/hompageimage/nongsimgoods.png"  id="nongsimgoods" class="goodsimage">
+					    	</div>
 					    </td>
 					    <td class="tablegoodslist">
-					    	<img src="../../images/daeseonglifesciencegoods.png"  id="daeseonglifesciencegoods" class="goodsimage">
+					    	<div class="tablesqure">
+					    		<img src="../../images/daeseonglifesciencegoods.png"  id="daeseonglifesciencegoods" class="goodsimage">
+					    	</div>
 					    </td>
 					  </tr>
 					  <tr>
 					    <td class="tablegoodslist">
-					    	<img src="../../images/hompageimage/daesangwelllifegoods.jpg"  id="daeseonglifesciencegoods" class="goodsimage">
+					    	<div class="tablesqure">
+					    		<img src="../../images/hompageimage/daesangwelllifegoods.jpg"  id="daeseonglifesciencegoods" class="goodsimage">
+				   			</div>
 					    </td>
 					    <td class="tablegoodslist">
-					    	<img src="../../images/hompageimage/jwgoods.jpg"  id="daeseonglifesciencegoods" class="goodsimage">
+					    	<div class="tablesqure">
+					    		<img src="../../images/hompageimage/jwgoods.jpg"  id="daeseonglifesciencegoods" class="goodsimage">
+					    	</div>
 					    </td>
-				    	<td class="tablegoodslist" colspan="2">
-					     	<img src="../../images/hompageimage/v.png"  id="v" class="goodsimage">
+				    	<td class="tablegoodslist">
+				    		<div class="tablesqure">
+					     		<img src="../../images/hompageimage/v.png"  id="v" class="goodsimage">
+					    	</div>
+					    </td>
+					    <td class="tablegoodslist">
+				    		<div class="tablesqure"><p class="productinpreparation">상품 준비중</p></div>
 					    </td>
 					  </tr>
 					</tbody>

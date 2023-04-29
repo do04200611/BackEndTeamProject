@@ -18,7 +18,13 @@
 	            location.href="BoardWriteForm.bo";
 	        }
    		</script>
-    
+    <style type="text/css">
+    .tablesqure{
+		width: 350px;
+		height: 150px; 
+		border: 1px solid black;
+	}
+    </style>
 	</head>
 	<body>    
 		<nav class="navbar navbar-default">
@@ -68,15 +74,33 @@
 				<tbody>
 					  <tr>
 					    <td class="tablegoodslist">
-					    	<img src="../../../images/hompageimage/daesangwelllifegoods.jpg"  id="daeseonglifesciencegoods" class="goodsimage">
+					    	<div class="tablesqure">
+					    		<img src="../../../images/hompageimage/daesangwelllifegoods.jpg"  id="daeseonglifesciencegoods" class="goodsimage">
+					    	</div>
 					    </td>
 					    <td class="tablegoodslist">
-					    	<img src="../../../images/hompageimage/jwgoods.jpg"  id="daeseonglifesciencegoods" class="goodsimage">
+					    	<div  class="tablesqure">
+					    		<img src="../../../images/hompageimage/jwgoods.jpg"  id="daeseonglifesciencegoods" class="goodsimage">
+					   		</div>	
 					    </td>
 				    	<td class="tablegoodslist" colspan="2">
-					     	<img src="../../../images/hompageimage/v.png"  id="v" class="goodsimage">
+				    		<div class="tablesqure">
+					     		<img src="../../../images/hompageimage/v.png"  id="v" class="goodsimage">
+					     	</div>
 					    </td>
 					  </tr>
+					  	<tr>
+					  		 <td class="tablegoodslist">
+					  		 	<div class="tablesqure">
+					    			<img src="../../../images/hompageimage/nongsimgoods.png"  id="nongsimgoods" class="goodsimage">
+						   		</div>
+						    </td>
+						    <td class="tablegoodslist">
+						    	<div class="tablesqure">
+					    			<img src="../../../images/daeseonglifesciencegoods.png"  id="daeseonglifesciencegoods" class="goodsimage">
+								</div>					   
+					    </td>
+					  	</tr>
 					</tbody>
 				</table>
 		    </div>
