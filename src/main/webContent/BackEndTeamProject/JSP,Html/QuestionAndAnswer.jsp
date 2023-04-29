@@ -14,14 +14,14 @@
 </head>
 <body>
 	<nav class="navbar navbar-default">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed"
-					data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-					aria-expanded="false">		
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed"
+				data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+				aria-expanded="false">		
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
-				</button>
+			</button>
 				<a class="navbar-brand" href="HomePage.jsp">
 				<img id="menubar-forestbrand-mark" src="../../images/forest-brand-mark.png" ></a>
 			</div>
