@@ -5,12 +5,17 @@
 <head>
 <meta charset="UTF-8">
 <link rel="shortcut icon" type="image/x-icon" href="../../images/forest-brand-mark.png">
-<link rel="stylesheet" href="../CSS/BulletinBoardContent.css">
+<link rel="stylesheet" href="../CSS/QuestionAndAnswer.css">
 <link rel="stylesheet" href="../CSS/Menubar.css">
+<link rel="stylesheet" href="../CSS/VerticalMenubar.css">
 <meta charset="UTF-8" name="viewport" 
 	  content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	 
 <title>Forest</title>
+<style type="text/css">
+	
+</style>
+
 </head>
 <body>
 	<nav class="navbar navbar-default">
@@ -42,24 +47,41 @@
 				</ul>
 			</div>
 	</nav>
-	<table>
-				<tr>
-					<th class="tabletop">번호</th>
-					<th class="tabletop">제목</th>
-					<th class="tabletop">작성일</th>
-				</tr>
-				<tr class="lower">
-					<td>1</td><td>로그인은 어떻게 하나요?</td><td>2023.03.02</td>	
-				</tr>
-				<tr class="lower">
-					<td>2</td><td>물건 구매는 어떻게 하나요?</td><td>2023.01.03</td>
-				</tr>
-				<tr class="lower">
-					<td>3</td><td>배송은 언제 되나요?</td><td>2021.12.31</td>
-				</tr>
-				<tr class="lower">
-					<td>4</td><td>환불은 어떻게 하나요?</td><td>2022.12.03</td>
-				</tr>
+	<ul>
+	  <li><a class="vertical" href="#">메뉴 1</a></li>
+	  <li><a class="vertical" href="#">메뉴 2</a></li>
+	  <li><a class="vertical" href="#">메뉴 3</a></li>
+	  <li><a class="vertical" href="#">메뉴 4</a></li>
+	  <li><a class="vertical" href="#">메뉴 5</a></li>
+	</ul>
+	<div id="wrap">
+		<table class="table" width="800" border="3">
+			<thead>
+			  <tr height="30">
+			   <th class="commonbasicinformation">1 </th>
+			    <th class="commonbasicinformation">로그인은 어떻게 하나요? </th>
+			    <th class="basicinformation">2023.03.02</th>
+			  </tr>
+			</thead>
+			<tbody>
+			  <tr height="30">
+			  	<td class="commonbasicinformation">2</td>
+			    <td class="commonbasicinformation">물건 구매는 어떻게 하나요?</td>
+			    <td class="basicinformation">2023.01.03</td>
+			  </tr>
+			  <tr height="30">
+			  	<td class="commonbasicinformation">3</td>
+			    <td class="commonbasicinformation">배송은 언제 되나요?</td>
+			    <td class="basicinformation">2023.03.04</td>
+			  </tr>
+			  <tr height="30">
+			  	<td class="commonbasicinformation">4</td>
+			    <td class="commonbasicinformation">환불은 어떻게 하나요?</td>
+			    <td class="basicinformation">2022.12.03</td>
+			  </tr>
+			</tbody>
 		</table>
+	</div>
+	
 </body>
 </html>
