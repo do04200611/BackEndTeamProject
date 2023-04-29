@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="../CSS/Menubar.css">
 	<link rel="stylesheet" href="../CSS/BrandMark.css">
 	<link rel="shortcut icon" type="image/x-icon" href="../../images/forest-brand-mark.png">
-    <title>전체 게시글</title>
+    <title>Forest</title>
    		<script type="text/javascript">
 	        function writeForm(){
 	            location.href="BoardWriteForm.bo";

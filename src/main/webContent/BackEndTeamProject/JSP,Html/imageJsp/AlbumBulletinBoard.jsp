@@ -11,10 +11,10 @@
 <title>Forest</title>
  
 <link rel="stylesheet" href="<%=cp %>/imageTest/css/style.css" type="text/css" />
-<link rel="shortcut icon" type="image/x-icon" href="../../images/forest-brand-mark.png">
-<link rel="stylesheet" href="../CSS/Menubar.css">
-<link rel="stylesheet" href="../CSS/BrandMark.css">
-<link rel="stylesheet" href="../CSS/AlbumBulletinBoard.css">
+<link rel="shortcut icon" type="image/x-icon" href="../../../images/forest-brand-mark.png">
+<link rel="stylesheet" href="../../CSS/Menubar.css">
+<link rel="stylesheet" href="../../CSS/BrandMark.css">
+<link rel="stylesheet" href="../../CSS/AlbumBulletinBoard.css">
 <style type="text/css">
 
 </style>
@@ -55,7 +55,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="HomePage.jsp"><img id="menubar-forestbrand-mark" src="../../images/forest-brand-mark.png" ></a>
+			<a class="navbar-brand" href="HomePage.jsp"><img id="menubar-forestbrand-mark" src="../../../images/forest-brand-mark.png" ></a>
 		</div>
 		<div class="coollapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					

@@ -106,13 +106,7 @@
 	<div class="container">
 		<div class="row">
 			<form method="post" action="writeAction.jsp">
-				<table class="bulletintable" style="position: absolute;
-		bottom: 100px;
-		left: 500px;
-		text-align: center; 
-		border: 1px solid #dddddd;
-		width: 500px;
-		height: 500px;">
+				<table class="bulletintable" >
 					<thead>
 						<tr>
 							<th class="bulletinboardtitle" colspan="2" style="background-color: #eeeeee; 
