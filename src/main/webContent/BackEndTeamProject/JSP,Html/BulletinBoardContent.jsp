@@ -11,70 +11,23 @@
 <link rel="stylesheet" href="../CSS/BulletinBoardContent.css">
 <link rel="stylesheet" href="../CSS/VerticalMenubar.css">
 <style type="text/css">
-.table  {
-		border-collapse:collapse;
-		border-spacing:0;
-		margin: 0 auto 0 auto;
-		border-left: none;/* 표의 왼쪽 선이 없게 만든다.*/
-		border-right: none;/*표의 오른쪽 선이 없게 만든다.*/
-   	}
-	.table td{
-		border-collapse: collapse;
-		border-color:black;
-		border-style:solid;
-		border-width:1px;
-		font-family:Arial, sans-serif;
-		font-size:14px;
-	    overflow:hidden;
-	    padding: 10px 5px;
-	    word-break: normal;
-	    border-left: none;/* 표의 왼쪽 선이 없게 만든다.*/
-		border-right: none;/*표의 오른쪽 선이 없게 만든다.*/
-	    }
-	.table th{
-		border-color:black;
-		border-style:solid;
-		font-family:Arial, sans-serif;
-		font-size:14px;
-	  	font-weight:normal;
-	  	overflow:hidden;
-	  	padding:10px 5px;
-	  	word-break:normal;
-	  	border-left: none;/* 표의 왼쪽 선이 없게 만든다.*/
-		border-right: none;/*표의 오른쪽 선이 없게 만든다.*/
-	}
-	.table .commonbasicinformation{
-		background-color:#036400;
-		border-color:#333333;
-		text-align:center;
-		vertical-align:top;
-		width: 1px;/* 표의 폭을 100px 만든다.*/
-		border-left: none;/* 표의 왼쪽 선이 없게 만든다.*/
-		border-right: none;/*표의 오른쪽 선이 없게 만든다.*/
-		}
-	.table .basicinformation{
-		border-color:#333333;
-		text-align:center;
-		vertical-align:top;
-		width: 2px;/* 표의 폭을 500px 만든다.*/
-		border-left: none;/* 표의 왼쪽 선이 없게 만든다.*/
-		border-right: none;/*표의 오른쪽 선이 없게 만든다.*/
-	}
 	h1{
 		position: absolute;
 		bottom: 600px;
 		left: 500px;
 	}
-	table {
-		text-align :center;
-		border:"3";
-		border-color:"lightgray";
-		position: absolute;
-		bottom: 440px;
-		left: 500px;
+	.commonbasicinformation{
+		width: 10px;
+		background-color: gray;
 	}
-	
-	
+	.basicinformation{
+		width: 1px;
+	}
+	.table{
+		position: relative;
+		border-left: none;/* 표의 왼쪽 선이 없게 만든다.*/
+		border-right: none;/*표의 오른쪽 선이 없게 만든다.*/
+	}
 	input{
 		width: 100px;
 		height: 30px;
