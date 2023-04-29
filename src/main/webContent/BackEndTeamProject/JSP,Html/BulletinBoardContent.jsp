@@ -48,28 +48,30 @@
 		  <li><a class="vertical" href="#">메뉴 5</a></li>
 		</ul>
 			<h1>고객들 요구사항</h1>
-		<table class="table">
+		<div id="wrap">
+		<table class="table" width="800" border="3">
 			<thead>
-			  <tr>
-			    <th class="commonbasicinformation">제목 </th>
-			    <th class="basicinformation">배송이 늦게 와요</th>
+			  <tr height="30">
+			   <th class="commonbasicinformation">제목 </th>
+			    <th class="commonbasicinformation">배송이 너무 늦어요</th>
 			  </tr>
 			</thead>
 			<tbody>
-			  <tr>
-			    <td class="commonbasicinformation">작성자</td>
-			    <td class="basicinformation">11na***</td>
-			  </tr>
-			  <tr>
-			    <td class="commonbasicinformation">게시일</td>
-			    <td class="basicinformation">2023.03.04</td>
-			  </tr>
-			  <tr>
-			    <td class="commonbasicinformation">조회수</td>
-			    <td class="basicinformation">100</td>
-			  </tr>
+				<tr>
+					<td>작성자</td>
+					<td>11nae***</td>
+				</tr>
+				<tr>
+					<td>작성일</td>
+					<td>2023.03.04</td>
+				</tr>
+				<tr>
+					<td>조회 수</td>
+					<td>104</td>
+				</tr>
 			</tbody>
 		</table>
+	</div>
 				<hr>
 					<p class="content">배송이 너무 늦게 옵니다. 
 					상담원에게 전화를 해도 어쩔 수 없다고 얘기하고 해서 인력을 고용해서 배송 시간을 단축 시키면 좋겠습니다.</p>

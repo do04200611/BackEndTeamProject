@@ -5,16 +5,17 @@
 		left: 500px;
 	}
 	#wrap{
-		width: 800px;
         margin: 0 auto 0 auto;
         position: relative;
-		bottom: 100px;
-		left: 300px;
-		border-left: none;
-		border-right: none;
+		position: relative;
+		bottom: 50px;
+		left: 50px;
+		
 		
 	}
 	.table {
 		border-left: none;
 		margin: 0 auto 0 auto;
+		border-left: none;
+		border-right: none;
 	}

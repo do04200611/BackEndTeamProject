@@ -4,20 +4,19 @@
 		bottom: 500px;
 		left: 500px;
 	}
-	.commonbasicinformation{
-		width: 10px;
-		background-color: gray;
-	}
-	.basicinformation{
-		width: 100px;
-	}
-	.table{
-		position: relative;
+	#wrap{
+		width: 800px;
+        margin: 0 auto 0 auto;
+        position: relative;
 		bottom: 50px;
-		left: 400px;
-		border-left: none;/* 표의 왼쪽 선이 없게 만든다.*/
-		border-right: none;
+		left: 50px;
+	
 		
+	}
+	.table {
+		border-left: none;
+		margin: 0 auto 0 auto;
+		border-right: none;
 	}
 	input{
 		width: 100px;
@@ -28,10 +27,12 @@
 	.addbutton{
 		position: relative;
 		left: 1290px;
+		border-radius: 10px;
 	}
 	.comment{
 		position: relative;
 		left: 100px;
+		border-radius: 10px;
 	}
 	.content{
 		text-align: center;
