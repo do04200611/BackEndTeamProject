@@ -55,14 +55,14 @@
 				<p class="objectintroduce">AI가 선정한 판매량 급증 상품 목록 추천 인기 상품 최근 많이 구매된
 					상품을 소개합니다.</p>
 		
-			<table class="tg">
+			<table class="table">
 				<thead>
 					  <tr>
-					    <th class="tg-0pky">
+					    <th class="tablegoodslist">
 					    	<img src="../../images/hompageimage/dongseorichisgoods.png" 
 					    	id="dongseorichisgoods" class="goodsimage">
 					    </th>
-					    <th class="tg-0pky" colspan="3">
+					    <th class="tablegoodslist" colspan="3">
 					    	<img src="../../images/hompageimage/namyanggoods.png" 
 					     	id="namyanggoods" class="goodsimage">
 					    </th>
@@ -70,31 +70,35 @@
 				</thead>
 				<tbody>
 					  <tr>
-					    <td class="tg-0pky">
+					    <td style="border: 2.5px double black;"class="tablegoodslist">
 					    	<img src="../../images/hompageimage/othernongsimgoods.jpg" value="othernongsimgoods" id="othernongsimgoods" class="goodsimage">
 					    </td>
-					    <td class="tg-0pky">
+					    <td style="border: 4px double black;"class="tablegoodslist">
 					    	<img src="../../images/hompageimage/samyanggoods.png"  id="samyanggoods" class="goodsimage">
 					    </td>
-					    <td class="tg-0pky">
+					    <td class="tablegoodslist">
 					    	<img src="../../images/hompageimage/nongsimgoods.png"  id="nongsimgoods" class="goodsimage">
 					    </td>
-					    <td class="tg-0pky">
+					    <td class="tablegoodslist">
 					    	<img src="../../images/daeseonglifesciencegoods.png"  id="daeseonglifesciencegoods" class="goodsimage">
 					    </td>
 					  </tr>
 					  <tr>
-					    <td class="tg-0pky">
+					    <td class="tablegoodslist">
 					    	<img src="../../images/hompageimage/daesangwelllifegoods.jpg"  id="daeseonglifesciencegoods" class="goodsimage">
 					    </td>
-					    <td class="tg-0pky">
+					    <td class="tablegoodslist">
 					    	<img src="../../images/hompageimage/jwgoods.jpg"  id="daeseonglifesciencegoods" class="goodsimage">
 					    </td>
-				    	<td class="tg-0pky" colspan="2">
+				    	<td class="tablegoodslist" colspan="2">
 					     	<img src="../../images/hompageimage/v.png"  id="v" class="goodsimage">
 					    </td>
 					  </tr>
 					</tbody>
 				</table>
+			
+
+
+				
 	</body>
 </html>

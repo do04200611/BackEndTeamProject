@@ -7,8 +7,9 @@
 <head>
 	<link rel="stylesheet" href="../../CSS/BulletinBoard/BulletinBoardList.css">
 	<link rel="stylesheet" href="../../CSS/Menubar.css">
+	<link rel="stylesheet" href="../../CSS/HomePage.css">
 	<link rel="stylesheet" href="../../CSS/BrandMark.css">
-	<link rel="shortcut icon" type="image/x-icon" href="../../images/forest-brand-mark.png">
+	<link rel="shortcut icon" type="image/x-icon" href="../../../images/forest-brand-mark.png">
     <title>Forest</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -62,41 +63,22 @@
 		   <!-- 게시글 목록 부분 -->
 		    <br>
 		    <div id="board">
-		        <table id="bList" width="800" border="3" border-color="lightgray">
-		            <tr height="30">
-		                <td>글번호</td>
-		                <td>제목</td>
-		                <td>작성자</td>
-		                <td>작성일</td>
-		                <td>조회수</td>
-		            </tr>
-		            <tr>
-		            <td colspan="5">게시물이 없습니다.</td>
-		            </tr>
-		        <c:forEach var="board" items="${requestScope.list}">
-		            <tr>
-		                <td>${board.board_num}</td>
-		                <td align="left">
-		                    <c:if test="${board.board_re_lev > 0}">
-		                        <c:forEach begin="1" end="${board.board_re_lev}">
-		                            &nbsp;&nbsp; <!-- 답변글일경우 글 제목 앞에 공백을 준다. -->
-		                        </c:forEach>
-		                        RE : 
-		                    </c:if>
-		                    <a href="BoardDetailAction.bo?num=${board.board_num}&pageNum=${spage}">
-		                    ${board.board_subject}
-		                    </a>
-		                </td>
-		                <td>
-		                    <a href="#">
-		                    ${board.board_id}
-		                    </a>
-		                </td>
-		                <td>${board.board_date}</td>
-		                <td>${board.board_count}</td>
-		            </tr>
-		        </c:forEach>
-		        </table>
+		        
+			<table class="table">
+				<tbody>
+					  <tr>
+					    <td class="tablegoodslist">
+					    	<img src="../../../images/hompageimage/daesangwelllifegoods.jpg"  id="daeseonglifesciencegoods" class="goodsimage">
+					    </td>
+					    <td class="tablegoodslist">
+					    	<img src="../../../images/hompageimage/jwgoods.jpg"  id="daeseonglifesciencegoods" class="goodsimage">
+					    </td>
+				    	<td class="tablegoodslist" colspan="2">
+					     	<img src="../../../images/hompageimage/v.png"  id="v" class="goodsimage">
+					    </td>
+					  </tr>
+					</tbody>
+				</table>
 		    </div>
 		    
 		    <!-- 게시글 목록 부분 -->

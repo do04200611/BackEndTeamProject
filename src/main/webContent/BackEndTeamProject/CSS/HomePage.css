@@ -32,18 +32,18 @@
 	table {
 		border-style: solid;
 		border-width: 3px;
-		border: 1px solid black; /* set border width and style */
+		border: 1px double black; /* set border width and style */
         width: 50px; /* set box width */
         height: 50px; /* set box height */
 		border-collapse: collapse, separate;
         border-spacing: 5px; /* set border spacing */
 	}
 
-	.tg{
+	.table{
 		border-collapse:collapse;
 		border-spacing:0;
 	}
-	.tg td{
+	.table td{
 		border-color:black;
 		border-style:solid;
 		border-width:1px;
@@ -55,7 +55,7 @@
 	  	border: 2px double black; /* set double border for table cells */
         padding: 10px; /* add some padding to cells */
   	}
-	.tg th{
+	.table th{
 		border-color:black;
 		border-style:solid;
 		border-width:1px;
@@ -66,7 +66,7 @@
 	  	padding:10px 5px;
 	  	word-break:normal;
   	}
-	.tg .tg-0pky{
+	.table .tablegoodslist{
 		border-color:inherit;
 		text-align:left;
 		vertical-align:top;
