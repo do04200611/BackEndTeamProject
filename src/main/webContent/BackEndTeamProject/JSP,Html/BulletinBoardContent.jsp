@@ -11,43 +11,7 @@
 <link rel="stylesheet" href="../CSS/BulletinBoardContent.css">
 <link rel="stylesheet" href="../CSS/VerticalMenubar.css">
 <style type="text/css">
-	h1{
-		position: absolute;
-		bottom: 500px;
-		left: 500px;
-	}
-	.commonbasicinformation{
-		width: 10px;
-		background-color: gray;
-	}
-	.basicinformation{
-		width: 100px;
-	}
-	.table{
-		position: relative;
-		bottom: 50px;
-		left: 400px;
-		border-left: none;/* 표의 왼쪽 선이 없게 만든다.*/
-		
-	}
-	input{
-		width: 100px;
-		height: 30px;
-		background-color: blue;
-		color: white;
-	}
-	.addbutton{
-		position: relative;
-		left: 1290px;
-	}
-	.comment{
-		position: relative;
-		left: 100px;
-	}
-	.content{
-		text-align: center;
-		position: relative;
-	}
+	
 </style>
 </head>
 <body>
