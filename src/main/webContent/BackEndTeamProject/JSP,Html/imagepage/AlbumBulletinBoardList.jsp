@@ -5,7 +5,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>  
 <html>
 <head>
-	<link rel="stylesheet" href="../../CSS/BulletinBoard/BulletinBoardList.css">
+	<link rel="stylesheet" href="../../CSS/Album/AlbumBulletinBoardList.css">
 	<link rel="stylesheet" href="../../CSS/Menubar.css">
 	<link rel="stylesheet" href="../../CSS/HomePage.css">
 	<link rel="stylesheet" href="../../CSS/BrandMark.css">
@@ -20,23 +20,7 @@
 	        }
    		</script>
     <style type="text/css">
-    #albumbulletinboardlist{
-    	position: relative;
-    	bottom: 150px;
-    	left: 220px;
-    	width: 100px;
-    	
-    }
-    .tablesqure{
-		width: 350px;
-		height: 150px; 
-		border: 1px solid black;
-	}
-	.productinpreparation{
-		text-align: center;
-		position: relative;
-		top: 50px;
-	}
+  
 	
     </style>
 	</head>

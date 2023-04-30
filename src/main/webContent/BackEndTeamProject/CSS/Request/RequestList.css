@@ -6,8 +6,20 @@
 	        #topForm{
 	            text-align :center;
 	        }
-	        #board, #pageForm, #searchForm{
+	        #board{
 	            text-align :right;
+	        }
+	        #requesttable{
+	        border-left: none;
+	        border-right: none;
+	        }
+	        #pageForm{
+	        	position: relative;
+	        	left: 400px;
+	        }
+	        #searchForm{
+	        	position: relative;
+	        	left: 200px;
 	        }
  	        .searchbutton{
 		        width: 50px;

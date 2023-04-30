@@ -14,9 +14,7 @@
 	<link rel="stylesheet" href="../../CSS/Menubar.css">
 	<link rel="stylesheet" href="../../CSS/BrandMark.css">
 	<link rel="stylesheet" href="../../CSS/Album/AlbumBulletinBoard.css">
-<style type="text/css">
 
-</style>
 <script type="text/javascript" src="<%=cp%>/imageTest/data/image.js"></script>
 <script type="text/javascript">
 	function sendIt() {

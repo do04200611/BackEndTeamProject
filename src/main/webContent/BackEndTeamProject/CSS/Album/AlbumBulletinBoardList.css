@@ -1,0 +1,42 @@
+@charset "UTF-8";
+    #albumbulletinboardlist{
+    	position: relative;
+    	bottom: 150px;
+    	left: 220px;
+    	width: 100px;
+    	
+    }
+    .tablesqure{
+		width: 350px;
+		height: 150px; 
+		border: 1px solid black;
+	}
+	.productinpreparation{
+		text-align: center;
+		position: relative;
+		top: 50px;
+	}
+	#pageForm{
+		position: relative;
+		left: 800px;
+		bottom: 100px;
+	}
+	#searchForm{
+		position: relative;
+		left: 600px;
+		bottom: 100px;
+	}
+	.searchbutton{
+		width: 100px;
+		height: 30px;
+		border-radius: 10px;
+		background-color: blue;
+		color: white;
+	}
+	.addbutton{
+		width: 100px;
+		height: 30px;
+		border-radius: 10px;
+		background-color: blue;
+		color: white;
+	}

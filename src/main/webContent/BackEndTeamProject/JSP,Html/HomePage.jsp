@@ -13,21 +13,7 @@
 	  content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	
 <style type="text/css">
-.tablesqure{
-		width: 350px;
-		height: 150px; 
-		border: 1px solid black;
-	}
-	nav {
-  		background-color: #333;
-	}
-	nav ul li:hover {
-	  background-color: #555;
-	}
-	
-	nav ul li:hover > ul {
-	  display: block;
-	}
+
 </style>
 	</head>
 	<body>

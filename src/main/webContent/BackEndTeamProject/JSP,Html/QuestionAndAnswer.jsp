@@ -12,11 +12,6 @@
 	  content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	 
 <title>Forest</title>
-<style type="text/css">
-		.vertical:hover {
-		  background-color: red; /* 호버 시 배경색 변경 */
-		}
-</style>
 </head>
 <body>
 	<nav class="navbar navbar-default">
@@ -56,25 +51,22 @@
 	  <li><a class="vertical" href="#">메뉴 5</a></li>
 	</ul>
 	<div id="wrap">
-		        <table id="table" width="800" border="1" border-color="lightgray">
-		        	<thead>
-			  		<tr height="30">
-		                <td>로그인은 어떻게 하나요?</td>
-		            </tr>
-		            </thead>
-		            <tbody>
-		             <tr>
-			            <td>물건 구매는 어떻게 하나요?</td>
-		            </tr>
-		            <tr>
-			            <td>배송은 언제 되나요?</td>
-		            </tr>
-		            <tr>
-			            <td>환불은 어떻게 하나요?</td>
-		            </tr>
-		            </tbody>
-		           
-	         	</table>
+		        <table class="table" width="800" border="3">
+				<tbody>
+					<tr>
+						<td>로그인은 어떻게 하나요?</td>
+					</tr>
+					<tr>
+						<td>물건 구매는 어떻게 하나요?</td>
+					</tr>
+					<tr>
+						<td>배송은 언제 되나요?</td>
+					</tr>
+					<tr>
+						<td>환불은 어떻게 하나요?</td>
+					</tr>
+				</tbody>
+			</table>
 	</div>
 </body>
 </html>

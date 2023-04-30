@@ -10,14 +10,16 @@
         position: relative;
 		bottom: 50px;
 		left: 50px;
-	
-		
+		text-align: center;		
 	}
-	#table {
+	.table {
 		border-left: none;
 		margin: 0 auto 0 auto;
 		border-right: none;
 		text-align: center;
 		position: relative;
 		bottom: 100px;
+	}
+	th{
+		text-align: center;	
 	}

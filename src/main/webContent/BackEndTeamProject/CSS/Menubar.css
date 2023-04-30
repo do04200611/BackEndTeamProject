@@ -9,6 +9,21 @@
 		width: 30px; 
 		height: 30px;
 	}
+	.tablesqure{
+		width: 350px;
+		height: 150px; 
+		border: 1px solid black;
+	}
+	nav {
+  		background-color: #333;
+	}
+	nav ul li:hover {
+	  background-color: #555;
+	}
+	
+	nav ul li:hover > ul {
+	  display: block;
+	}
 	
 html {
   font-family: sans-serif;

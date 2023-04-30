@@ -43,15 +43,25 @@ userEmail -->
 			<ul class="nav navbar-nav ">
 				<li><a href="MemberShipRegistration.jsp">회원가입</a></li>
 				<li><a href="Request/RequestList.jsp">게시판</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li class="dropdown">
+					<a href="MyInformation.jsp" class="dropdown-toggle"
+						data-toggle="dropdown" role="button" aria-haspopup="true"
+						aria-expanded="false">나의 정보<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li class="active"><a href="Request/RequestList.jsp">문의사항</a></li>
+						<li class="active"><a href="QuestionAndAnswer.jsp">자주묻는 질문</a></li>
+					</ul>
+				</li>
 			</ul>		
 			<ul class="nav navbar-nav navbar-right">
 				<li class="dropdown">
 					<a href="HomePage.jsp" class="dropdown-toggle"
 						data-toggle="dropdown" role="button" aria-haspopup="true"
 						aria-expanded="false">홈페이지<span class="caret"></span></a>
-						<li class="active"><a href="Login.jsp">로그인</a></li>
 					<ul class="dropdown-menu">
-						<li class="active"><a href="과제2.jsp">로그인</a></li>
+						<li class="active"><a href=".jsp">로그인</a></li>
 					</ul>
 				</li>
 			</ul>

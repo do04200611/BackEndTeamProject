@@ -16,50 +16,6 @@
 		bottom: 500px;
 		left: 500px;
 	}
-	#wrap{
-		width: 800px;
-        margin: 0 auto 0 auto;
-        position: relative;
-		bottom: 50px;
-		left: 50px;
-	
-		
-	}
-	.table {
-		border-left: none;
-		margin: 0 auto 0 auto;
-		border-right: none;
-	}
-	.content{
-		text-align: center;
-		position: relative;
-	}
-	.addbutton{
-		position: relative;
-		left: 1290px;
-		border-radius: 10px;
-		width: 100px;
-		height: 30px;
-		background-color: blue;
-		color: white;
-	}
-	
-	.comment{
-		position: relative;
-		left: 100px;
-		border-radius: 10px;
-		width: 100px;
-		height: 30px;
-		background-color: blue;
-		color: white;
-	}
-	#request{
-		position: relative;
-		top: 10px;
-		left: 400px;
-		font-size: 30px;
-	}
-	
 	</style>
 </head>
 <body>
