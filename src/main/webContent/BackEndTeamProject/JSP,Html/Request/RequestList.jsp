@@ -7,16 +7,12 @@
 <head>
 	<link rel="stylesheet" href="../../CSS/Request/RequestList.css">
 	<link rel="stylesheet" href="../../CSS/Menubar.css">
+	<link rel="stylesheet" href="../../CSS/UpponMenubar.css">
 	<link rel="stylesheet" href="../../CSS/BrandMark.css">
 	<link rel="shortcut icon" type="image/x-icon" href="../../../images/forest-brand-mark.png">
     <title>Forest</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  	<style type="text/css">
-  			#requesttable{
-	            text-align:center;
-	        }
-  	</style>
 	<script type="text/javascript">
      function writeForm(){
          location.href="BoardWriteForm.bo";
@@ -33,7 +29,8 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				</button>
-					<a class="navbar-brand" href="../HomePage.jsp"><img id="menubar-forestbrand-mark" src="../../../images/forest-brand-mark.png" ></a>
+					<a class="navbar-brand" href="../HomePage.jsp">
+					<img id="menubar-forestbrand-mark" src="../../../images/forest-brand-mark.png" ></a>
 			</div>
 			<div class="coollapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav ">
@@ -62,6 +59,14 @@
 		            <input type="button" value="글쓰기" onclick="writeForm()">
 		        </c:if>    
 		    </div>
+	<nav class="upponmenubarnav">
+	  <ul class="upponmenubarul">
+	    <li class="upponmenubardetail" ><a href="RequestList.jsp">답변 게시판</a></li>
+	    <li class="upponmenubardetail"><a href="../QuestionAndAnswer.jsp">자주 묻는 질문</a></li>
+	    <li class="upponmenubardetail"><a href="../imagepage/AlbumBulletinBoardList.jsp">상품 후기</a></li>
+	    <li class="upponmenubardetail" ><a href="../notice/NoticeWrite.jsp">공지사항</a></li>
+	  </ul>
+	</nav>
 		    
 		   <!-- 게시글 목록 부분 -->
 		    <br>
@@ -128,7 +133,7 @@
 		    <br>
 		    <div id="searchForm">
 		        <div>
-		            <select name="serachoption">
+		            <select>
 		                <option value="0">제목</option>
 		                <option value="1">내용</option>
 		                <option value="2">제목+내용</option>
@@ -153,8 +158,5 @@
 		
 		
 		</div>
-		
-		
-	 
 	</body>
 </html>

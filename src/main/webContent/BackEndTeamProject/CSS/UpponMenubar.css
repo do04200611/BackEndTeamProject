@@ -1,0 +1,31 @@
+@charset "UTF-8";
+	 .upponmenubarnav .upponmenubarul {
+	  overflow: hidden;
+	  margin: 0;
+	  padding: 0;
+	  display: flex; /* 메뉴 항목을 가로 방향으로 정렬하기 위해 flexbox를 사용합니다. */
+	}
+
+	.upponmenubarnav .upponmenubarul .upponmenubardetail {
+	  list-style: none;
+	  text-align: center;
+	  border-left: 1px solid #fff;
+	  border-right: 1px solid #ccc;
+	  flex-grow: 1; /* 항목의 너비를 자동으로 조정하기 위해 flex-grow 속성을 사용합니다. */
+	  box-sizing: border-box;
+	}
+	
+	.upponmenubarnav .upponmenubarul .upponmenubardetail:first-child {
+	  border-left: none;
+	}
+	
+	.upponmenubarnav .upponmenubarul .upponmenubardetail a {
+	  display: block;
+	  text-decoration: none;
+	  color: white;
+	  background-color: blue;
+	  padding: 10px 0;
+	  width: 100%; /* 항목의 너비를 100%로 지정하여 항목 내부의 내용이 가운데 정렬되도록 합니다. */
+	  box-sizing: border-box;
+	}
+		 

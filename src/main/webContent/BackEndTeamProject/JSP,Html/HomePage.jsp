@@ -34,8 +34,18 @@
 		<div class="coollapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav ">
 				<li><a href="MemberShipRegistration.jsp">회원가입</a></li>
-				<li><a href="Request/RequestList.jsp">게시판</a></li>
-			</ul>		
+				<li><a href="MyInformation.jsp">나의 정보</a></li>
+			</ul>	
+			<ul class="nav navbar-nav navbar-right">
+				<li class="dropdown">
+					<a href="Request/RequestList.jsp" class="dropdown-toggle"
+						data-toggle="dropdown" role="button" aria-haspopup="true"
+						aria-expanded="false">게시판<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="imagepage/AlbumBulletinBoardList.jsp">앨범 게시판</a></li>
+					</ul>
+				</li>
+			</ul>	
 			<ul class="nav navbar-nav navbar-right">
 				<li class="dropdown">
 					<a href="HomePage.jsp" class="dropdown-toggle"

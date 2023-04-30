@@ -9,9 +9,10 @@
 	        #board{
 	            text-align :right;
 	        }
-	        #requesttable{
-	        border-left: none;
-	        border-right: none;
+	        #requesttable{ 
+	           	text-align:center;   
+		        border-left: none;
+		        border-right: none;
 	        }
 	        #pageForm{
 	        	position: relative;

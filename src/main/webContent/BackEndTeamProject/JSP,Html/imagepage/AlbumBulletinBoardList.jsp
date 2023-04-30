@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="../../CSS/Album/AlbumBulletinBoardList.css">
 	<link rel="stylesheet" href="../../CSS/Menubar.css">
 	<link rel="stylesheet" href="../../CSS/HomePage.css">
+	<link rel="stylesheet" href="../../CSS/UpponMenubar.css">
 	<link rel="stylesheet" href="../../CSS/BrandMark.css">
 	<link rel="stylesheet" href="../../CSS/VerticalMenubar.css">
 	<link rel="shortcut icon" type="image/x-icon" href="../../../images/forest-brand-mark.png">
@@ -60,6 +61,14 @@
 		  <li><a class="vertical" href="#">메뉴 4</a></li>
 		  <li><a class="vertical" href="#">메뉴 5</a></li>
 		</ul>
+		<nav class="upponmenubarnav" style="position: absolute; bottom: 540px; left: 600px;">
+		  <ul class="upponmenubarul">
+		    <li class="upponmenubardetail" ><a href="../Request/RequestList.jsp">답변 게시판</a></li>
+		    <li class="upponmenubardetail"><a href="../QuestionAndAnswer.jsp">자주 묻는 질문</a></li>
+		    <li class="upponmenubardetail"><a href="../imagepage/AlbumBulletinBoardList.jsp">상품 후기</a></li>
+		    <li class="upponmenubardetail" ><a href="../notice/NoticeWrite.jsp">공지사항</a></li>
+		  </ul>
+	</nav>
  		
 		
 		   <!-- 게시글 목록 부분 -->
@@ -131,7 +140,7 @@
 		    <br>
 		    <div id="searchForm">
 		        <div>
-		            <select name="opt">
+		            <select>
 		                <option value="0">제목</option>
 		                <option value="1">내용</option>
 		                <option value="2">제목+내용</option>
