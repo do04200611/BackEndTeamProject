@@ -1,5 +1,9 @@
 @charset "UTF-8";
-	
+	.upponmenubarnav{
+		position: absolute;
+		bottom: 550px;
+		left: 700px;
+	}
 	/*게시판 코드*/
     #albumbulletinboardlist{
     	position: relative;

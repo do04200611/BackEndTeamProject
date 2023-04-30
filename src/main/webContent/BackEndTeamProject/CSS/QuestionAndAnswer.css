@@ -1,4 +1,10 @@
 @charset "UTF-8";
+	.upponmenubarnav{
+		position: absolute; 
+		bottom: 600px; 
+		left: 640px;
+		width: auto inherit;
+	}
 	h1 {
 		position: absolute;
 		bottom: 600px;

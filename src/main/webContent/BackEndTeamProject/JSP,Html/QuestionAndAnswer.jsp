@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="../CSS/QuestionAndAnswer.css">
 <link rel="stylesheet" href="../CSS/Menubar.css">
 <link rel="stylesheet" href="../CSS/VerticalMenubar.css">
+<link rel="stylesheet" href="../CSS/UpponMenubar.css">
 <meta charset="UTF-8" name="viewport" 
 	  content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	 
@@ -50,6 +51,14 @@
 	  <li><a class="vertical" href="#">메뉴 4</a></li>
 	  <li><a class="vertical" href="#">메뉴 5</a></li>
 	</ul>
+	<nav class="upponmenubarnav" >
+	  <ul class="upponmenubarul">
+	    <li class="upponmenubardetail"><a href="Request/RequestList.jsp">답변 게시판</a></li>
+	    <li class="upponmenubardetail"><a href="QuestionAndAnswer.jsp">자주 묻는 질문</a></li>
+	    <li class="upponmenubardetail"><a href="imagepage/AlbumBulletinBoardList.jsp">상품 후기</a></li>
+	    <li class="upponmenubardetail" ><a href="notice/NoticeWrite.jsp">공지사항</a></li>
+	  </ul>
+	</nav>
 	<div id="wrap">
 		        <table class="table" width="800" border="3">
 				<tbody>
