@@ -13,9 +13,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	 
 <title>Forest</title>
 <style type="text/css">
-	
+		.vertical:hover {
+		  background-color: red; /* 호버 시 배경색 변경 */
+		}
 </style>
-
 </head>
 <body>
 	<nav class="navbar navbar-default">

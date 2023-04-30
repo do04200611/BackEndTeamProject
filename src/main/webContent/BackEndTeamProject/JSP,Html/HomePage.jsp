@@ -18,8 +18,16 @@
 		height: 150px; 
 		border: 1px solid black;
 	}
+	nav {
+  		background-color: #333;
+	}
+	nav ul li:hover {
+	  background-color: #555;
+	}
 	
-	
+	nav ul li:hover > ul {
+	  display: block;
+	}
 </style>
 	</head>
 	<body>
@@ -48,7 +56,7 @@
 						data-toggle="dropdown" role="button" aria-haspopup="true"
 						aria-expanded="false">홈페이지<span class="caret"></span></a>
 					<ul class="dropdown-menu">
-						<li class="active"><a href="과제2.jsp">로그인</a></li>
+						<li class="active"><a href="Login.jsp">로그인</a></li>
 					</ul>
 				</li>
 			</ul>
