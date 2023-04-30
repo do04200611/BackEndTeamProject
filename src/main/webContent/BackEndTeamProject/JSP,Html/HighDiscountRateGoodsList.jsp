@@ -31,7 +31,7 @@
 			<div class="coollapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav ">
 					<li><a href="MemberShipRegistration.jsp">회원가입</a></li>
-					<li><a href="MemberManagementBulletinBoard.jsp">게시판</a></li>
+					<li><a href="Request/RequestList.jsp">게시판</a></li>
 				</ul>		
 				<ul class="nav navbar-nav navbar-right">
 					<li class="dropdown">

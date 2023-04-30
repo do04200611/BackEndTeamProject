@@ -10,6 +10,8 @@
 <head>
 <link rel="stylesheet" href="../CSS/MemberShipRegistration.css">
 <link rel="stylesheet" href="../CSS/Menubar.css">
+<link rel="stylesheet" href="../CSS/MyInformation.css">
+<link rel="stylesheet" href="../CSS/BrandMark.css">
 <link rel="shortcut icon" type="image/x-icon" href="../../images/forest-brand-mark.png">
 <meta charset="UTF-8" name="viewport" 
 	  content="width=device-width, initial-scale=1">
@@ -40,7 +42,7 @@ userEmail -->
 		<div class="coollapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav ">
 				<li><a href="MemberShipRegistration.jsp">회원가입</a></li>
-				<li><a href="MemberManagementBulletinBoard.jsp">게시판</a></li>
+				<li><a href="Request/RequestList.jsp">게시판</a></li>
 			</ul>		
 			<ul class="nav navbar-nav navbar-right">
 				<li class="dropdown">
@@ -49,6 +51,7 @@ userEmail -->
 						aria-expanded="false">홈페이지<span class="caret"></span></a>
 						<li class="active"><a href="Login.jsp">로그인</a></li>
 					<ul class="dropdown-menu">
+						<li class="active"><a href="과제2.jsp">로그인</a></li>
 					</ul>
 				</li>
 			</ul>
@@ -57,8 +60,8 @@ userEmail -->
 			
 				
 				<a href="HomePage.jsp">
-				<img id="forest-brand-mark" src="../../images/forest-brand-mark.png">
-				<img id="forest-brand-mark" src="../../images/textforestbrandmark.png">
+				<img id="forest-brand-mark" src="../../images/forest-brand-mark.png" class="forest-brand-mark">
+				<img id="forest-brand-mark" src="../../images/textforestbrandmark.png" class="forest-brand-mark">
 				</a>
 				<div class="page"> 	
 				<p class="pageexplanation">회원정보를 입력해주세요</p><br>
