@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="../../CSS/Menubar.css">
 	<link rel="stylesheet" href="../../CSS/HomePage.css">
 	<link rel="stylesheet" href="../../CSS/BrandMark.css">
+	<link rel="stylesheet" href="../../CSS/VerticalMenubar.css">
 	<link rel="shortcut icon" type="image/x-icon" href="../../../images/forest-brand-mark.png">
     <title>Forest</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -19,11 +20,24 @@
 	        }
    		</script>
     <style type="text/css">
+    #albumbulletinboardlist{
+    	position: relative;
+    	bottom: 150px;
+    	left: 220px;
+    	width: 100px;
+    	
+    }
     .tablesqure{
 		width: 350px;
 		height: 150px; 
 		border: 1px solid black;
 	}
+	.productinpreparation{
+		text-align: center;
+		position: relative;
+		top: 50px;
+	}
+	
     </style>
 	</head>
 	<body>    
@@ -40,8 +54,8 @@
 			</div>
 			<div class="coollapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav ">
-					<li><a href="MemberShipRegistration.jsp">회원가입</a></li>
-					<li><a href="BulletinBoardList.jsp">게시판</a></li>
+					<li><a href="../MemberShipRegistration.jsp">회원가입</a></li>
+					<li><a href="../BulletinBoardList.jsp">게시판</a></li>
 				</ul>		
 				<ul class="nav navbar-nav navbar-right">
 					<li class="dropdown">
@@ -49,26 +63,24 @@
 							data-toggle="dropdown" role="button" aria-haspopup="true"
 							aria-expanded="false">홈페이지<span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li class="active"><a href=Login.jsp">로그인</a></li>
+							<li class="active"><a href=../Login.jsp">로그인</a></li>
 						</ul>
 					</li>
 				</ul>
 			</div>
 		</nav>
+		<ul>
+		  <li><a class="vertical" href="#">메뉴 1</a></li>
+		  <li><a class="vertical" href="#">메뉴 2</a></li>
+		  <li><a class="vertical" href="#">메뉴 3</a></li>
+		  <li><a class="vertical" href="#">메뉴 4</a></li>
+		  <li><a class="vertical" href="#">메뉴 5</a></li>
+		</ul>
  		
-		<div id="wrap">
-		 
-		   <!-- 글목록 위 부분-->
-		    <br>
-		    <div id="topForm">
-		        <c:if test="${sessionScope.sessionID!=null}">
-		            <input type="button" value="글쓰기" onclick="writeForm()">
-		        </c:if>    
-		    </div>
-		    
+		
 		   <!-- 게시글 목록 부분 -->
-		    <br>
-		    <div id="board">
+		   
+		    <div id="albumbulletinboardlist">
 		        
 			<table class="table">
 				<tbody>
@@ -80,7 +92,7 @@
 					    </td>
 					    <td class="tablegoodslist">
 					    	<div  class="tablesqure">
-					    		<img src="../../../images/hompageimage/jwgoods.jpg"  id="daeseonglifesciencegoods" class="goodsimage">
+					    		<a href="AlbumContent.jsp"><img src="../../../images/hompageimage/jwgoods.jpg"  id="daeseonglifesciencegoods" class="goodsimage"></a>
 					   		</div>	
 					    </td>
 				    	<td class="tablegoodslist" colspan="2">
@@ -99,7 +111,12 @@
 						    	<div class="tablesqure">
 					    			<img src="../../../images/daeseonglifesciencegoods.png"  id="daeseonglifesciencegoods" class="goodsimage">
 								</div>					   
-					    </td>
+					    	</td>
+					    	<td class="tablegoodslist">
+						    	<div class="tablesqure">
+					    			<p class="productinpreparation">상품 준비 중</p>
+								</div>					   
+					    	</td>
 					  	</tr>
 					</tbody>
 				</table>
@@ -144,11 +161,11 @@
 		            
 	            </div>
 	            </div>	 
-     		    	 </div>
-		    		<div>
+     		    	
+		    	
 		
 		
-		</div>
+		
 		
 		
 	 

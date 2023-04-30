@@ -5,7 +5,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>  
 <html>
 <head>
-	<link rel="stylesheet" href="../../CSS/BulletinBoard/BulletinBoardList.css">
+	<link rel="stylesheet" href="../../CSS/Request/RequestList.css">
 	<link rel="stylesheet" href="../../CSS/Menubar.css">
 	<link rel="stylesheet" href="../../CSS/BrandMark.css">
 	<link rel="shortcut icon" type="image/x-icon" href="../../images/forest-brand-mark.png">
@@ -134,7 +134,7 @@
 		            
 		            <input type="text" size="20" name="condition"/>
 		            <input type="submit" value="검색" class="searchbutton"/>
-   		            <a href="../BulletinBoard.jsp"><input class="addbutton" type="submit" value="등록"></a>
+   		            <a href="RequestWrite.jsp"><input class="addbutton" type="submit" value="등록"></a>
 		            
 	            </div>
 		           

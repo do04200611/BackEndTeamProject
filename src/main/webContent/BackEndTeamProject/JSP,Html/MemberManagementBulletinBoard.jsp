@@ -10,6 +10,48 @@
 <link rel="stylesheet" href="../CSS/VerticalMenubar.css">
 <link rel="stylesheet" href="../CSS/BrandMark.css">
 <title>Forest</title>
+	<style type="text/css">
+		table {
+			width: 400px;
+			text-align: center;
+			position: absolute;
+			bottom: 500px;
+			left: 500px;
+			border: 1px solid black;
+			
+		}
+		#searchForm{
+			position: relative;
+			left: 500px;
+		}
+		.searchbutton {
+			border-radius: 10px;
+			background-color: blue;
+			color: white;
+			width: 100px;
+			height: 30px;
+		}
+		.addbutton{
+			border-radius: 10px;
+			background-color: blue;
+			color: white;
+			width: 100px;
+			height: 30px;
+		}	
+		#pageForm{
+			position: relative;
+			left: 700px; 
+			
+		}
+		th, td{
+			 border: 1px solid #444444;
+		}
+	</style>
+	<script type="text/javascript">
+	        function writeForm(){
+	            location.href="BoardWriteForm.bo";
+	        }
+   		</script>
 </head>
 <body>
 	<nav class="navbar navbar-default">
@@ -42,7 +84,7 @@
 		</div>
 	</nav>
 	<h1 class="member">회원 관리 게시판</h1>
-	<div>
+
 		<ul>
 		  <li><a href="#">메뉴 1</a></li>
 		  <li><a href="#">메뉴 2</a></li>
@@ -50,22 +92,61 @@
 		  <li><a href="#">메뉴 4</a></li>
 		  <li><a href="#">메뉴 5</a></li>
 	</ul>
-	<table>
-			<tr>
-				<th>번호</th>
-				<th>회원명</th>
-				<th>아이디</th>
-				<th>비밀번호</th>
-				<th>이메일</th>
-				<th>성별</th>
-			</tr>
-			<tr>
-				<td>1</td><td>2</td>
-				<td>3</td>
-				<td>4</td>
-			</tr>
-	</table>
+	<div>	
+		<table >
+				<tr>
+					<th>번호</th>
+					<th>회원명</th>
+					<th>아이디</th>
+					<th>비밀번호</th>
+					<th>이메일</th>
+					<th>성별</th>
+				</tr>
+				<tr>
+					<td>1</td><td>김강현</td>
+					<td>11naeri2</td>
+					<td>Do04200611</td>
+					<td>11naeri2@naver.com</td>
+					<td>남자</td>				
+				</tr>
+		</table>
 	</div>
-	
+	<div id="pageForm">
+		        <c:if test="${startPage != 1}">
+		            <a href='BoardListAction.bo?page=${startPage-1}'>[이전]</a>
+		        </c:if>
+		        
+		        <c:forEach var="pageNum" begin="${startPage}" end="${endPage}">
+		            <c:if test="${pageNum == spage}">
+		                ${pageNum}&nbsp;
+		            </c:if>
+		            <c:if test="${pageNum != spage}">
+		                <a href='BoardListAction.bo?page=${pageNum}'>${pageNum}&nbsp;</a>
+		            </c:if>
+		        </c:forEach>
+		        
+		        <c:if test="${endPage != maxPage }">
+		            <a href='BoardListAction.bo?page=${endPage+1 }'>[다음]</a>
+		        </c:if>
+		    </div>
+	 <div id="searchForm">
+		        <div>
+		            <select name="opt">
+		                <option value="0">제목</option>
+		                <option value="1">내용</option>
+		                <option value="2">제목+내용</option>
+		                <option value="3">글쓴이</option>
+		            </select>
+
+		            
+		            <input type="text" size="20" name="condition"/>
+		            <input type="submit" value="검색" class="searchbutton"/>
+   		            <a href="AlbumBulletinBoard.jsp"><input class="addbutton" type="submit" value="등록"></a>
+		            
+	            </div>
+	            </div>	 
+     		    	 
+		
+		
 </body>
 </html>

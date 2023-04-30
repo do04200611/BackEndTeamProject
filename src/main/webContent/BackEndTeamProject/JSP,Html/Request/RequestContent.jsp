@@ -8,7 +8,7 @@
 	<link rel="shortcut icon" type="image/x-icon" href="../../../images/forest-brand-mark.png">
 	<link rel="stylesheet" href="../../CSS/Menubar.css">
 	<link rel="stylesheet" href="../../CSS/BrandMark.css">
-	<link rel="stylesheet" href="../../CSS/BulletinBoard/BulletinBoardContent.css">
+	<link rel="stylesheet" href="../../CSS/Request/RequestContent.css">
 	<link rel="stylesheet" href="../../CSS/VerticalMenubar.css">
 	<style type="text/css">
 	#customerrequire{
@@ -30,37 +30,36 @@
 		margin: 0 auto 0 auto;
 		border-right: none;
 	}
-	input{
-		width: 100px;
-		height: 30px;
-		background-color: blue;
-		color: white;
+	.content{
+		text-align: center;
+		position: relative;
 	}
 	.addbutton{
 		position: relative;
 		left: 1290px;
 		border-radius: 10px;
+		width: 100px;
+		height: 30px;
+		background-color: blue;
+		color: white;
 	}
+	
 	.comment{
 		position: relative;
 		left: 100px;
 		border-radius: 10px;
-	}
-	.content{
-		text-align: center;
-		position: relative;
+		width: 100px;
+		height: 30px;
+		background-color: blue;
+		color: white;
 	}
 	#request{
 		position: relative;
 		top: 10px;
-		right: 5px;
+		left: 400px;
+		font-size: 30px;
 	}
-	.goodsimage{
-	   display: block;
-       margin: auto;
-       width: 300px;
-       height: 100px;
-	}
+	
 	</style>
 </head>
 <body>
@@ -99,39 +98,39 @@
 		  <li><a class="vertical" href="#">메뉴 4</a></li>
 		  <li><a class="vertical" href="#">메뉴 5</a></li>
 		</ul>
-			<h1 id="customerrequire">상품 게시판</h1>
+			<h1 id="customerrequire">고객들 요구사항</h1>
 		<div id="wrap">
-		<table class="table" width="800" border="3">
-			<thead>
-			  <tr height="30">
-			   <th class="commonbasicinformation">제목 </th>
-			    <th class="commonbasicinformation">산양 우유 단백질 상품 후기</th>
-			  </tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>작성자</td>
-					<td>11nae***</td>
-				</tr>
-				<tr>
-					<td>작성일</td>
-					<td>2023.03.03</td>
-				</tr>
-				<tr>
-					<td>조회 수</td>
-					<td>104</td>
-				</tr>
-			</tbody>
-		</table>
+			<table class="table" width="800" border="3">
+				<thead>
+				  <tr height="30">
+				   <th>제목 </th>
+				    <th >배송이 너무 늦어요</th>
+				  </tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>작성자</td>
+						<td>11nae***</td>
+					</tr>
+					<tr>
+						<td>작성일</td>
+						<td>2023.03.04</td>
+					</tr>
+					<tr>
+						<td>조회 수</td>
+						<td>104</td>
+					</tr>
+				</tbody>
+			</table>
 	</div>
-				<hr>
-					<img src="../../../images/hompageimage/jwgoods.jpg"  id="daeseonglifesciencegoods" class="goodsimage">
-					<p class="content">
-					우유가 맛있습니다. 고급 브랜드라서 그런지 더 사고 싶습니다. 저는 개인적으로 이 제품 강추합니다.</p>
-				<hr>
-				
-		            <input type="button" value="댓글" class="comment"/>
-		            <a href="AlbumBulletinBoardList.jsp"><input class="addbutton" type="button" value="목록"></a>		
-				
+	<hr>
+		<p class="content">배송이 너무 늦게 옵니다. 
+		상담원에게 전화를 해도 어쩔 수 없다고 얘기하고 해서 인력을 고용해서 배송 시간을 단축 시키면 좋겠습니다.</p>
+		<p class="content">화가 매우 나니 정중한 사과도 요구합니다.</p>
+	<hr>
+		<h1 id="request">답변</h1><br>
+		<p class="content">배송이 너무 늦은 점 정말이지 죄송하게 생각하며 이런 일이 없도록 하겠습니다.</p><br>
+           <input type="button" value="댓글" class="comment"/>
+           <a href="RequestList.jsp"><input class="addbutton" type="button" value="목록"></a>		
 	</body>
 </html>

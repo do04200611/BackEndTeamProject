@@ -18,11 +18,7 @@
 		height: 150px; 
 		border: 1px solid black;
 	}
-	.productinpreparation{
-		text-align: center;
-		position: relative;
-		top: 50px;
-	}
+	
 	
 </style>
 	</head>

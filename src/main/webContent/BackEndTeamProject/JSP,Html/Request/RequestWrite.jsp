@@ -6,7 +6,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="../../CSS/BulletinBoard/BulletinBoard.css">
+<link rel="stylesheet" href="../../CSS/Request/Request.css">
 <link rel="stylesheet" href="../../CSS/Menubar.css">
 <link rel="stylesheet" href="../../CSS/BrandMark.css">
 <link rel="stylesheet" href="../../CSS/VerticalMenubar.css">
@@ -128,7 +128,7 @@
 			<img id="imageplus" src="../../../images/imageplus.png" style="">	
 		</div>
 		<div class="container">
-			<form action="../QuestionAndAnswer.jsp">
+			<form action="RequestContent.jsp">
 				<input type="submit" class="writecancelbutton" value="글쓰기" style="">
 			</form>
 		</div>
