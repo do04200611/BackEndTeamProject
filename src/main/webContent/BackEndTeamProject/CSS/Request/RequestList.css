@@ -1,4 +1,8 @@
 @charset "UTF-8";
+			.upponmenubarnav .upponmenubarul .upponmenubardetail a {
+			  width: 100%; /* 항목의 너비를 100%로 지정하여 항목 내부의 내용이 가운데 정렬되도록 합니다. */
+			}
+			
 			#wrap {
 	            width: 800px;
 	            margin: 0 auto 0 auto;

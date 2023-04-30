@@ -1,4 +1,6 @@
 @charset "UTF-8";
+	
+	/*게시판 코드*/
     #albumbulletinboardlist{
     	position: relative;
     	bottom: 110px;
@@ -30,7 +32,7 @@
 		width: 100px;
 		height: 30px;
 		border-radius: 10px;
-		background-color: blue;
+		background-color: blue;/*배경을 파랑색으로 바꾼다.*/
 		color: white;
 	}
 	.addbutton{

@@ -61,12 +61,12 @@
 		  <li><a class="vertical" href="#">메뉴 4</a></li>
 		  <li><a class="vertical" href="#">메뉴 5</a></li>
 		</ul>
-		<nav class="upponmenubarnav" style="position: absolute; bottom: 540px; left: 600px;">
+		<nav class="upponmenubarnav" style="position: absolute; bottom: 540px; left: 400px; ">
 		  <ul class="upponmenubarul">
 		    <li class="upponmenubardetail" ><a href="../Request/RequestList.jsp">답변 게시판</a></li>
 		    <li class="upponmenubardetail"><a href="../QuestionAndAnswer.jsp">자주 묻는 질문</a></li>
 		    <li class="upponmenubardetail"><a href="../imagepage/AlbumBulletinBoardList.jsp">상품 후기</a></li>
-		    <li class="upponmenubardetail" ><a href="../notice/NoticeWrite.jsp">공지사항</a></li>
+		    <li class="upponmenubardetail" ><a href="../notice/Notice.jsp">공지사항</a></li>
 		  </ul>
 	</nav>
  		

@@ -25,7 +25,7 @@
 	  color: white;
 	  background-color: blue;
 	  padding: 10px 0;
-	  width: 100%; /* 항목의 너비를 100%로 지정하여 항목 내부의 내용이 가운데 정렬되도록 합니다. */
+	  width: 100%;
 	  box-sizing: border-box;
 	}
 		 
