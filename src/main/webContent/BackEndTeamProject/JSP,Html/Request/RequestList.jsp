@@ -8,16 +8,20 @@
 	<link rel="stylesheet" href="../../CSS/Request/RequestList.css">
 	<link rel="stylesheet" href="../../CSS/Menubar.css">
 	<link rel="stylesheet" href="../../CSS/BrandMark.css">
-	<link rel="shortcut icon" type="image/x-icon" href="../../images/forest-brand-mark.png">
+	<link rel="shortcut icon" type="image/x-icon" href="../../../images/forest-brand-mark.png">
     <title>Forest</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-   		<script type="text/javascript">
-	        function writeForm(){
-	            location.href="BoardWriteForm.bo";
+  	<style type="text/css">
+  			#requesttable{
+	            text-align:center;
 	        }
-   		</script>
-    
+  	</style>
+	<script type="text/javascript">
+     function writeForm(){
+         location.href="BoardWriteForm.bo";
+     }
+	</script>
 	</head>
 	<body>    
 		<nav class="navbar navbar-default">
@@ -62,7 +66,7 @@
 		   <!-- 게시글 목록 부분 -->
 		    <br>
 		    <div id="board">
-		        <table id="bList" width="800" border="3" border-color="lightgray">
+		        <table id="requesttable" width="800" border="3" border-color="lightgray" text-align="center";>
 		            <tr height="30">
 		                <td>글번호</td>
 		                <td>제목</td>
@@ -124,7 +128,7 @@
 		    <br>
 		    <div id="searchForm">
 		        <div>
-		            <select name="opt">
+		            <select name="serachoption">
 		                <option value="0">제목</option>
 		                <option value="1">내용</option>
 		                <option value="2">제목+내용</option>
