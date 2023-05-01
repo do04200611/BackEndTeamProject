@@ -10,7 +10,7 @@
 		bottom: 600px;
 		left: 500px;
 	}
-	#wrap{
+	#tableform{
 		width: 800px;
         margin: 0 auto 0 auto;
         position: relative;
@@ -18,7 +18,7 @@
 		left: 50px;
 		text-align: center;		
 	}
-	.table {
+	.questionandanswertable {
 		border-left: none;
 		border-right: none;
 		border-top: none;

@@ -5,7 +5,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>  
 <html>
 <head>
-	<link rel="stylesheet" href="../../CSS/Request/RequestList.css">
+	<link rel="stylesheet" href="../../CSS/Notice/NoticeList.css">
 	<link rel="stylesheet" href="../../CSS/Menubar.css">
 	<link rel="stylesheet" href="../../CSS/UpponMenubar.css">
 	<link rel="stylesheet" href="../../CSS/VerticalMenubar.css">
@@ -64,7 +64,7 @@
 			</div>
 		</nav>
  		
-		<div id="wrap">
+		<div id="bulletinboarform">
 		 
 		   <!-- 글목록 위 부분-->
 		    <br>
@@ -73,7 +73,7 @@
 		            <input type="button" value="글쓰기" onclick="writeForm()">
 		        </c:if>    
 		    </div>
-		<ul>
+		<ul class="verticalmenuul">
 		  <li><a class="vertical" href="../notice/NoticeList.jsp">공지사항</a></li>
 		  <li><a class="vertical" href="../Request/RequestList.jsp">답변 게시판</a></li>
 		  <li><a class="vertical" href="../QuestionAndAnswer.jsp">자주 묻는 질문</a></li>
@@ -91,7 +91,7 @@
 		    
 		   <!-- 게시글 목록 부분 -->
 		    <br>
-		    <div id="board">
+		    <div id="bulletintableform">
 		        <table id="requesttable" width="800" border="3" border-color="lightgray" text-align="center";>
 		            <tr height="30">
 		                <td>글번호</td>

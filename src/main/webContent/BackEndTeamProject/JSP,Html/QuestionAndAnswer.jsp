@@ -72,8 +72,8 @@
 	    <li class="upponmenubardetail" ><a href="notice/NoticeList.jsp">공지사항</a></li>
 	  </ul>
 	</nav>
-	<div id="wrap">
-		        <table class="table" width="800" border="3">
+	<div id="tableform">
+		        <table class="questionandanswertable" width="800" border="3">
 					<tbody>
 						<tr>
 							<td>로그인은 어떻게 하나요?</td>

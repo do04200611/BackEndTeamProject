@@ -64,7 +64,7 @@
 			</div>
 		</nav>
  		
-		<div id="wrap">
+		<div id="bulletinboarform">
 		 
 		   <!-- 글목록 위 부분-->
 		    <br>
@@ -91,7 +91,7 @@
 		    
 		   <!-- 게시글 목록 부분 -->
 		    <br>
-		    <div id="board">
+		    <div id="bulletintableform">
 		        <table id="requesttable" width="800" border="3" border-color="lightgray" text-align="center";>
 		            <tr height="30">
 		                <td>글번호</td>

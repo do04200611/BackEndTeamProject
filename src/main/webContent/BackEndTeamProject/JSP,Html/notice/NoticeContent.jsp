@@ -8,14 +8,10 @@
 	<link rel="shortcut icon" type="image/x-icon" href="../../../images/forest-brand-mark.png">
 	<link rel="stylesheet" href="../../CSS/Menubar.css">
 	<link rel="stylesheet" href="../../CSS/BrandMark.css">
-	<link rel="stylesheet" href="../../CSS/Request/RequestContent.css">
+	<link rel="stylesheet" href="../../CSS/Notice/NoticeContent.css">
 	<link rel="stylesheet" href="../../CSS/VerticalMenubar.css">
 	<style type="text/css">
-	#customerrequire{
-		position: absolute;
-		bottom: 500px;
-		left: 500px;
-	}
+	
 	</style>
 </head>
 <body>
@@ -68,8 +64,8 @@
 		  <li><a class="vertical" href="../PurchasePage.jsp">구매 페이지</a></li>
 		</ul>
 			<h1 id="customerrequire">공지 사항</h1>
-		<div id="wrap">
-			<table class="table" width="800" border="3">
+		<div id="bulletinform">
+			<table class="bulletintable" width="800" border="3">
 				<thead>
 				  <tr height="30">
 				   <th>제목 </th>
@@ -89,9 +85,9 @@
 			</table>
 	</div>
 	<hr>
-		<p class="content">서비스 점검을 한다고 사이트를 1시간 정도 폐쇄 할 예정입니다. 죄송합니다.</p>
+		<p class="bulletincontent">서비스 점검을 한다고 사이트를 1시간 정도 폐쇄 할 예정입니다. 죄송합니다.</p>
 	<hr>
-	    <input type="button" value="댓글" class="comment"/>
+	    <input type="button" value="댓글" class="commentbutton"/>
 	   	<a href="NoticeList.jsp"><input class="addbutton" type="button" value="목록"></a>		
 	</body>
 </html>

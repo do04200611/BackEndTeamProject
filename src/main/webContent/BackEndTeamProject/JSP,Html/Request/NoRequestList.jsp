@@ -50,17 +50,7 @@
 				</ul>
 			</div>
 		</nav>
- 		
-		<div id="wrap">
-		 
-		   <!-- 글목록 위 부분-->
-		    <br>
-		    <div id="topForm">
-		        <c:if test="${sessionScope.sessionID!=null}">
-		            <input type="button" value="글쓰기" onclick="writeForm()">
-		        </c:if>    
-		    </div>
-    <ul style="position: relative; right: 300px;">
+    <ul>
 	  <li><a class="vertical" href="#">메뉴 1</a></li>
 	  <li><a class="vertical" href="#">메뉴 2</a></li>
 	  <li><a class="vertical" href="#">메뉴 3</a></li>
@@ -77,9 +67,18 @@
 	</nav>
 		    
 		   <!-- 게시글 목록 부분 -->
+	   <div id="bulletinboardform">
+		 
+		   <!-- 글목록 위 부분-->
 		    <br>
-		    <div id="board">
-		        <table id="requesttable" width="800" border="3" border-color="lightgray" text-align="center";>
+		    <div id="topForm">
+		        <c:if test="${sessionScope.sessionID!=null}">
+		            <input type="button" value="글쓰기" onclick="writeForm()">
+		        </c:if>    
+		    </div>
+		    <br>
+		    <div id="bulletintable">
+		        <table id="requesttable"border="3" border-color="lightgray" text-align="center";>
 		            <tr height="30">
 		                <td>글번호</td>
 		                <td>제목</td>
@@ -118,7 +117,7 @@
 		    
 		    <!-- 게시글 목록 부분 -->
 		    <br>
-		    <div id="pageForm">
+		    <div id="bulletinlistForm">
 		        <c:if test="${startPage != 1}">
 		            <a href='BoardListAction.bo?page=${startPage-1}'>[이전]</a>
 		        </c:if>
@@ -165,6 +164,5 @@
 		<div>
 		
 		
-		</div>
 	</body>
 </html>

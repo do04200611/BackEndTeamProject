@@ -63,8 +63,8 @@
 	  <li><a class="vertical" href="../PurchasePage.jsp">구매 페이지</a></li>
 	</ul>
 			<h1 id="customerrequire">고객들 요구사항</h1>
-		<div id="wrap">
-			<table class="table" width="800" border="3">
+		<div id="bulletinform">
+			<table class="bulletintable" width="800" border="3">
 				<thead>
 				  <tr height="30">
 				   <th>제목 </th>
@@ -88,13 +88,13 @@
 			</table>
 	</div>
 	<hr>
-		<p class="content">배송이 너무 늦게 옵니다. 
+		<p class="bulletincontent">배송이 너무 늦게 옵니다. 
 		상담원에게 전화를 해도 어쩔 수 없다고 얘기하고 해서 인력을 고용해서 배송 시간을 단축 시키면 좋겠습니다.</p>
-		<p class="content">화가 매우 나니 정중한 사과도 요구합니다.</p>
+		<p class="bulletincontent">화가 매우 나니 정중한 사과도 요구합니다.</p>
 	<hr>
-		<h1 id="request">답변</h1><br>
-		<p class="content">배송이 너무 늦은 점 정말이지 죄송하게 생각하며 이런 일이 없도록 하겠습니다.</p><br>
-           <input type="button" value="댓글" class="comment"/>
+		<h1 id="answertitle">답변</h1><br>
+		<p class="bulletincontent">배송이 너무 늦은 점 정말이지 죄송하게 생각하며 이런 일이 없도록 하겠습니다.</p><br>
+           <input type="button" value="댓글" class="commentbutton"/>
            <a href="RequestList.jsp"><input class="addbutton" type="button" value="목록"></a>		
 	</body>
 </html>

@@ -9,14 +9,14 @@
 			}
 			
 			
-			#wrap {
+			#bulletinboarform {
 	            width: 800px;
 	            margin: 0 auto 0 auto;
 	        }
 	        #topForm{
 	            text-align :center;
 	        }
-	        #board{
+	        #bulletintableform{
 	            text-align :right;
 	        }
 	        #requesttable{ 
