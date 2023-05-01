@@ -128,7 +128,7 @@
 			<img id="imageplus" src="../../../images/imageplus.png" style="">	
 		</div>
 		<div class="container">
-			<form action="RequestContent.jsp">
+			<form action="RequestList.jsp">
 				<input type="submit" class="writecancelbutton" value="글쓰기" style="">
 			</form>
 		</div>

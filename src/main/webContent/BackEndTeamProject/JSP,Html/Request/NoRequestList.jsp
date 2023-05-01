@@ -69,10 +69,10 @@
 	</ul>
 	<nav class="upponmenubarnav">
 	  <ul class="upponmenubarul">
-	    <li class="upponmenubardetail" ><a href="../Request/RequestList.jsp">답변 게시판</a></li>
+	    <li class="upponmenubardetail" ><a href="RequestList.jsp">답변 게시판</a></li>
 	    <li class="upponmenubardetail"><a href="../QuestionAndAnswer.jsp">자주 묻는 질문</a></li>
 	    <li class="upponmenubardetail"><a href="../imagepage/AlbumBulletinBoardList.jsp">상품 후기</a></li>
-	    <li class="upponmenubardetail" ><a href="NoticeList.jsp">공지사항</a></li>
+	    <li class="upponmenubardetail" ><a href="../notice/NoticeList.jsp">공지사항</a></li>
 	  </ul>
 	</nav>
 		    
@@ -83,14 +83,12 @@
 		            <tr height="30">
 		                <td>글번호</td>
 		                <td>제목</td>
+		                <td>작성자</td>
 		                <td>작성일</td>
 		                <td>조회수</td>
 		            </tr>
 		            <tr>
-			            <td>1.</td>
-			           <td> <a href="NoticeContent.jsp">서비스 점검 안내</a></td>
-			            <td>2023.03.01</td>
-			            <td>100</td>
+		            <td colspan="5">게시물이 없습니다.</td>
 		            </tr>
 		        <c:forEach var="board" items="${requestScope.list}">
 		            <tr>
@@ -153,7 +151,7 @@
 		            
 		            <input type="text" size="20" name="condition"/>
 		            <input type="submit" value="검색" class="searchbutton"/>
-   		            <a href="NoticeWrite.jsp"><input class="addbutton" type="submit" value="등록"></a>
+   		            <a href="RequestWrite.jsp"><input class="addbutton" type="submit" value="등록"></a>
 		            
 	            </div>
 		           

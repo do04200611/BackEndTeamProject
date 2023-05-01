@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="../../CSS/Request/RequestList.css">
 	<link rel="stylesheet" href="../../CSS/Menubar.css">
 	<link rel="stylesheet" href="../../CSS/UpponMenubar.css">
+	<link rel="stylesheet" href="../../CSS/VerticalMenubar.css">
 	<link rel="stylesheet" href="../../CSS/BrandMark.css">
 	<link rel="shortcut icon" type="image/x-icon" href="../../../images/forest-brand-mark.png">
     <title>Forest</title>
@@ -59,12 +60,19 @@
 		            <input type="button" value="글쓰기" onclick="writeForm()">
 		        </c:if>    
 		    </div>
+    <ul style="position: relative; right: 300px;">
+	  <li><a class="vertical" href="#">메뉴 1</a></li>
+	  <li><a class="vertical" href="#">메뉴 2</a></li>
+	  <li><a class="vertical" href="#">메뉴 3</a></li>
+	  <li><a class="vertical" href="#">메뉴 4</a></li>
+	  <li><a class="vertical" href="#">메뉴 5</a></li>
+	</ul>
 	<nav class="upponmenubarnav">
 	  <ul class="upponmenubarul">
 	    <li class="upponmenubardetail" ><a href="RequestList.jsp">답변 게시판</a></li>
 	    <li class="upponmenubardetail"><a href="../QuestionAndAnswer.jsp">자주 묻는 질문</a></li>
 	    <li class="upponmenubardetail"><a href="../imagepage/AlbumBulletinBoardList.jsp">상품 후기</a></li>
-	    <li class="upponmenubardetail" ><a href="../notice/NoticeWrite.jsp">공지사항</a></li>
+	    <li class="upponmenubardetail" ><a href="../notice/NoticeList.jsp">공지사항</a></li>
 	  </ul>
 	</nav>
 		    
@@ -80,8 +88,11 @@
 		                <td>조회수</td>
 		            </tr>
 		            <tr>
-		            <td colspan="5">게시물이 없습니다.</td>
+		            <td>1</td>
+		            <td><a href="RequestContent.jsp">배송이 너무 늦어요</a></td><td>11nae**</td><td>2023.03.01</td><td>101</td>
 		            </tr>
+		           
+		            	
 		        <c:forEach var="board" items="${requestScope.list}">
 		            <tr>
 		                <td>${board.board_num}</td>

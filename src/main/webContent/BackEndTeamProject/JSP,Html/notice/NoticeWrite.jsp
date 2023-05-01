@@ -110,7 +110,7 @@
 					<thead>
 						<tr>
 							<th class="bulletinboardtitle" colspan="2" style="background-color: #eeeeee; 
-		text-align: center;">게시판 글쓰기</th>
+		text-align: center;">공지사항 글쓰기</th>
 						</tr>
 					</thead>
 					<tbody>

@@ -25,12 +25,12 @@
 	#pageForm{
 		position: relative;
 		left: 800px;
-		bottom: 140px;
+		bottom: 100px;
 	}
 	#searchForm{
 		position: relative;
 		left: 600px;
-		bottom: 150px;
+		bottom: 100px;
 	}
 	.searchbutton{
 		width: 100px;

@@ -10,7 +10,6 @@
 	<link rel="stylesheet" href="../../CSS/HomePage.css">
 	<!-- =============================================================================== -->
 	 <link rel="stylesheet" href="../../CSS/UpponMenubar.css">
-	
 	<link rel="stylesheet" href="../../CSS/BrandMark.css">
 	<link rel="stylesheet" href="../../CSS/VerticalMenubar.css">
 	<link rel="shortcut icon" type="image/x-icon" href="../../../images/forest-brand-mark.png">
@@ -68,7 +67,7 @@
 		    <li class="upponmenubardetail"   ><a href="../Request/RequestList.jsp">답변 게시판</a></li>
 		    <li class="upponmenubardetail" ><a href="../QuestionAndAnswer.jsp">자주 묻는 질문</a></li>
 		    <li class="upponmenubardetail"  ><a href="../imagepage/AlbumBulletinBoardList.jsp">상품 후기</a></li>
-		    <li class="upponmenubardetail" ><a href="../notice/NoticeWrite.jsp">공지사항</a></li>
+		    <li class="upponmenubardetail" ><a href="../notice/NoticeList.jsp">공지사항</a></li>
 		  </ul>
 	</nav>
  		
