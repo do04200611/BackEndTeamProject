@@ -10,6 +10,7 @@
 		width: 300px;
 		height: 50px;
 		border-radius: 10px;
+		border-color: gray;
 	}
 	#userIdimage{
 		width: 30px;
@@ -25,17 +26,19 @@
 		width: 300px;
 		height: 50px;
 		border-radius: 10px;
+		border-color: gray;
 	}
 	
 	
 	.loginbutton {
 		background-color: blue;
+		border-color: gray;
+		border: none;
 		height: 50px;
 		width: 200px;
 		text-align: center;
 		color: white text-shadow200px;
 		text-align: center;
-		color: white;
 		border-radius: 10px;
 		left: 50px;
 		text-shadow: 2px 2px 2px #000000;
@@ -76,6 +79,7 @@
 				width: 90%;
 				height: 50px;
 				border-radius: 10px;
+				border-color: gray;
 			}
 			#userIdimage {
 				width: 20px;
@@ -89,6 +93,7 @@
 				width: 90%;
 				height: 50px;
 				border-radius: 10px;
+				border-color: gray;
 			}
 			.loginbutton {
 				background-color: blue;
@@ -104,6 +109,7 @@
 			}
 			.membership-registration-button {
 				background-color: white;
+				border-color: gray;
 				height: 50px;
 				width: 90%;
 				text-align: center;
@@ -114,7 +120,6 @@
 				height:400px;
 				margin: 0 auto;
 				padding: 20px;
-				background-color: #f2f2f2;
 				text-align: center;
 			}
 			.column {

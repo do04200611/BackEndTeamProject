@@ -1,5 +1,9 @@
 @charset "UTF-8";
-
+	#customerrequire{
+		position: absolute;
+		bottom: 500px;
+		left: 500px;
+	}
 	#wrap{
 		width: 800px;
         margin: 0 auto 0 auto;
@@ -11,43 +15,37 @@
 	}
 	.table {
 		border-left: none;
+		margin: 0 auto 0 auto;
 		border-right: none;
-		border-top: none;
-		border-bottom: none;
-		margin: 0 auto 0 auto;	
 	}
-	.content{
-		text-align: center;
-		position: relative;
+	input{
+		width: 100px;
+		height: 30px;
+		background-color: blue;
+		color: white;
 	}
 	.addbutton{
 		position: relative;
 		left: 1290px;
 		border-radius: 10px;
-		width: 100px;
-		height: 30px;
-		background-color: blue;
-		color: white;
 	}
-	
 	.comment{
 		position: relative;
 		left: 100px;
 		border-radius: 10px;
-		width: 100px;
-		height: 30px;
-		background-color: blue;
-		color: white;
+	}
+	.content{
+		text-align: center;
+		position: relative;
 	}
 	#request{
 		position: relative;
 		top: 10px;
-		left: 400px;
-		font-size: 30px;
+		right: 5px;
 	}
-	#customerrequire{
-		position: absolute;
-		bottom: 500px;
-		left: 500px;
+	.goodsimage{
+	   display: block;
+       margin: auto;
+       width: 300px;
+       height: 100px;
 	}
-	

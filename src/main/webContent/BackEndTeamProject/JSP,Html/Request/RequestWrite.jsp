@@ -96,11 +96,11 @@
 	</nav> 
 	<!--세로 메뉴바-->
 	<ul>
-	  <li><a class="vertical" href="#">메뉴 1</a></li>
-	  <li><a class="vertical" href="#">메뉴 2</a></li>
-	  <li><a class="vertical" href="#">메뉴 3</a></li>
-	  <li><a class="vertical" href="#">메뉴 4</a></li>
-	  <li><a class="vertical" href="#">메뉴 5</a></li>
+	  <li><a class="vertical" href="../notice/NoticeList.jsp">공지사항</a></li>
+	  <li><a class="vertical" href="../Request/RequestList.jsp">답변 게시판</a></li>
+	  <li><a class="vertical" href="../QuestionAndAnswer.jsp">자주 묻는 질문</a></li>
+	  <li><a class="vertical" href="../productreview/AlbumBulletinBoardList.jsp">상품 후기</a></li>
+	  <li><a class="vertical" href="../PurchasePage.jsp">구매 페이지</a></li>
 	</ul>
 	<!--게시글 양식-->
 	<div class="container">

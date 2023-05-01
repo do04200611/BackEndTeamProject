@@ -20,6 +20,9 @@
 	}
 	.table {
 		border-left: none;
+		border-right: none;
+		border-top: none;
+		border-bottom: none;
 		margin: 0 auto 0 auto;
 		border-right: none;
 		text-align: center;

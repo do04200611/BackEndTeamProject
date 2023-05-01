@@ -2,7 +2,7 @@
 	.upponmenubarnav{
 		position: absolute; 
 		bottom: 600px; 
-		left: 640px;
+		left: 500px;
 		width: auto inherit;
 	}
 	h1 {
@@ -20,8 +20,10 @@
 	}
 	.table {
 		border-left: none;
-		margin: 0 auto 0 auto;
 		border-right: none;
+		border-top: none;
+		border-bottom: none;
+		margin: 0 auto 0 auto;
 		text-align: center;
 		position: relative;
 		bottom: 400px;

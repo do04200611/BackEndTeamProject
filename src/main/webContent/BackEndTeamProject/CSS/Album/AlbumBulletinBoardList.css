@@ -10,6 +10,10 @@
     	bottom: 110px;
     	left: 220px;
     	width: 100px;
+    	border-left: none;
+    	border-right: none;
+		border-top: none;
+		border-bottom: none;
     	
     }
     .tablesqure{
@@ -36,13 +40,15 @@
 		width: 100px;
 		height: 30px;
 		border-radius: 10px;
-		background-color: blue;/*배경을 파랑색으로 바꾼다.*/
+		background-color: skyblue;/*배경을 파랑색으로 바꾼다.*/
 		color: white;
+		border: none;
 	}
 	.addbutton{
 		width: 100px;
 		height: 30px;
 		border-radius: 10px;
-		background-color: blue;
+		background-color: skyblue;
 		color: white;
+		border: none;
 	}

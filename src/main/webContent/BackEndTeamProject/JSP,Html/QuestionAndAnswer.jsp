@@ -3,16 +3,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<link rel="shortcut icon" type="image/x-icon" href="../../images/forest-brand-mark.png">
-<link rel="stylesheet" href="../CSS/QuestionAndAnswer.css">
-<link rel="stylesheet" href="../CSS/Menubar.css">
-<link rel="stylesheet" href="../CSS/VerticalMenubar.css">
-<link rel="stylesheet" href="../CSS/UpponMenubar.css">
-<meta charset="UTF-8" name="viewport" 
-	  content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	 
-<title>Forest</title>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" type="image/x-icon" href="../../images/forest-brand-mark.png">
+	<link rel="stylesheet" href="../CSS/QuestionAndAnswer.css">
+	<link rel="stylesheet" href="../CSS/Menubar.css">
+	<link rel="stylesheet" href="../CSS/VerticalMenubar.css">
+	<link rel="stylesheet" href="../CSS/UpponMenubar.css">
+	<meta charset="UTF-8" name="viewport" 
+		  content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	 
+	<title>Forest</title>
 </head>
 <body>
 	<nav class="navbar navbar-default">
@@ -31,7 +31,20 @@
 				<ul class="nav navbar-nav ">
 					<li><a href="MemberShipRegistration.jsp">회원가입</a></li>
 					<li><a href="MemberManagementBulletinBoard.jsp">게시판</a></li>
-				</ul>		
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+				<li class="dropdown">
+					<a href="../Request/RequestList.jsp" class="dropdown-toggle"
+						data-toggle="dropdown" role="button" aria-haspopup="true"
+						aria-expanded="false">게시판<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="productreview/AlbumBulletinBoardList.jsp">상품 후기</a></li>
+						<li><a href="QuestionAndAnswer.jsp">자주묻는 질문</a></li>
+						<li><a href="Request/RequestList.jsp">답변 게시판</a></li>
+						<li><a href="notice/NoticeList.jsp">공지 사항</a></li>
+					</ul>
+				</li>
+			</ul>			
 				<ul class="nav navbar-nav navbar-right">
 					<li class="dropdown">
 						<a href="HomePage.jsp" class="dropdown-toggle"
@@ -45,11 +58,11 @@
 			</div>
 	</nav>
 	<ul>
-	  <li><a class="vertical" href="#">메뉴 1</a></li>
-	  <li><a class="vertical" href="#">메뉴 2</a></li>
-	  <li><a class="vertical" href="#">메뉴 3</a></li>
-	  <li><a class="vertical" href="#">메뉴 4</a></li>
-	  <li><a class="vertical" href="#">메뉴 5</a></li>
+	  <li><a class="vertical" href="notice/NoticeList.jsp">공지사항</a></li>
+	  <li><a class="vertical" href="Request/RequestList.jsp">답변 게시판</a></li>
+	  <li><a class="vertical" href="QuestionAndAnswer.jsp">자주 묻는 질문</a></li>
+	  <li><a class="vertical" href="productreview/AlbumBulletinBoardList.jsp">상품 후기</a></li>
+	  <li><a class="vertical" href="PurchasePage.jsp">구매 페이지</a></li>
 	</ul>
 	<nav class="upponmenubarnav" >
 	  <ul class="upponmenubarul">
@@ -61,21 +74,21 @@
 	</nav>
 	<div id="wrap">
 		        <table class="table" width="800" border="3">
-				<tbody>
-					<tr>
-						<td>로그인은 어떻게 하나요?</td>
-					</tr>
-					<tr>
-						<td>물건 구매는 어떻게 하나요?</td>
-					</tr>
-					<tr>
-						<td>배송은 언제 되나요?</td>
-					</tr>
-					<tr>
-						<td>환불은 어떻게 하나요?</td>
-					</tr>
-				</tbody>
-			</table>
+					<tbody>
+						<tr>
+							<td>로그인은 어떻게 하나요?</td>
+						</tr>
+						<tr>
+							<td>물건 구매는 어떻게 하나요?</td>
+						</tr>
+						<tr>
+							<td>배송은 언제 되나요?</td>
+						</tr>
+						<tr>
+							<td>환불은 어떻게 하나요?</td>
+						</tr>
+					</tbody>
+				</table>
 	</div>
 </body>
 </html>

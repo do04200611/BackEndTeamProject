@@ -1,12 +1,12 @@
 @charset "UTF-8";
 			
-				.upponmenubarnav{
-		position: absolute; 
-		bottom: 500px; 
-		left: 640px;
-		width: auto inherit;
-		height: auto;
-	}
+			.upponmenubarnav{
+				position: absolute; 
+				bottom: 500px; 
+				left: 640px;
+				width: auto inherit;
+				height: auto;
+			}
 			
 			
 			#wrap {
@@ -23,6 +23,8 @@
 	           	text-align:center;   
 		        border-left: none;
 		        border-right: none;
+		        border-top: none;
+		        border-bottom: none;
 	        }
 	        #pageForm{
 	        	position: relative;
@@ -35,12 +37,16 @@
  	        .searchbutton{
 		        width: 50px;
 		        height: 30px;
-		        background: blue;
+		        background: skyblue;
 		        color: white;
+		        border-radius: 10px;
+		        border: none;
 	        }
 	        .addbutton{
 		        width: 50px;
 		        height: 30px;
-		        background: blue;
+		        background: skyblue;
 		        color: white;
+		        border-radius: 10px;
+		        border: none;
 	        }

@@ -42,31 +42,44 @@
 				<ul class="nav navbar-nav ">
 					<li><a href="../MemberShipRegistration.jsp">회원가입</a></li>
 					<li><a href="../Request/RequestList.jsp">게시판</a></li>
-				</ul>		
+				</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li class="dropdown">
+					<a href="../Request/RequestList.jsp" class="dropdown-toggle"
+						data-toggle="dropdown" role="button" aria-haspopup="true"
+						aria-expanded="false">게시판<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="../productreview/AlbumBulletinBoardList.jsp">상품 후기</a></li>
+						<li><a href="../QuestionAndAnswer.jsp">자주묻는 질문</a></li>
+						<li><a href="../Request/RequestList.jsp">답변 게시판</a></li>
+						<li><a href="../notice/NoticeList.jsp">공지 사항</a></li>
+					</ul>
+				</li>
+			</ul>			
 				<ul class="nav navbar-nav navbar-right">
 					<li class="dropdown">
 						<a href="../HomePage.jsp" class="dropdown-toggle"
 							data-toggle="dropdown" role="button" aria-haspopup="true"
 							aria-expanded="false">홈페이지<span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li class="active"><a href=../Login.jsp">로그인</a></li>
+							<li class="active"><a href="../Login.jsp">로그인</a></li>
 						</ul>
 					</li>
 				</ul>
 			</div>
 		</nav>
-		<ul>
-		  <li><a class="vertical" href="#">메뉴 1</a></li>
-		  <li><a class="vertical" href="#">메뉴 2</a></li>
-		  <li><a class="vertical" href="#">메뉴 3</a></li>
-		  <li><a class="vertical" href="#">메뉴 4</a></li>
-		  <li><a class="vertical" href="#">메뉴 5</a></li>
-		</ul>
+	<ul>
+	  <li><a class="vertical" href="../notice/NoticeList.jsp">공지사항</a></li>
+	  <li><a class="vertical" href="../Request/RequestList.jsp">답변 게시판</a></li>
+	  <li><a class="vertical" href="../QuestionAndAnswer.jsp">자주 묻는 질문</a></li>
+	  <li><a class="vertical" href="../imagepage/AlbumBulletinBoardList.jsp">상품 후기</a></li>
+	  <li><a class="vertical" href="../PurchasePage.jsp">구매 페이지</a></li>
+	</ul>
 		<nav class="upponmenubarnav" >
 		  <ul class="upponmenubarul">
 		    <li class="upponmenubardetail"   ><a href="../Request/RequestList.jsp">답변 게시판</a></li>
 		    <li class="upponmenubardetail" ><a href="../QuestionAndAnswer.jsp">자주 묻는 질문</a></li>
-		    <li class="upponmenubardetail"  ><a href="../imagepage/AlbumBulletinBoardList.jsp">상품 후기</a></li>
+		    <li class="upponmenubardetail"  ><a href="../productreview/AlbumBulletinBoardList.jsp">상품 후기</a></li>
 		    <li class="upponmenubardetail" ><a href="../notice/NoticeList.jsp">공지사항</a></li>
 		  </ul>
 	</nav>
@@ -91,7 +104,7 @@
 					    </td>
 				    	<td class="tablegoodslist" colspan="2">
 				    		<div class="tablesqure">
-					     		<img src="../../../images/hompageimage/v.png"  id="v" class="goodsimage">
+					     		<img src="../../../images/hompageimage/sweetpotato.png"  id="v" class="goodsimage">
 					     	</div>
 					    </td>
 					  </tr>

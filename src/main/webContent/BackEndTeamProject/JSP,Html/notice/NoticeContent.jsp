@@ -34,40 +34,49 @@
 				<ul class="nav navbar-nav ">
 					<li><a href="MemberShipRegistration.jsp">회원가입</a></li>
 					<li><a href="BulletinBoardList.jsp">게시판</a></li>
-				</ul>		
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+				<li class="dropdown">
+					<a href="../Request/RequestList.jsp" class="dropdown-toggle"
+						data-toggle="dropdown" role="button" aria-haspopup="true"
+						aria-expanded="false">게시판<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="../productreview/AlbumBulletinBoardList.jsp">상품 후기</a></li>
+						<li><a href="../QuestionAndAnswer.jsp">자주묻는 질문</a></li>
+						<li><a href="../Request/RequestList.jsp">답변 게시판</a></li>
+						<li><a href="../notice/NoticeList.jsp">공지 사항</a></li>
+					</ul>
+				</li>
+			</ul>			
 				<ul class="nav navbar-nav navbar-right">
 					<li class="dropdown">
 						<a href="../HomePage.jsp" class="dropdown-toggle"
 							data-toggle="dropdown" role="button" aria-haspopup="true"
 							aria-expanded="false">홈페이지<span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li class="active"><a href="과제2.jsp">로그인</a></li>
+							<li class="active"><a href="../Login.jsp">로그인</a></li>
 						</ul>
 					</li>
 				</ul>
 			</div>
 		</nav>
 		<ul>
-		  <li><a class="vertical" href="#">메뉴 1</a></li>
-		  <li><a class="vertical" href="#">메뉴 2</a></li>
-		  <li><a class="vertical" href="#">메뉴 3</a></li>
-		  <li><a class="vertical" href="#">메뉴 4</a></li>
-		  <li><a class="vertical" href="#">메뉴 5</a></li>
+		  <li><a class="vertical" href="../notice/NoticeList.jsp">공지사항</a></li>
+		  <li><a class="vertical" href="../Request/RequestList.jsp">답변 게시판</a></li>
+		  <li><a class="vertical" href="../QuestionAndAnswer.jsp">자주 묻는 질문</a></li>
+		  <li><a class="vertical" href="../imagepage/AlbumBulletinBoardList.jsp">상품 후기</a></li>
+		  <li><a class="vertical" href="../PurchasePage.jsp">구매 페이지</a></li>
 		</ul>
-			<h1 id="customerrequire">고객들 요구사항</h1>
+			<h1 id="customerrequire">공지 사항</h1>
 		<div id="wrap">
 			<table class="table" width="800" border="3">
 				<thead>
 				  <tr height="30">
 				   <th>제목 </th>
-				    <th >배송이 너무 늦어요</th>
+				    <th >서비스 점검</th>
 				  </tr>
 				</thead>
 				<tbody>
-					<tr>
-						<td>작성자</td>
-						<td>11nae***</td>
-					</tr>
 					<tr>
 						<td>작성일</td>
 						<td>2023.03.04</td>
@@ -80,13 +89,9 @@
 			</table>
 	</div>
 	<hr>
-		<p class="content">배송이 너무 늦게 옵니다. 
-		상담원에게 전화를 해도 어쩔 수 없다고 얘기하고 해서 인력을 고용해서 배송 시간을 단축 시키면 좋겠습니다.</p>
-		<p class="content">화가 매우 나니 정중한 사과도 요구합니다.</p>
+		<p class="content">서비스 점검을 한다고 사이트를 1시간 정도 폐쇄 할 예정입니다. 죄송합니다.</p>
 	<hr>
-		<h1 id="request">답변</h1><br>
-		<p class="content">배송이 너무 늦은 점 정말이지 죄송하게 생각하며 이런 일이 없도록 하겠습니다.</p><br>
-           <input type="button" value="댓글" class="comment"/>
-           <a href="NoticeList.jsp"><input class="addbutton" type="button" value="목록"></a>		
+	    <input type="button" value="댓글" class="comment"/>
+	   	<a href="NoticeList.jsp"><input class="addbutton" type="button" value="목록"></a>		
 	</body>
 </html>

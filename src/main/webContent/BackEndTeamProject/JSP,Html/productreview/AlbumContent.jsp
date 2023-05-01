@@ -8,59 +8,10 @@
 	<link rel="shortcut icon" type="image/x-icon" href="../../../images/forest-brand-mark.png">
 	<link rel="stylesheet" href="../../CSS/Menubar.css">
 	<link rel="stylesheet" href="../../CSS/BrandMark.css">
-	<link rel="stylesheet" href="../../CSS/BulletinBoard/BulletinBoardContent.css">
+	<link rel="stylesheet" href="../../CSS/Album/AlbumContent.css">
 	<link rel="stylesheet" href="../../CSS/VerticalMenubar.css">
 	<style type="text/css">
-	#customerrequire{
-		position: absolute;
-		bottom: 500px;
-		left: 500px;
-	}
-	#wrap{
-		width: 800px;
-        margin: 0 auto 0 auto;
-        position: relative;
-		bottom: 50px;
-		left: 50px;
 	
-		
-	}
-	.table {
-		border-left: none;
-		margin: 0 auto 0 auto;
-		border-right: none;
-	}
-	input{
-		width: 100px;
-		height: 30px;
-		background-color: blue;
-		color: white;
-	}
-	.addbutton{
-		position: relative;
-		left: 1290px;
-		border-radius: 10px;
-	}
-	.comment{
-		position: relative;
-		left: 100px;
-		border-radius: 10px;
-	}
-	.content{
-		text-align: center;
-		position: relative;
-	}
-	#request{
-		position: relative;
-		top: 10px;
-		right: 5px;
-	}
-	.goodsimage{
-	   display: block;
-       margin: auto;
-       width: 300px;
-       height: 100px;
-	}
 	</style>
 </head>
 <body>
@@ -79,7 +30,20 @@
 				<ul class="nav navbar-nav ">
 					<li><a href="MemberShipRegistration.jsp">회원가입</a></li>
 					<li><a href="BulletinBoardList.jsp">게시판</a></li>
-				</ul>		
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+				<li class="dropdown">
+					<a href="../Request/RequestList.jsp" class="dropdown-toggle"
+						data-toggle="dropdown" role="button" aria-haspopup="true"
+						aria-expanded="false">게시판<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="../productreview/AlbumBulletinBoardList.jsp">상품 후기</a></li>
+						<li><a href="../QuestionAndAnswer.jsp">자주묻는 질문</a></li>
+						<li><a href="../Request/RequestList.jsp">답변 게시판</a></li>
+						<li><a href="../notice/NoticeList.jsp">공지 사항</a></li>
+					</ul>
+				</li>
+			</ul>			
 				<ul class="nav navbar-nav navbar-right">
 					<li class="dropdown">
 						<a href="../HomePage.jsp" class="dropdown-toggle"
@@ -93,11 +57,11 @@
 			</div>
 		</nav>
 		<ul>
-		  <li><a class="vertical" href="#">메뉴 1</a></li>
-		  <li><a class="vertical" href="#">메뉴 2</a></li>
-		  <li><a class="vertical" href="#">메뉴 3</a></li>
-		  <li><a class="vertical" href="#">메뉴 4</a></li>
-		  <li><a class="vertical" href="#">메뉴 5</a></li>
+		  <li><a class="vertical" href="../notice/NoticeList.jsp">공지사항</a></li>
+		  <li><a class="vertical" href="../Request/RequestList.jsp">답변 게시판</a></li>
+		  <li><a class="vertical" href="../QuestionAndAnswer.jsp">자주 묻는 질문</a></li>
+		  <li><a class="vertical" href="../productreview/AlbumBulletinBoardList.jsp">상품 후기</a></li>
+		  <li><a class="vertical" href="../PurchasePage.jsp">구매 페이지</a></li>
 		</ul>
 			<h1 id="customerrequire">상품 게시판</h1>
 		<div id="wrap">
