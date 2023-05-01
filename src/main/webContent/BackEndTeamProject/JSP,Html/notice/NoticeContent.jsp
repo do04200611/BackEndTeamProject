@@ -60,19 +60,18 @@
 		  <li><a class="vertical" href="../notice/NoticeList.jsp">공지사항</a></li>
 		  <li><a class="vertical" href="../Request/RequestList.jsp">답변 게시판</a></li>
 		  <li><a class="vertical" href="../QuestionAndAnswer.jsp">자주 묻는 질문</a></li>
-		  <li><a class="vertical" href="../imagepage/AlbumBulletinBoardList.jsp">상품 후기</a></li>
+		  <li><a class="vertical" href="../productreview/AlbumBulletinBoardList.jsp">상품 후기</a></li>
 		  <li><a class="vertical" href="../PurchasePage.jsp">구매 페이지</a></li>
 		</ul>
 			<h1 id="customerrequire">공지 사항</h1>
 		<div id="bulletinform">
 			<table class="bulletintable" width="800" border="3">
-				<thead>
-				  <tr height="30">
-				   <th>제목 </th>
-				    <th >서비스 점검</th>
-				  </tr>
-				</thead>
+				
 				<tbody>
+					<tr height="30">
+					   <td>제목 </td>
+				       <td>서비스 점검</td>
+				  </tr>
 					<tr>
 						<td>작성일</td>
 						<td>2023.03.04</td>

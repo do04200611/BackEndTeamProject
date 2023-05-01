@@ -4,7 +4,7 @@
 		bottom: 500px;
 		left: 500px;
 	}
-	#wrap{
+	#bulletinform{
 		width: 800px;
         margin: 0 auto 0 auto;
         position: relative;
@@ -13,16 +13,19 @@
 	
 		
 	}
-	.table {
+	.bulletintable {
 		border-left: none;
-		margin: 0 auto 0 auto;
+		border-top: none;
 		border-right: none;
+		border-bottom: none;
+		margin: 0 auto 0 auto;	
 	}
 	input{
 		width: 100px;
 		height: 30px;
-		background-color: blue;
+		background-color: skyblue;
 		color: white;
+		border: none;
 	}
 	.addbutton{
 		position: relative;

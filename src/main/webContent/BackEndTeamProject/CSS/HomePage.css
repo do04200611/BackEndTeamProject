@@ -4,18 +4,16 @@
 		margin: 0;
 	}
 
-	.introduce {
+	.pageintroduce {
 		text-align: center;
 	}
 
-	.objectlist {
-		position: relative;
-		left: 100px;
+	.goodsobjectlist {
+		text-align: center;
 	}
 
-	.objectintroduce {
-		position: relative;
-		left: 100px;
+	.goodsobjectintroduce {
+		text-align: center;
 	}
 	
 

@@ -63,12 +63,12 @@
 	</nav>
 		
 			
-				<h1 class="introduce">AI 추천 스마트 쇼핑</h1>
-				<p class="introduce">AI가 추천하는 Hot한 상품을 만나보세요 구매 데이터를 학습하고</p>
-				<p class="introduce">고객의 구매의도를 파악해 AI모델이 전시한 상품들과 추천하는</p>
-				<p class="introduce">AI 추천 스마트 쇼핑</p>
-				<h1 class="objectlist">판매량이 급증한 상품 목록</h1>
-				<p class="objectintroduce">AI가 선정한 판매량 급증 상품 목록 추천 인기 상품 최근 많이 구매된
+				<h1 class="pageintroduce">AI 추천 스마트 쇼핑</h1>
+				<p class="pageintroduce">AI가 추천하는 Hot한 상품을 만나보세요 구매 데이터를 학습하고</p>
+				<p class="pageintroduce">고객의 구매의도를 파악해 AI모델이 전시한 상품들과 추천하는</p>
+				<p class="pageintroduce">AI 추천 스마트 쇼핑</p>
+				<h1 class="goodsobjectlist">판매량이 급증한 상품 목록</h1>
+				<p class="goodsobjectintroduce">AI가 선정한 판매량 급증 상품 목록 추천 인기 상품 최근 많이 구매된
 					상품을 소개합니다.</p>
 		
 			<table class="table">

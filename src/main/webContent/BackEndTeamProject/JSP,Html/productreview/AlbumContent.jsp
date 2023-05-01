@@ -29,7 +29,7 @@
 			<div class="coollapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav ">
 					<li><a href="MemberShipRegistration.jsp">회원가입</a></li>
-					<li><a href="BulletinBoardList.jsp">게시판</a></li>
+					<li><a href="../notice/NoticeList.jsp">게시판</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 				<li class="dropdown">
@@ -64,15 +64,13 @@
 		  <li><a class="vertical" href="../PurchasePage.jsp">구매 페이지</a></li>
 		</ul>
 			<h1 id="customerrequire">상품 게시판</h1>
-		<div id="wrap">
-		<table class="table" width="800" border="3">
-			<thead>
-			  <tr height="30">
-			   <th class="commonbasicinformation">제목 </th>
-			    <th class="commonbasicinformation">산양 우유 단백질 상품 후기</th>
-			  </tr>
-			</thead>
+		<div id="bulletinform">
+		<table class="bulletintable" width="800" border="3">
 			<tbody>
+			<tr height="30">
+			   <td class="commonbasicinformation">제목 </td>
+			    <td class="commonbasicinformation">산양 우유 단백질 상품 후기</td>
+		  </tr>
 				<tr>
 					<td>작성자</td>
 					<td>11nae***</td>

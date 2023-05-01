@@ -6,7 +6,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="../../CSS/Request/Request.css">
+<link rel="stylesheet" href="../../CSS/Notice/NoticeWrite.css">
 <link rel="stylesheet" href="../../CSS/Menubar.css">
 <link rel="stylesheet" href="../../CSS/BrandMark.css">
 <link rel="stylesheet" href="../../CSS/VerticalMenubar.css">
@@ -60,7 +60,7 @@
 		<div class="coollapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav ">
 				<li><a href="../HomePage.jsp">메인</a></li>
-				<li class="active"><a href="../BulletinBoard.jsp">게시판</a></li>
+				<li class="active"><a href="../notice/NoticeList.jsp">게시판</a></li>
 			</ul>	
 			<%
 				if(userID == null) {
@@ -109,11 +109,11 @@
 	</nav> 
 	<!--세로 메뉴바-->
 	<ul>
-	  <li><a class="vertical" href="#">메뉴 1</a></li>
-	  <li><a class="vertical" href="#">메뉴 2</a></li>
-	  <li><a class="vertical" href="#">메뉴 3</a></li>
-	  <li><a class="vertical" href="#">메뉴 4</a></li>
-	  <li><a class="vertical" href="#">메뉴 5</a></li>
+	  <li><a class="vertical" href="../notice/NoticeList.jsp">공지사항</a></li>
+	  <li><a class="vertical" href="../Request/RequestList.jsp">답변 게시판</a></li>
+	  <li><a class="vertical" href="../QuestionAndAnswer.jsp">자주 묻는 질문</a></li>
+	  <li><a class="vertical" href="../imagepage/AlbumBulletinBoardList.jsp">상품 후기</a></li>
+	  <li><a class="vertical" href="../PurchasePage.jsp">구매 페이지</a></li>
 	</ul>
 	<!--게시글 양식-->
 	<div class="container">

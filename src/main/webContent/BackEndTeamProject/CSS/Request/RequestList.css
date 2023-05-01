@@ -7,7 +7,10 @@
 				width: auto inherit;
 				height: auto;
 			}
-			
+			.verticalmenuul{
+				position: relative;
+				right: 360px;
+			}
 			
 			#bulletinboarform {
 	            width: 800px;
@@ -18,6 +21,8 @@
 	        }
 	        #bulletintableform{
 	            text-align :right;
+	            position: relative;
+	            bottom: 100px;
 	        }
 	        #requesttable{ 
 	           	text-align:center;   
@@ -29,10 +34,13 @@
 	        #pageForm{
 	        	position: relative;
 	        	left: 400px;
+	        	bottom: 100px;
+	        	
 	        }
 	        #searchForm{
 	        	position: relative;
 	        	left: 200px;
+	        	bottom: 100px;
 	        }
  	        .searchbutton{
 		        width: 50px;

@@ -6,7 +6,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="../../CSS/Request/Request.css">
+<link rel="stylesheet" href="../../CSS/Request/RequestWrite.css">
 <link rel="stylesheet" href="../../CSS/Menubar.css">
 <link rel="stylesheet" href="../../CSS/BrandMark.css">
 <link rel="stylesheet" href="../../CSS/VerticalMenubar.css">
@@ -103,7 +103,7 @@
 	  <li><a class="vertical" href="../PurchasePage.jsp">구매 페이지</a></li>
 	</ul>
 	<!--게시글 양식-->
-	<div class="container">
+	<div class="bulletinform">
 		<div class="row">
 			<form method="post" action="../writeAction.jsp">
 				<table class="bulletintable" >
@@ -124,10 +124,10 @@
 				</table>
 			</form>
 		</div>
-		<div class="container">
-			<img id="imageplus" src="../../../images/imageplus.png" style="">	
+		<div class="bulletinform">
+			<img id="imageplus" src="../../../images/imageplus.png">	
 		</div>
-		<div class="container">
+		<div class="bulletinform">
 			<form action="RequestList.jsp">
 				<input type="submit" class="writecancelbutton" value="글쓰기" style="">
 			</form>

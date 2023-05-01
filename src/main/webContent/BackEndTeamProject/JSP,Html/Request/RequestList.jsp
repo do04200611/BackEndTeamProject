@@ -73,7 +73,7 @@
 		            <input type="button" value="글쓰기" onclick="writeForm()">
 		        </c:if>    
 		    </div>
-    	<ul>
+    	<ul class="verticalmenuul">
 		  <li><a class="vertical" href="../notice/NoticeList.jsp">공지사항</a></li>
 		  <li><a class="vertical" href="../Request/RequestList.jsp">답변 게시판</a></li>
 		  <li><a class="vertical" href="../QuestionAndAnswer.jsp">자주 묻는 질문</a></li>

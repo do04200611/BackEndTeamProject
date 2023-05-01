@@ -58,13 +58,14 @@
 					
 			 <ul class="nav navbar-nav ">
 				<li><a href="../MemberShipRegistration.jsp">회원가입</a></li>
-				<li><a href="../MemberManagementBulletinBoard.jsp">게시판</a></li>
+				<li><a href="../notice/NoticeList.jsp">게시판</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
 				<li class="dropdown">
 					<a href="../Request/RequestList.jsp" class="dropdown-toggle"
-						data-toggle="dropdown" role="button" aria-haspopup="true"
-						aria-expanded="false">게시판<span class="caret"></span></a>
+						data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">게시판
+						<span class="caret"></span>
+					</a>
 					<ul class="dropdown-menu">
 						<li><a href="../productreview/AlbumBulletinBoardList.jsp">상품 후기</a></li>
 						<li><a href="../QuestionAndAnswer.jsp">자주묻는 질문</a></li>
