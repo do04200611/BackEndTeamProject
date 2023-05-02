@@ -13,7 +13,7 @@
 		<link rel="shortcut icon" type="image/x-icon" href="../../../images/forest-brand-mark.png">
 		<link rel="stylesheet" href="../../CSS/Menubar.css">
 		<link rel="stylesheet" href="../../CSS/BrandMark.css">
-		<link rel="stylesheet" href="../../CSS/Album/AlbumBulletinBoard.css">
+		<link rel="stylesheet" href="../../CSS/productreview/productreviewwrite.css">
 	
 	<script type="text/javascript" src="<%=cp%>/imageTest/data/image.js"></script>
 	<script type="text/javascript">

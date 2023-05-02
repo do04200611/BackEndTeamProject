@@ -81,11 +81,12 @@
 		<div class = "row">
 			<table class="table table-striped" style="text-align:center; border:1px solid #dddddd; position: relative; top: 50px; left: 30px; "> 
 				<tbody>
-					<tr>
-						
+					<tr>	
 						<td style="width: 20%; colspan=2">회원명</td><td>비밀번호</td><td>전화번호</td><td>id</td><td> 성별</td>
 					</tr>
-					<tr><td>김강현</td><td>11naeri</td><td>Do19801960@</td><td>남</td></tr>
+					<tr>
+						<td>김강현</td><td>11naeri</td><td>Do19801960@</td><td>남</td>
+					</tr>
 					
 				</tbody>
 				</table>

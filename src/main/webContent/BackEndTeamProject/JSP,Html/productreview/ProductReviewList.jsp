@@ -5,7 +5,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>  
 <html>
 <head>
-	<link rel="stylesheet" href="../../CSS/Album/AlbumBulletinBoardList.css">
+	<link rel="stylesheet" href="../../CSS/productreview/productreviewlist.css">
 	<link rel="stylesheet" href="../../CSS/Menubar.css">
 	<link rel="stylesheet" href="../../CSS/HomePage.css">
 	<!-- =============================================================================== -->
@@ -27,6 +27,7 @@
     </style>
 	</head>
 	<body>    
+	<!-- 상단 메뉴바 -->
 		<nav class="navbar navbar-default">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed"
@@ -68,6 +69,7 @@
 				</ul>
 			</div>
 		</nav>
+	<!-- 세로 메뉴바 -->	
 	<ul>
 	  <li><a class="vertical" href="../notice/NoticeList.jsp">공지사항</a></li>
 	  <li><a class="vertical" href="../Request/RequestList.jsp">답변 게시판</a></li>
@@ -75,6 +77,7 @@
 	  <li><a class="vertical" href="../productreview/ProductReviewList.jsp">상품 후기</a></li>
 	  <li><a class="vertical" href="../PurchasePage.jsp">구매 페이지</a></li>
 	</ul>
+	
 		<nav class="upponmenubarnav" >
 		  <ul class="upponmenubarul">
 		    <li class="upponmenubardetail"   ><a href="../Request/RequestList.jsp">답변 게시판</a></li>
@@ -99,7 +102,7 @@
 					    </td>
 					    <td class="tablegoodslist">
 					    	<div  class="tablesqure">
-					    		<a href="AlbumContent.jsp"><img src="../../../images/hompageimage/jwgoods.jpg"  id="daeseonglifesciencegoods" class="goodsimage"></a>
+					    		<a href="../productreview/ProductReviewContent.jsp"><img src="../../../images/hompageimage/jwgoods.jpg"  id="daeseonglifesciencegoods" class="goodsimage"></a>
 					   		</div>	
 					    </td>
 				    	<td class="tablegoodslist" colspan="2">
