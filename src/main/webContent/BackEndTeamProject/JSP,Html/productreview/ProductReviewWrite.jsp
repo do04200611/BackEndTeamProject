@@ -6,41 +6,41 @@
 %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-<head>
-<title>Forest</title>
- 
-	<link rel="stylesheet" href="<%=cp %>/imageTest/css/style.css" type="text/css" />
-	<link rel="shortcut icon" type="image/x-icon" href="../../../images/forest-brand-mark.png">
-	<link rel="stylesheet" href="../../CSS/Menubar.css">
-	<link rel="stylesheet" href="../../CSS/BrandMark.css">
-	<link rel="stylesheet" href="../../CSS/Album/AlbumBulletinBoard.css">
-
-<script type="text/javascript" src="<%=cp%>/imageTest/data/image.js"></script>
-<script type="text/javascript">
-	function sendIt() {
-		
-	    f = document.myForm;
-	    
-	    str = f.subject.value;
-	    str = str.trim();
-	    if(!str) {
-	        alert("제목을 입력하세요 !!!");
-	        f.subject.focus();
-	        return;
-	    }
-	    f.subject.value = str;
+	<head>
+		<title>Forest</title>
+	 
+		<link rel="stylesheet" href="<%=cp %>/imageTest/css/style.css" type="text/css" />
+		<link rel="shortcut icon" type="image/x-icon" href="../../../images/forest-brand-mark.png">
+		<link rel="stylesheet" href="../../CSS/Menubar.css">
+		<link rel="stylesheet" href="../../CSS/BrandMark.css">
+		<link rel="stylesheet" href="../../CSS/Album/AlbumBulletinBoard.css">
 	
-	    str = f.uploadFile.value;
-	    if(!str) {
-	        alert("이미지 파일을 선택 하세요 !!!");
-	        f.uploadFile.focus();
-	        return;
-	    }
-	    
-	    f.action="/study/image/write_ok.do";
-	    f.submit();
-	}
-</script>
+	<script type="text/javascript" src="<%=cp%>/imageTest/data/image.js"></script>
+	<script type="text/javascript">
+		function sendIt() {
+			
+		    f = document.myForm;
+		    
+		    str = f.subject.value;
+		    str = str.trim();
+		    if(!str) {
+		        alert("제목을 입력하세요 !!!");
+		        f.subject.focus();
+		        return;
+		    }
+		    f.subject.value = str;
+		
+		    str = f.uploadFile.value;
+		    if(!str) {
+		        alert("이미지 파일을 선택 하세요 !!!");
+		        f.uploadFile.focus();
+		        return;
+		    }
+		    
+		    f.action="/study/image/write_ok.do";
+		    f.submit();
+		}
+	</script>
 	</head>
 	<body>
 	 <nav class="navbar navbar-default">
@@ -67,7 +67,7 @@
 						<span class="caret"></span>
 					</a>
 					<ul class="dropdown-menu">
-						<li><a href="../productreview/AlbumBulletinBoardList.jsp">상품 후기</a></li>
+						<li><a href="../productreview/ProductReviewList.jsp">상품 후기</a></li>
 						<li><a href="../QuestionAndAnswer.jsp">자주묻는 질문</a></li>
 						<li><a href="../Request/RequestList.jsp">답변 게시판</a></li>
 						<li><a href="../notice/NoticeList.jsp">공지 사항</a></li>
@@ -80,7 +80,9 @@
 						data-toggle="dropdown" role="button" aria-haspopup="true"
 						aria-expanded="false">홈페이지<span class="caret"></span></a>
 					<ul class="dropdown-menu">
-						<li class="active"><a href="../Login.jsp">로그인</a></li>
+						<li class="active">
+							<a href="../Login.jsp">로그인</a>
+						</li>
 					</ul>
 				</li>
 			</ul>
@@ -91,15 +93,23 @@
 					<thead>
 						<tr>
 							<th class="bulletinboardtitle" colspan="2" style="background-color: #eeeeee; 
-							text-align: center;">게시판 글쓰기</th>
+								text-align: center;">상품 후기 게시판 글쓰기
+							</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
-							<td><input type="text" class="form-control" placeholder="글 제목" name="bbsTitle" maxlength="50"></td>
+							<td>
+								<input type="text" class="form-control" placeholder="글 제목" name="bbsTitle" 
+								maxlength="50">
+							</td>
 						</tr>
 						<tr>	
-							<td><textarea class="form-control" placeholder="글 내용" name="bbsContent" maxlength="2048" style="height: 350px;"></textarea></td>
+							<td>
+								<textarea class="form-control" placeholder="글 내용" name="bbsContent"
+								 maxlength="2048" style="height: 350px;">
+							</textarea>
+							</td>
 						</tr>
 					</tbody>
 				</table>
@@ -138,7 +148,7 @@
 	     	 파&nbsp;&nbsp;&nbsp;일
 	      	</td>
 	      	<td width="1000" style="padding-left: 10px;">
-	      		<input type="file" name="upload" maxlength="100" size="48" class="boxTF"/>
+	      		<input type="file" name="upload" maxlength="100" size="48" class="filebutton"/>
 	      	</td>
    		</tr>      
    
@@ -155,10 +165,10 @@
 		</table>	
 				</div>
            		<div>
-	      			<a href="AlbumBulletinBoardList.jsp">
+	      			<a href="ProductReviewList.jsp">
 		      			<button value="writecancelbutton" class="writebutton">등록하기</button>
 	      			</a>
-	      			<a href="AlbumBulletinBoardList.jsp">
+	      			<a href="ProductReviewList.jsp">
 					    <button type="reset" value="writecancelbutton" class="writecancelbutton">작성취소</button>
 	      			</a>
 				</div>		

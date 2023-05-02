@@ -2,16 +2,22 @@
 			
 			.upponmenubarnav{
 				position: absolute; 
-				bottom: 500px; 
-				left: 640px;
+				bottom: 450px; 
+				left: 540px;
 				width: auto inherit;
 				height: auto;
+			}
+			.upponmenubarul{
+				width: 600px;
 			}
 			.verticalmenuul{
 				position: relative;
 				right: 360px;
 			}
-			
+			h1{
+				position: relative;
+				bottom: 200px;
+			}
 			#bulletinboarform {
 	            width: 800px;
 	            margin: 0 auto 0 auto;

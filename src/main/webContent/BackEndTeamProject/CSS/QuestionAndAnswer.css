@@ -1,20 +1,24 @@
 @charset "UTF-8";
 	.upponmenubarnav{
 		position: absolute; 
-		bottom: 600px; 
-		left: 640px;
+		bottom: 430px; 
+		left: 530px;
 		width: auto inherit;
 	}
+	.upponmenubarul{
+		width: 600px;
+	}
+	
 	h1 {
 		position: absolute;
-		bottom: 600px;
+		bottom: 540px;
 		left: 500px;
 	}
 	#tableform{
 		width: 800px;
         margin: 0 auto 0 auto;
         position: relative;
-		bottom: 50px;
+		top: 150px;
 		left: 50px;
 		text-align: center;		
 	}

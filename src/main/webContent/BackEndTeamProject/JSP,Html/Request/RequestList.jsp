@@ -10,6 +10,8 @@
 	<link rel="stylesheet" href="../../CSS/UpponMenubar.css">
 	<link rel="stylesheet" href="../../CSS/VerticalMenubar.css">
 	<link rel="stylesheet" href="../../CSS/BrandMark.css">
+	<link rel="stylesheet" href="../../CSS/custom.css">
+	<link rel="stylesheet" href="../../CSS/bootstrap.css">
 	<link rel="shortcut icon" type="image/x-icon" href="../../../images/forest-brand-mark.png">
     <title>Forest</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -44,7 +46,7 @@
 						data-toggle="dropdown" role="button" aria-haspopup="true"
 						aria-expanded="false">게시판<span class="caret"></span></a>
 					<ul class="dropdown-menu">
-						<li><a href="../productreview/AlbumBulletinBoardList.jsp">상품 후기</a></li>
+						<li><a href="../productreview/ProductReviewList.jsp">상품 후기</a></li>
 						<li><a href="../QuestionAndAnswer.jsp">자주묻는 질문</a></li>
 						<li><a href="../Request/RequestList.jsp">답변 게시판</a></li>
 						<li><a href="../notice/NoticeList.jsp">공지 사항</a></li>
@@ -77,33 +79,46 @@
 		  <li><a class="vertical" href="../notice/NoticeList.jsp">공지사항</a></li>
 		  <li><a class="vertical" href="../Request/RequestList.jsp">답변 게시판</a></li>
 		  <li><a class="vertical" href="../QuestionAndAnswer.jsp">자주 묻는 질문</a></li>
-		  <li><a class="vertical" href="../imagepage/AlbumBulletinBoardList.jsp">상품 후기</a></li>
+		  <li><a class="vertical" href="../productreview/ProductReviewList.jsp">상품 후기</a></li>
 		  <li><a class="vertical" href="../PurchasePage.jsp">구매 페이지</a></li>
 		</ul>
 	<nav class="upponmenubarnav">
 	  <ul class="upponmenubarul">
 	    <li class="upponmenubardetail" ><a href="RequestList.jsp">답변 게시판</a></li>
 	    <li class="upponmenubardetail"><a href="../QuestionAndAnswer.jsp">자주 묻는 질문</a></li>
-	    <li class="upponmenubardetail"><a href="../imagepage/AlbumBulletinBoardList.jsp">상품 후기</a></li>
+	    <li class="upponmenubardetail"><a href="../productreview/ProductReviewList.jsp">상품 후기</a></li>
 	    <li class="upponmenubardetail" ><a href="../notice/NoticeList.jsp">공지사항</a></li>
 	  </ul>
 	</nav>
 		    
 		   <!-- 게시글 목록 부분 -->
 		    <br>
-		    <div id="bulletintableform">
-		        <table id="requesttable" width="800" border="3" border-color="lightgray" text-align="center";>
-		            <tr height="30">
-		                <td>글번호</td>
-		                <td>제목</td>
+		    <h1>답변게시판</h1>
+		    <div class="container">
+		<div class = "row">
+			<table class="table table-striped" style="text-align:center; border:1px solid #dddddd; position: relative; bottom: 100px; "> 
+				<tbody>
+					<tr>
+						<td style="width: 20%;">글번호</td>
+						<td>제목</td>
 		                <td>작성자</td>
 		                <td>작성일</td>
 		                <td>조회수</td>
-		            </tr>
-		            <tr>
-		            <td>1</td>
-		            <td><a href="RequestContent.jsp">배송이 너무 늦어요</a></td><td>11nae**</td><td>2023.03.01</td><td>101</td>
-		            </tr>
+						<td colspan="2"></td>
+					</tr>
+					<tr>
+						  <td>1</td>
+		            <td>
+	           		 	<a href="RequestContent.jsp">배송이 너무 늦어요</a>
+		            </td>
+		         
+			         <td>11nae**</td>
+			         <td>2023.03.01</td>
+			         <td>101</td>
+						<td colspan="2"></td>
+					</tr>
+				</tbody>
+				</table>
 		           
 		            	
 		        <c:forEach var="board" items="${requestScope.list}">

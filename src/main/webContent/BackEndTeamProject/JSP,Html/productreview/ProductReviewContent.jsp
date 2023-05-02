@@ -37,7 +37,7 @@
 						data-toggle="dropdown" role="button" aria-haspopup="true"
 						aria-expanded="false">게시판<span class="caret"></span></a>
 					<ul class="dropdown-menu">
-						<li><a href="../productreview/AlbumBulletinBoardList.jsp">상품 후기</a></li>
+						<li><a href="../productreview/ProductReviewList.jsp">상품 후기</a></li>
 						<li><a href="../QuestionAndAnswer.jsp">자주묻는 질문</a></li>
 						<li><a href="../Request/RequestList.jsp">답변 게시판</a></li>
 						<li><a href="../notice/NoticeList.jsp">공지 사항</a></li>
@@ -56,36 +56,44 @@
 				</ul>
 			</div>
 		</nav>
+		<!--세로 메뉴바 -->
 		<ul>
 		  <li><a class="vertical" href="../notice/NoticeList.jsp">공지사항</a></li>
 		  <li><a class="vertical" href="../Request/RequestList.jsp">답변 게시판</a></li>
 		  <li><a class="vertical" href="../QuestionAndAnswer.jsp">자주 묻는 질문</a></li>
-		  <li><a class="vertical" href="../productreview/AlbumBulletinBoardList.jsp">상품 후기</a></li>
+		  <li><a class="vertical" href="../productreview/ProductReviewList.jsp">상품 후기</a></li>
 		  <li><a class="vertical" href="../PurchasePage.jsp">구매 페이지</a></li>
 		</ul>
 			<h1 id="customerrequire">상품 게시판</h1>
-		<div id="bulletinform">
-		<table class="bulletintable" width="800" border="3">
-			<tbody>
-			<tr height="30">
-			   <td class="commonbasicinformation">제목 </td>
-			    <td class="commonbasicinformation">산양 우유 단백질 상품 후기</td>
-		  </tr>
-				<tr>
-					<td>작성자</td>
-					<td>11nae***</td>
-				</tr>
-				<tr>
-					<td>작성일</td>
-					<td>2023.03.03</td>
-				</tr>
-				<tr>
-					<td>조회 수</td>
-					<td>104</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
+			 <div class="container">
+
+		<div class = "row">
+		<table class="table table-striped" style="text-align:center; border:1px solid #dddddd; position: relative; left: 100px; bottom:50px; "> 
+				<tbody>
+					<tr>
+						<td>제목</td>
+			    		<td >산양 우유 단백질 상품 후기</td>
+						<td colspan="2"></td>
+					</tr>
+					<tr>
+						 <td>작성자</td>
+						<td>11nae***</td>
+						<td colspan="2"></td>
+					</tr>
+					<tr>
+						<td>작성일</td>
+						<td>2023.03.03</td>
+						<td colspan="2"></td>
+					</tr>
+					<tr>
+						<td>조회 수</td>
+						<td>104</td>
+						<td colspan="2"></td>
+					</tr>
+				</tbody>
+				</table>
+				</div>
+				</div>
 				<hr>
 					<img src="../../../images/hompageimage/jwgoods.jpg"  id="daeseonglifesciencegoods" class="goodsimage">
 					<p class="content">
@@ -93,7 +101,7 @@
 				<hr>
 				
 		            <input type="button" value="댓글" class="comment"/>
-		            <a href="AlbumBulletinBoardList.jsp"><input class="addbutton" type="button" value="목록"></a>		
+		            <a href="ProductReviewList.jsp"><input class="addbutton" type="button" value="목록"></a>		
 				
 	</body>
 </html>

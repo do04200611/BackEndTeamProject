@@ -1,8 +1,11 @@
 @charset "UTF-8";
 	.upponmenubarnav{
 		position: absolute;
-		bottom: 550px;
-		left: 700px;
+		bottom: 560px;
+		left: 400px;
+	}
+	.upponmenubarul{
+				width: 600px;
 	}
 	/*게시판 코드*/
     #albumbulletinboardlist{

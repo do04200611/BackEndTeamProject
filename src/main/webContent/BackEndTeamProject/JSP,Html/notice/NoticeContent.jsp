@@ -10,9 +10,6 @@
 	<link rel="stylesheet" href="../../CSS/BrandMark.css">
 	<link rel="stylesheet" href="../../CSS/Notice/NoticeContent.css">
 	<link rel="stylesheet" href="../../CSS/VerticalMenubar.css">
-	<style type="text/css">
-	
-	</style>
 </head>
 <body>
 		 <nav class="navbar navbar-default">
@@ -37,7 +34,7 @@
 						data-toggle="dropdown" role="button" aria-haspopup="true"
 						aria-expanded="false">게시판<span class="caret"></span></a>
 					<ul class="dropdown-menu">
-						<li><a href="../productreview/AlbumBulletinBoardList.jsp">상품 후기</a></li>
+						<li><a href="../productreview/ProductReviewList.jsp">상품 후기</a></li>
 						<li><a href="../QuestionAndAnswer.jsp">자주묻는 질문</a></li>
 						<li><a href="../Request/RequestList.jsp">답변 게시판</a></li>
 						<li><a href="../notice/NoticeList.jsp">공지 사항</a></li>
@@ -56,6 +53,7 @@
 				</ul>
 			</div>
 		</nav>
+		<!--세로 메뉴바 -->
 		<ul>
 		  <li><a class="vertical" href="../notice/NoticeList.jsp">공지사항</a></li>
 		  <li><a class="vertical" href="../Request/RequestList.jsp">답변 게시판</a></li>
@@ -64,29 +62,33 @@
 		  <li><a class="vertical" href="../PurchasePage.jsp">구매 페이지</a></li>
 		</ul>
 			<h1 id="customerrequire">공지 사항</h1>
-		<div id="bulletinform">
-			<table class="bulletintable" width="800" border="3">
-				
+		 <div class="container">
+		<div class = "row">
+			<table class="table table-striped" style="text-align:center; border:1px solid #dddddd; position: relative; bottom: 50px; left: 30px; "> 
 				<tbody>
-					<tr height="30">
-					   <td>제목 </td>
-				       <td>서비스 점검</td>
-				  </tr>
+					<tr>
+						
+						<td style="width: 20%;colspan:2;">제목</td>
+		                <td>서비스 점검</td>
+					</tr>
 					<tr>
 						<td>작성일</td>
 						<td>2023.03.04</td>
-					</tr>
-					<tr>
-						<td>조회 수</td>
+		         	<tr>
+			        	<td>조회 수</td>
 						<td>104</td>
+						<td colspan="2"></td>
 					</tr>
 				</tbody>
-			</table>
-	</div>
+				</table>
+			</div>
+		</div>
 	<hr>
 		<p class="bulletincontent">서비스 점검을 한다고 사이트를 1시간 정도 폐쇄 할 예정입니다. 죄송합니다.</p>
 	<hr>
 	    <input type="button" value="댓글" class="commentbutton"/>
-	   	<a href="NoticeList.jsp"><input class="addbutton" type="button" value="목록"></a>		
+	   	<a href="NoticeList.jsp">
+	   		<input class="addbutton" type="button" value="목록">
+	   	</a>		
 	</body>
 </html>

@@ -1,16 +1,22 @@
 @charset "UTF-8";
 			.upponmenubarnav{
 				position: absolute; 
-				bottom: 500px; 
-				left: 640px;
+				bottom: 430px; 
+				left: 590px;
 				width: auto inherit;
 				height: auto;
+			}
+			.upponmenubarul{
+				width: 600px;
 			}
 			.verticalmenuul{
 				position: relative;
 				right: 350px;
 			}
-			
+			h1{
+				position: relative;
+				bottom: 200px;
+			}
 			#bulletinboarform {
 	            width: 800px;
 	            margin: 0 auto 0 auto;
@@ -22,20 +28,6 @@
 	        #bulletintableform{
 	        	position: relative;
 	        	
-	        }
-	        #requesttable{ 
-	           	text-align:center;   
-		        border-left: none;
-		        border-right: none;
-		        border-top: none;
-		        border-bottom: none;
-		        width:800; 
-		        border:3;
-		        border-color:lightgray; 
-		        text-align:center;
-		        position: absolute;
-		        bottom:30px;
-		        left: 100px;
 	        }
 	        
 	        #searchForm{

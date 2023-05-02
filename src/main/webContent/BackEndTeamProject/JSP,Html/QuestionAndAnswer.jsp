@@ -9,6 +9,8 @@
 	<link rel="stylesheet" href="../CSS/Menubar.css">
 	<link rel="stylesheet" href="../CSS/VerticalMenubar.css">
 	<link rel="stylesheet" href="../CSS/UpponMenubar.css">
+	<link rel="stylesheet" href="../../CSS/custom.css">
+	<link rel="stylesheet" href="../../CSS/bootstrap.css">
 	<meta charset="UTF-8" name="viewport" 
 		  content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	 
@@ -38,7 +40,7 @@
 						data-toggle="dropdown" role="button" aria-haspopup="true"
 						aria-expanded="false">게시판<span class="caret"></span></a>
 					<ul class="dropdown-menu">
-						<li><a href="productreview/AlbumBulletinBoardList.jsp">상품 후기</a></li>
+						<li><a href="productreview/ProductReviewList.jsp">상품 후기</a></li>
 						<li><a href="QuestionAndAnswer.jsp">자주묻는 질문</a></li>
 						<li><a href="Request/RequestList.jsp">답변 게시판</a></li>
 						<li><a href="notice/NoticeList.jsp">공지 사항</a></li>
@@ -57,38 +59,44 @@
 				</ul>
 			</div>
 	</nav>
+	
 	<ul>
 	  <li><a class="vertical" href="notice/NoticeList.jsp">공지사항</a></li>
 	  <li><a class="vertical" href="Request/RequestList.jsp">답변 게시판</a></li>
 	  <li><a class="vertical" href="QuestionAndAnswer.jsp">자주 묻는 질문</a></li>
-	  <li><a class="vertical" href="productreview/AlbumBulletinBoardList.jsp">상품 후기</a></li>
+	  <li><a class="vertical" href="productreview/ProductReviewList.jsp">상품 후기</a></li>
 	  <li><a class="vertical" href="PurchasePage.jsp">구매 페이지</a></li>
 	</ul>
+	<!--상단 메뉴바 -->
 	<nav class="upponmenubarnav" >
 	  <ul class="upponmenubarul">
 	    <li class="upponmenubardetail"><a href="Request/RequestList.jsp">답변 게시판</a></li>
 	    <li class="upponmenubardetail"><a href="QuestionAndAnswer.jsp">자주 묻는 질문</a></li>
-	    <li class="upponmenubardetail"><a href="imagepage/AlbumBulletinBoardList.jsp">상품 후기</a></li>
+	    <li class="upponmenubardetail"><a href="productreview/ProductReviewList.jsp">상품 후기</a></li>
 	    <li class="upponmenubardetail" ><a href="notice/NoticeList.jsp">공지사항</a></li>
 	  </ul>
 	</nav>
-	<div id="tableform">
-		        <table class="questionandanswertable" width="800" border="3">
-					<tbody>
-						<tr>
-							<td>로그인은 어떻게 하나요?</td>
-						</tr>
-						<tr>
-							<td>물건 구매는 어떻게 하나요?</td>
-						</tr>
-						<tr>
-							<td>배송은 언제 되나요?</td>
-						</tr>
-						<tr>
-							<td>환불은 어떻게 하나요?</td>
-						</tr>
-					</tbody>
+	<h1>자주 묻는 질문</h1>
+	<div class="container">
+		<div class = "row">
+			<table class="table table-striped" style="text-align:center; border:1px solid #dddddd; position: relative; top: 50px; left: 30px; "> 
+				<tbody>
+					<tr>
+						
+						<td style="width: 20%; colspan=2">로그인은 어떻게 하나요?</td>
+					</tr>
+					<tr>
+						<td>물건 구매는 어떻게 하나요?</td>
+					
+		            <tr>
+	           		 	<td>배송은 언제 되나요?</td>
+		            </tr>
+		         	<tr>
+			        	<td>환불은 어떻게 하나요?</td>
+					</tr>
+				</tbody>
 				</table>
-	</div>
+			</div>
+		</div>
 </body>
 </html>

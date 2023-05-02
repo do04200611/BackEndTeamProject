@@ -26,5 +26,5 @@
 		}
 		
 		.vertical:hover {
-		  background-color: red; /* 호버 시 배경색 변경 */
+		  background-color: skyblue; /* 호버 시 배경색 변경 */
 		}

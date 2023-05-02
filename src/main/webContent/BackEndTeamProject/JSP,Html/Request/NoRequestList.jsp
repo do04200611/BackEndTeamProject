@@ -19,7 +19,7 @@
          location.href="BoardWriteForm.bo";
      }
 	</script>
-	</head>
+</head>
 	<body>    
 		<nav class="navbar navbar-default">
 			<div class="navbar-header">

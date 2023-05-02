@@ -49,7 +49,7 @@
 						data-toggle="dropdown" role="button" aria-haspopup="true"
 						aria-expanded="false">게시판<span class="caret"></span></a>
 					<ul class="dropdown-menu">
-						<li><a href="../productreview/AlbumBulletinBoardList.jsp">상품 후기</a></li>
+						<li><a href="../productreview/ProductReviewList.jsp">상품 후기</a></li>
 						<li><a href="../QuestionAndAnswer.jsp">자주묻는 질문</a></li>
 						<li><a href="../Request/RequestList.jsp">답변 게시판</a></li>
 						<li><a href="../notice/NoticeList.jsp">공지 사항</a></li>
@@ -72,14 +72,14 @@
 	  <li><a class="vertical" href="../notice/NoticeList.jsp">공지사항</a></li>
 	  <li><a class="vertical" href="../Request/RequestList.jsp">답변 게시판</a></li>
 	  <li><a class="vertical" href="../QuestionAndAnswer.jsp">자주 묻는 질문</a></li>
-	  <li><a class="vertical" href="../productreview/AlbumBulletinBoardList.jsp">상품 후기</a></li>
+	  <li><a class="vertical" href="../productreview/ProductReviewList.jsp">상품 후기</a></li>
 	  <li><a class="vertical" href="../PurchasePage.jsp">구매 페이지</a></li>
 	</ul>
 		<nav class="upponmenubarnav" >
 		  <ul class="upponmenubarul">
 		    <li class="upponmenubardetail"   ><a href="../Request/RequestList.jsp">답변 게시판</a></li>
 		    <li class="upponmenubardetail" ><a href="../QuestionAndAnswer.jsp">자주 묻는 질문</a></li>
-		    <li class="upponmenubardetail"  ><a href="../productreview/AlbumBulletinBoardList.jsp">상품 후기</a></li>
+		    <li class="upponmenubardetail"  ><a href="../productreview/ProductReviewList.jsp">상품 후기</a></li>
 		    <li class="upponmenubardetail" ><a href="../notice/NoticeList.jsp">공지사항</a></li>
 		  </ul>
 	</nav>
@@ -164,7 +164,7 @@
 		            
 		            <input type="text" size="20" name="condition"/>
 		            <input type="submit" value="검색" class="searchbutton"/>
-   		            <a href="AlbumBulletinBoard.jsp"><input class="addbutton" type="submit" value="등록"></a>
+   		            <a href="ProductReviewWrite.jsp"><input class="addbutton" type="submit" value="등록"></a>
 		            
 	            </div>
 	            </div>	 

@@ -36,7 +36,7 @@
 						data-toggle="dropdown" role="button" aria-haspopup="true"
 						aria-expanded="false">게시판<span class="caret"></span></a>
 					<ul class="dropdown-menu">
-						<li><a href="../productreview/AlbumBulletinBoardList.jsp">상품 후기</a></li>
+						<li><a href="../productreview/ProductReviewList.jsp">상품 후기</a></li>
 						<li><a href="../QuestionAndAnswer.jsp">자주묻는 질문</a></li>
 						<li><a href="../Request/RequestList.jsp">답변 게시판</a></li>
 						<li><a href="../notice/NoticeList.jsp">공지 사항</a></li>
@@ -59,34 +59,36 @@
 	  <li><a class="vertical" href="../notice/NoticeList.jsp">공지사항</a></li>
 	  <li><a class="vertical" href="../Request/RequestList.jsp">답변 게시판</a></li>
 	  <li><a class="vertical" href="../QuestionAndAnswer.jsp">자주 묻는 질문</a></li>
-	  <li><a class="vertical" href="../imagepage/AlbumBulletinBoardList.jsp">상품 후기</a></li>
+	  <li><a class="vertical" href="../productreview/ProductReviewList.jsp">상품 후기</a></li>
 	  <li><a class="vertical" href="../PurchasePage.jsp">구매 페이지</a></li>
 	</ul>
-			<h1 id="customerrequire">고객들 요구사항</h1>
-		<div id="bulletinform">
-			<table class="bulletintable" width="800" border="3">
-				<thead>
-				  <tr height="30">
-				   <th>제목 </th>
-				    <th >배송이 너무 늦어요</th>
-				  </tr>
-				</thead>
+	<h1 id="customerrequire">고객들 요구사항</h1>
+	<div class="container">
+		<div class = "row">
+			<table class="table table-striped" style="text-align:center; border:1px solid #dddddd; position: relative; bottom: 50px; left: 30px; "> 
 				<tbody>
+					<tr>
+						
+						<td style="width: 20%;">제목</td>
+		                <td>배송이 너무 늦어요</td>
+						<td colspan="2"></td>
+					</tr>
 					<tr>
 						<td>작성자</td>
 						<td>11nae***</td>
-					</tr>
-					<tr>
-						<td>작성일</td>
+		            <tr>
+	           		 	<td>작성일</td>
 						<td>2023.03.04</td>
-					</tr>
-					<tr>
-						<td>조회 수</td>
+		            </tr>
+		         	<tr>
+			        	<td>조회 수</td>
 						<td>104</td>
+						<td colspan="2"></td>
 					</tr>
 				</tbody>
-			</table>
-	</div>
+				</table>
+			</div>
+		</div>
 	<hr>
 		<p class="bulletincontent">배송이 너무 늦게 옵니다. 
 		상담원에게 전화를 해도 어쩔 수 없다고 얘기하고 해서 인력을 고용해서 배송 시간을 단축 시키면 좋겠습니다.</p>
