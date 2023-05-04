@@ -70,8 +70,8 @@
 				<h1 class="goodsobjectlist">판매량이 급증한 상품 목록</h1>
 				<p class="goodsobjectintroduce">AI가 선정한 판매량 급증 상품 목록 추천 인기 상품 최근 많이 구매된
 					상품을 소개합니다.</p>
-		
-			<table class="table">
+		<!-- 상품 소개하는 코드 -->
+			<table class="table"><!-- 표를 만들어주면, class를 table로 지정하는 코드 -->
 				<thead>
 					  <tr>
 					    <th class="tablegoodslist">

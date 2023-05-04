@@ -13,7 +13,7 @@
 	<link rel="shortcut icon" type="image/x-icon" href="../../images/forest-brand-mark.png">
 
 </head>
-	<body>	
+<body>	
 		
 
 		<nav class="navbar navbar-default">
@@ -83,5 +83,5 @@
 			</div>
 		
 
-	</body>
+</body>
 </html>
