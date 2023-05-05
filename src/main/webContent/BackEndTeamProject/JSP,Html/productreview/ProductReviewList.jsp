@@ -63,7 +63,9 @@
 							data-toggle="dropdown" role="button" aria-haspopup="true"
 							aria-expanded="false">홈페이지<span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li class="active"><a href="../Login.jsp">로그인</a></li>
+							<li class="active">
+								<a href="../Login.jsp">로그인</a>
+							</li>
 						</ul>
 					</li>
 				</ul>
@@ -71,18 +73,41 @@
 		</nav>
 	<!-- 세로 메뉴바 -->	
 	<ul>
-	  <li><a class="vertical" href="../notice/NoticeList.jsp">공지사항</a></li>
-	  <li><a class="vertical" href="../Request/RequestList.jsp">답변 게시판</a></li>
-	  <li><a class="vertical" href="../QuestionAndAnswer.jsp">자주 묻는 질문</a></li>
-	  <li><a class="vertical" href="../productreview/ProductReviewList.jsp">상품 후기</a></li>
-	  <li><a class="vertical" href="../PurchasePage.jsp">구매 페이지</a></li>
+	  <li>
+	  	<!-- 공지사항을 누르면 NoticeList.jsp페이지를 이동시킨다. -->
+	  	<a class="vertical" href="../notice/NoticeList.jsp">공지사항</a> 
+	  </li>
+	  <li>
+	  	<!-- 답변 게시판을 누르면 RequestList.jsp페이지로 이동시킨다. -->
+	  	<a class="vertical" href="../Request/RequestList.jsp">답변 게시판</a>
+	  </li>
+	  <li>
+	  	<!-- 자주 묻는 질문을 누르면 QuestionAndAnswer.jsp페이지로 이동시킨다. -->
+	  	<a class="vertical" href="../QuestionAndAnswer.jsp">자주 묻는 질문</a>
+	  </li>
+	  <li>
+	  	<!-- 상품후기 누르면 ProductReviewList.jsp페이지로 이동시킨다. -->
+	  	<a class="vertical" href="../productreview/ProductReviewList.jsp">상품 후기</a>
+  	  </li>
+	  <li>
+	  	<!-- 구매 페이지를 누르면 PurchasePage.jsp페이지로 이동시킨다. -->
+	  	<a class="vertical" href="../PurchasePage.jsp">구매 페이지</a>
+	  </li>
 	</ul>
 	
 		<nav class="upponmenubarnav" >
 		  <ul class="upponmenubarul">
-		    <li class="upponmenubardetail"   ><a href="../Request/RequestList.jsp">답변 게시판</a></li>
-		    <li class="upponmenubardetail" ><a href="../QuestionAndAnswer.jsp">자주 묻는 질문</a></li>
-		    <li class="upponmenubardetail"  ><a href="../productreview/ProductReviewList.jsp">상품 후기</a></li>
+		    <li class="upponmenubardetail"   >
+		    	<!-- 답변 게시판을 누르면 RequestList.jsp페이지로 이동시킨다. -->
+		    	<a href="../Request/RequestList.jsp">답변 게시판</a>
+		    </li>
+		    <li class="upponmenubardetail" >
+		    	<!-- 답변 게시판을 누르면 RequestList.jsp페이지로 이동시킨다. -->
+		    	<a href="../QuestionAndAnswer.jsp">자주 묻는 질문</a>
+	    	</li>
+		    <li class="upponmenubardetail"  >
+		   	 <a href="../productreview/ProductReviewList.jsp">상품 후기</a>
+		    </li>
 		    <li class="upponmenubardetail" ><a href="../notice/NoticeList.jsp">공지사항</a></li>
 		  </ul>
 	</nav>
@@ -157,17 +182,21 @@
 		    <br>
 		    <div id="searchForm">
 		        <div>
+		        <!-- 검색 할 때 지정된 영역에서 찾는 부분 -->
 		            <select>
-		                <option value="0">제목</option>
-		                <option value="1">내용</option>
-		                <option value="2">제목+내용</option>
-		                <option value="3">글쓴이</option>
+		                <option value="0">제목</option> <!-- 제목 데이터를 토대로 검색을 하게 한다. -->
+		                <option value="1">내용</option> <!--  내용 데이터를 토대로 검색을 하게 한다. -->
+		                <option value="2">제목+내용</option> <!--  제목+내용 데이터를 토대로 검색을 하게 한다. -->
+		                <option value="3">글쓴이</option><!--  글쓴이 데이터를 토대로 검색을 하게 한다. -->
 		            </select>
 
 		            
 		            <input type="text" size="20" name="condition"/>
 		            <input type="submit" value="검색" class="searchbutton"/>
-   		            <a href="ProductReviewWrite.jsp"><input class="addbutton" type="submit" value="등록"></a>
+   		            <a href="ProductReviewWrite.jsp"><!-- 버튼을 누르면 ProductReviewWrite.jsp로 값을 넘겨준다. -->
+   		            	<!--ProductReviewWrite.jsp로 값을 넘겨줄 버튼을 만드는 코드 -->
+   		            	<input class="addbutton" type="submit" value="등록">
+	            	</a>
 		            
 	            </div>
 	            </div>	 

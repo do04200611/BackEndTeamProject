@@ -59,7 +59,7 @@
 				</ul>
 			</div>
 	</nav>
-	
+	<!-- 세로 메뉴바 -->
 	<ul>
 	  <li><a class="vertical" href="notice/NoticeList.jsp">공지사항</a></li>
 	  <li><a class="vertical" href="Request/RequestList.jsp">답변 게시판</a></li>
@@ -76,7 +76,8 @@
 	    <li class="upponmenubardetail" ><a href="notice/NoticeList.jsp">공지사항</a></li>
 	  </ul>
 	</nav>
-	<h1>자주 묻는 질문</h1>
+	<!-- 회원 명단을 표로 구현 한 부분 -->
+	<h1>자주 묻는 질문</h1><!-- 자주 묻는 질문을 h1태그로 강조시킨다. -->
 	<div class="container">
 		<div class = "row">
 			<table class="table table-striped" style="text-align:center; border:1px solid #dddddd; position: relative; top: 50px; left: 30px; "> 
