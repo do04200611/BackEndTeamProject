@@ -2,66 +2,93 @@
 	.pageexplanation{
 		text-align: center;
 	}
-	.userId {
+	#userid {
 		width: 300px;
 		height: 50px;
 		border-radius: 10px;
+		position: relative;
+		left: 100px;
+		bottom: 50px;
 	}
 	#userIdimage{
 		width: 30px;
 		height: 30px;
+		position: relative;
+		right: 40px;
+		top: 30px;
 	}
 	#userPasswordimage{
 		width: 30px;
 		height: 30px;
+		position: relative;
+		right: 40px;
+		top: 30px;
 	}
 	
 	
-	.userPassword {
+	#userPassword {
 		width: 300px;
 		height: 50px;
 		border-radius: 10px;
+		position: relative;
+		left: 100px;
 	}
 	
 	
 	
-	.userPasswordcheck {
+	#userPasswordcheck {
 		width: 300px;
 		height: 50px;
 		border-radius: 10px;
+		position: relative;
+		left: 100px;
 	}
 	#userPasswordcheckimage{
 		width: 30px;
 		height: 30px;
+		position: relative;
+		right: 40px;
+		top: 30px;
 	}
 
-	.userEmail {
+	#userEmail {
 		width: 300px;
 		height: 50px;
 		border-radius: 10px;
+		position: relative;
+		left: 100px;
 	}
 	#userEmailimage{
 		width: 30px;
 		height: 30px;
+		position: relative;
+		right: 40px;
+		top: 30px;
 	}
 
-	.userGender {
+	#userGender {
 		width: 300px;
 		height: 50px;
 		border-radius: 10px;
+		position: relative;
+		left: 575px;
 	}
 	#userGenderimage{
 		width: 30px;
 		height: 30px;
+		position: relative;
+		right: 40px;
+		top: 30px;
 	}
 
-	.loginbutton {
-		background-color: blue;
+	#loginbutton {
 		height: 50px;
 		width: 200px;
 		text-align: center;
-		color: white;
 		border-radius: 10px;
+		position: relative;
+		left: 600px;
+		bottom: 270px;
 	}
 	.page {
 		width: 40%;
@@ -69,9 +96,6 @@
 		padding: 20px;
 		text-align: center;
 	}
-	.column {
-		flex-basis: 48%;
-		margin-top: 20px;
-	}
+
 	
 	

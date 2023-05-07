@@ -25,8 +25,8 @@
 			</div>
 			<div class="coollapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav ">
-					<li><a href="MemberShipRegistration.jsp">회원가입</a></li>
-					<li><a href="BulletinBoardList.jsp">게시판</a></li>
+					<li><a href="../MemberShipRegistration.jsp">회원가입</a></li>
+					<li><a href="../notice/NoticeList.jsp">게시판</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 				<li class="dropdown">
@@ -86,9 +86,9 @@
 	<hr>
 		<p class="bulletincontent">서비스 점검을 한다고 사이트를 1시간 정도 폐쇄 할 예정입니다. 죄송합니다.</p>
 	<hr>
-	    <input type="button" value="댓글" class="commentbutton"/>
-	   	<a href="NoticeList.jsp">
-	   		<input class="addbutton" type="button" value="목록">
-	   	</a>		
+	    <input type="submit" id="searchbutton" class="btn btn-primary form-control" value="댓글">	
+	        <a href="../Request/RequestList.jsp"> 
+	        	<input type="submit" id="addbutton" class="btn btn-primary form-control" value="목록">
+	        </a>			
 	</body>
 </html>

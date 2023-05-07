@@ -163,15 +163,12 @@
 		      </td>
 	      </tr>
 		</table>	
-				</div>
-           		<div>
+				<div>	
 	      			<a href="RequestList.jsp">
-		      			<button value="writecancelbutton" class="writebutton">등록하기</button>
+	      				<input type="submit" id="writebutton" class="btn btn-primary form-control" value="등록하기">	
+					    <input type="submit" id="writecancelbutton" class="btn btn-primary form-control" value="작성취소">
 	      			</a>
-	      			<a href="RequestList.jsp">
-					    <button type="reset" value="writecancelbutton" class="writecancelbutton">작성취소</button>
-	      			</a>
-				</div>		
+				</div>			
 			
  
 	</body>

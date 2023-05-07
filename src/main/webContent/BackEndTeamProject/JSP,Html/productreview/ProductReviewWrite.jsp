@@ -163,13 +163,11 @@
 		      </td>
 	      </tr>
 		</table>	
-				</div>
-           		<div>
+				</div> 
+           		<div>	
 	      			<a href="ProductReviewList.jsp">
-		      			<button value="writecancelbutton" class="writebutton">등록하기</button>
-	      			</a>
-	      			<a href="ProductReviewList.jsp">
-					    <button type="reset" value="writecancelbutton" class="writecancelbutton">작성취소</button>
+	      				<input type="submit" id="writebutton" class="btn btn-primary form-control" value="등록하기">	
+					    <input type="submit" id="writecancelbutton" class="btn btn-primary form-control" value="작성취소">
 	      			</a>
 				</div>		
 			

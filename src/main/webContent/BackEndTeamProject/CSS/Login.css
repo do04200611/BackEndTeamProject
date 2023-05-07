@@ -2,129 +2,57 @@
 
 
 /*div class form의 스타일을 설정해주는 코드입니다.*/
-	
-	.pageexplanation{
-		text-align: center;
+	#pageexplation{
+		position: absolute;
+		right: 600px;
 	}
-	.userId {
+	#userid{
 		width: 300px;
 		height: 50px;
 		border-radius: 10px;
-		border-color: gray;
+		position: relative;
+		left: 500px;
 	}
 	#userIdimage{
 		width: 30px;
 		height: 30px;
+		position: relative;
+		right: 60px;
+		top: 30px;
 	}
 	#userPasswordimage{
 		width: 30px;
 		height: 30px;
+		position: relative;
+		right: 60px;
+		top: 30px;
 	}
 	
 	
-	.userPassword {
+	#userpassword {
 		width: 300px;
 		height: 50px;
 		border-radius: 10px;
-		border-color: gray;
+		position: relative;
+		left: 500px;
+		
 	}
-	
-	
-	.loginbutton {
-		background-color: blue;
-		border-color: gray;
-		border: none;
+	#memberShipregistrationbutton{
+		width: 300px;
 		height: 50px;
-		width: 200px;
-		text-align: center;
-		color: white text-shadow200px;
-		text-align: center;
 		border-radius: 10px;
-		left: 50px;
-		text-shadow: 2px 2px 2px #000000;
+		position: relative;
+		left: 500px;
 	}
-	
-	.membership-registration-button{
-		background-color: white;
+	#loginbutton{
+		
+		width: 300px;
 		height: 50px;
-		width: 200px;
-		text-align: center;
-		color: blue;
 		border-radius: 10px;
+		position: relative;
+		left: 500px;
 	}
-	
-	/*div mybox에 스타일을 지정해준다.*/
-	
-	/*div 태그 container의 스타일을 설정해주는 코드입니다.*/	
-	   .page {
-			margin: 0 auto;
-			padding: 20px;
-			text-align: center;
-		}
-		.column {
-		flex-basis: 48%;
-		margin-bottom: 20px;
-		}
-	
-		/*반응형 웹디자인을 실행해주는 코드*/
-		@media only screen and (max-width: 680px) {
-			#forest-brand-mark {
-				width: 100px;
-				height: 70px;
-				position: relative;
-				left:400px;
-				text-align: center;
-			}
-			.userId {
-				width: 90%;
-				height: 50px;
-				border-radius: 10px;
-				border-color: gray;
-			}
-			#userIdimage {
-				width: 20px;
-				height: 20px;
-			}
-			#userPasswordimage {
-				width: 20px;
-				height: 20px;
-			}
-			.userPassword {
-				width: 90%;
-				height: 50px;
-				border-radius: 10px;
-				border-color: gray;
-			}
-			.loginbutton {
-				background-color: blue;
-				height: 50px;
-				width: 90%;
-				text-align: center;
-				color: white;
-				text-shadow: 2px 2px 2px #000000;
-				text-align: center;
-				color: white;
-				border-radius: 10px;
-				margin-top: 20px;
-			}
-			.membership-registration-button {
-				background-color: white;
-				border-color: gray;
-				height: 50px;
-				width: 90%;
-				text-align: center;
-			}
-			}
-			.page{
-				width: 40%;
-				height:400px;
-				margin: 0 auto;
-				padding: 20px;
-				text-align: center;
-			}
-			.column {
-				flex-basis: 100%;
-				margin-bottom: 20px;
-			}
+
+
 			
 	

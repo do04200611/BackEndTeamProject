@@ -26,28 +26,21 @@
 		left: 400px;
 		font-size: 30px;
 	}
-	.addbutton{
-		position: relative;
-		left: 1290px;
-		border-radius: 10px;
-		width: 100px;
-		height: 30px;
-		background-color: skyblue;
-		color: white;
-	}
-	
-	.commentbutton{
-		position: relative;
-		left: 100px;
-		border-radius: 10px;
-		width: 100px;
-		height: 30px;
-		background-color: skyblue;
-		color: white;
-	}
+
 	#customerrequire{
 		position: absolute;
 		bottom: 500px;
 		left: 500px;
 	}
-	
+	#searchbutton{
+		width: 100px;
+		height: 30px;
+		border-radius: 10px;
+	}
+	#addbutton{
+		width: 100px;
+		height: 30px;
+		border-radius: 10px;
+		position: absolute;
+		left: 1400px;
+	}

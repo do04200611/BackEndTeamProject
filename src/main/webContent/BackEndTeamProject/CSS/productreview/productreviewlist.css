@@ -39,19 +39,13 @@
 		left: 600px;
 		bottom: 100px;
 	}
-	.searchbutton{
+	#searchbutton{
 		width: 100px;
 		height: 30px;
 		border-radius: 10px;
-		background-color: skyblue;/*배경을 파랑색으로 바꾼다.*/
-		color: white;
-		border: none;
 	}
-	.addbutton{
+	#addbutton{
 		width: 100px;
 		height: 30px;
 		border-radius: 10px;
-		background-color: skyblue;
-		color: white;
-		border: none;
 	}

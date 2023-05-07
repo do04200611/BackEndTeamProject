@@ -4,8 +4,8 @@
 
 <%
 //연결 정보와 SQL
-String url = "jdbc:mariadb://localhost:3306/jinsookdb";
-String user = "jinsook";
+String url = "jdbc:mariadb://localhost:3306/gildongdb";
+String user = "root";
 String passwd = "1111";
 
 //1. DB 연동 드라이버 로드
@@ -16,7 +16,7 @@ try (Connection con = DriverManager.getConnection(url, user, passwd);
 		 Statement st = con.createStatement();) {
 
 	//3. 생성된 연결을 통해 SQL문 실행 의뢰 준비
-	String sql = "SELECT * FROM LOGIN";
+	String sql = "SELECT * FROM login";
 
 	//4. SQL 실행
 	ResultSet rs = st.executeQuery(sql);

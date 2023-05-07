@@ -1,92 +1,125 @@
-<%@page import="org.apache.jasper.tagplugins.jstl.core.Import"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
-<%@page import="java.sql.*"%>
-<%@page import="javax.swing.text.html.CSS.*"%>
 
+    pageEncoding="UTF-8"%>
+    
 <!DOCTYPE html>
+
 <html>
+
 <head>
- 	<link rel="shortcut icon" type="image/x-icon" href="../../images/forest-brand-mark.png">
-	<link rel="stylesheet" href="../CSS/Login.css">
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<!--뷰포트-->
+
+<meta name ="viewport" content = "width = device-width" initial-scale="1">
+
+<!-- 스타일시트-->
 	<link rel="stylesheet" href="../CSS/Menubar.css">
+	<link rel="stylesheet" href="../CSS/bootstrap.css">
+	<link rel="stylesheet" href="../CSS/custom.css">
+	<link rel="stylesheet" href="../CSS/Login.css">
 	<link rel="stylesheet" href="../CSS/BrandMark.css">
-	<meta charset="UTF-8" name="viewport" 
-		  content="width=device-width, initial-scale=1">
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	 
-	<title >Forest</title>
+	<link rel="shortcut icon" type="image/x-icon" href="../../images/forest-brand-mark.png">
+
+<title>forest</title>
+
 </head>
-	<body>	
-		 <nav class="navbar navbar-default">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed"
-					data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-					aria-expanded="false">		
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="HomePage.jsp"><img id="menubar-forestbrand-mark" src="../../images/forest-brand-mark.png" ></a>
-			</div>
-			<div class="coollapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav ">
-					<li>
-						<a href="MemberShipRegistration.jsp">회원가입</a>
-					</li>
-					<li>
-						<a href="MemberManagementBulletinBoard.jsp">게시판</a>
-					</li>
-				</ul>		
-				<ul class="nav navbar-nav navbar-right">
-					<li class="dropdown">
-						<a href="HomePage.jsp" class="dropdown-toggle"
-							data-toggle="dropdown" role="button" aria-haspopup="true"
-							aria-expanded="false">홈페이지<span class="caret"></span></a>
-						<ul class="dropdown-menu">
-							<li class="active"><a href="Login.jsp">로그인</a></li>
-						</ul>
-					</li>
-				</ul>
-			</div>
+
+<body>
+
+<!-- 네비게이션-->
+	<nav class="navbar navbar-default">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed"
+				data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+				aria-expanded="false">		
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="HomePage.jsp">
+			<img id="menubar-forestbrand-mark" src="../../images/forest-brand-mark.png" ></a>
+		</div>
+		<div class="coollapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav ">
+				<li><a href="MemberShipRegistration.jsp">회원가입</a></li>
+				<li><a href="MyInformation.jsp">나의 정보</a></li>
+			</ul>	
+			<ul class="nav navbar-nav navbar-right">
+				<li class="dropdown">
+					<a href="Request/RequestList.jsp" class="dropdown-toggle"
+						data-toggle="dropdown" role="button" aria-haspopup="true"
+						aria-expanded="false">게시판<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="productreview/AlbumBulletinBoardList.jsp">상품 후기</a></li>
+						<li><a href="QuestionAndAnswer.jsp">자주묻는 질문</a></li>
+						<li><a href="Request/RequestList.jsp">답변 게시판</a></li>
+						<li><a href="notice/NoticeList.jsp">공지 사항</a></li>
+					</ul>
+				</li>
+			</ul>	
+			<ul class="nav navbar-nav navbar-right">
+				<li class="dropdown">
+					<a href="HomePage.jsp" class="dropdown-toggle"
+						data-toggle="dropdown" role="button" aria-haspopup="true"
+						aria-expanded="false">홈페이지<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li class="active"><a href="Login.jsp">로그인</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
 	</nav>
-			<div class="forest-brand-mark">
-				<img id="forest-brand-mark" src="../../images/forest-brand-mark.png">
-					<a href="HomePage.jsp">
-						<img id="forest-brand-marktext" src="../../images/textforestbrandmark.png">
-					</a>
-			</div>
-				
-				<div class="page">
-
-					<p class="pageexplanation">회원정보를 입력해주세요</p><br>
-				<div class="row">
-				<div class="column">
-					<input type="image" src="../../images/email.png"  id="userIdimage">
-			 		<input class="userId" type="text" name="userId"  
-					placeholder="userId" value="" id="userId"><br> 
-				</div>
-				<div class="column">
-					<input type="image" src="../../images/doorlock.png"  id="userPasswordimage" >
-					<input class="userPassword" type="password" name="userPassword" placeholder="userPassword"
-					value="" id="userPassword"><br> 
-				</div>
-				<div class="column">
-					<form action="HomePage.jsp">
-						<input type="submit" value="로그인" class="loginbutton">		
-					</form>
-				</div>
-				
-			
-				<!-- 회원가입 버튼을 누르면 회원 가입 페이지로 이동시키는 코드 -->
-					<form action="MemberShipRegistration.jsp">
-				<!-- 회원 가입 버튼을 구현하는 코드 -->
-						<input type="submit" value="회원가입" class="membership-registration-button">
-					</form>
-				</div>
-				</div>
-
-		
-			
+	<!-- 로그인폼-->
 	
-	</body>
+	<div class="container">
+	
+		<div class="col-lg-4"></div>
+		
+		<div class="col-lg-4">
+		
+		<!-- 점보트론-->
+		
+			<div>
+			
+			<!-- 로그인 정보 숨기고 전송-->
+			
+			
+			
+				<h3 style="text-align: center;">로그인 화면</h3>
+				
+				<div class="form-group">
+					<input type="image" src="../../images/email.png"  id="userIdimage">
+					<input type="text" class="form-control" placeholder="아이디" name="userID" maxlength="20">
+					
+				</div>
+				
+				<div class="form-group">
+					<input type="image" src="../../images/userpassword.png"  id="userPasswordimage" >
+					<input type="password" class="form-control" placeholder="비밀번호" name="userPassword" maxlength="20">
+				</div>
+				<form method="post" action="HomePage.jsp">
+					<input type="submit" class="btn btn-primary form-control" value="로그인">
+					
+				</form>
+				
+				</div>
+				
+				</div>
+				
+				<div class="col-lg-4"></div>
+				
+			</div>
+			
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js">
+	
+	</script>
+	
+	<script src="js/bootstrap.js">
+	
+	</script>
+	
+</body>
+
 </html>

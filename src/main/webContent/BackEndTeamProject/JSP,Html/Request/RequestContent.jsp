@@ -96,7 +96,9 @@
 	<hr>
 		<h1 id="answertitle">답변</h1><br>
 		<p class="bulletincontent">배송이 너무 늦은 점 정말이지 죄송하게 생각하며 이런 일이 없도록 하겠습니다.</p><br>
-           <input type="button" value="댓글" class="commentbutton"/>
-           <a href="RequestList.jsp"><input class="addbutton" type="button" value="목록"></a>		
+            <input type="submit" id="searchbutton" class="btn btn-primary form-control" value="댓글">	
+		            <a href="../Request/RequestList.jsp"> 
+		            	<input type="submit" id="addbutton" class="btn btn-primary form-control" value="목록">
+		            </a>			
 	</body>
 </html>

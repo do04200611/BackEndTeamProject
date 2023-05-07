@@ -28,7 +28,7 @@
 			</div>
 			<div class="coollapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav ">
-					<li><a href="MemberShipRegistration.jsp">회원가입</a></li>
+					<li><a href="../MemberShipRegistration.jsp">회원가입</a></li>
 					<li><a href="../notice/NoticeList.jsp">게시판</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
@@ -100,8 +100,10 @@
 					우유가 맛있습니다. 고급 브랜드라서 그런지 더 사고 싶습니다. 저는 개인적으로 이 제품 강추합니다.</p>
 				<hr>
 				
-		            <input type="button" value="댓글" class="comment"/>
-		            <a href="ProductReviewList.jsp"><input class="addbutton" type="button" value="목록"></a>		
+		            <input type="submit" id="searchbutton" class="btn btn-primary form-control" value="댓글">	
+		            <a href="ProductReviewList.jsp"> 
+		            	<input type="submit" id="addbutton" class="btn btn-primary form-control" value="목록">
+		            </a>		
 				
 	</body>
 </html>

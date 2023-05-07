@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"
     import ="java.sql.*" %>
+    
 <%	request.setCharacterEncoding("utf-8");
 	String id = request.getParameter("id");
 	String name = request.getParameter("name");
@@ -16,7 +17,7 @@
 	Connection con = DriverManager.getConnection(url, user, passwd);
 
 	//3. 생성된 연결을 통해 SQL문 실행 의뢰 준비
-	String sql = "INSERT INTO LOGIN(id,name,pwd) VALUES(?,?,?)";
+	String sql = "INSERT INTO login(id,name,pwd) VALUES(?,?,?)";
 	
 	PreparedStatement pstmt = con.prepareStatement(sql);
 	pstmt.setString(1, id);
@@ -30,14 +31,20 @@
 	pstmt.close();
 	con.close();
 	
+	
 	response.sendRedirect("list.jsp");
 %>
+
 
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8">
 	<title>Insert title here</title>
+	<script type="text/javascript">
+		alert('가입이 완료되었습니다.');
+		window.close();
+	</script>
 </head>
 <body>
 	<%=i %>행이 입력되었습니다!

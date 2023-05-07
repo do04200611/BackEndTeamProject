@@ -42,7 +42,7 @@
 			<div class="coollapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav ">
 					<li><a href="../MemberShipRegistration.jsp">회원가입</a></li>
-					<li><a href="../Request/RequestList.jsp">게시판</a></li>
+					<li><a href="../notice/NoticeList.jsp">게시판</a></li>
 				</ul>
 			<ul class="nav navbar-nav navbar-right">
 				<li class="dropdown">
@@ -110,6 +110,8 @@
 		    </li>
 		    <li class="upponmenubardetail" ><a href="../notice/NoticeList.jsp">공지사항</a></li>
 		  </ul>
+   	
+
 	</nav>
  		
 		
@@ -192,10 +194,10 @@
 
 		            
 		            <input type="text" size="20" name="condition"/>
-		            <input type="submit" value="검색" class="searchbutton"/>
+		            <input type="submit" id="searchbutton" class="btn btn-primary form-control" value="검색하기">	
    		            <a href="ProductReviewWrite.jsp"><!-- 버튼을 누르면 ProductReviewWrite.jsp로 값을 넘겨준다. -->
-   		            	<!--ProductReviewWrite.jsp로 값을 넘겨줄 버튼을 만드는 코드 -->
-   		            	<input class="addbutton" type="submit" value="등록">
+   		            	<!--ProductReviewWrite.jsp로 값을 넘겨줄 버튼을 만드는 코드 -->	            	
+					    <input type="submit" id="addbutton" class="btn btn-primary form-control" value="등록하기">
 	            	</a>
 		            
 	            </div>

@@ -40,19 +40,13 @@
 	        	left: 400px;
 	        	
 	        }
- 	        .searchbutton{
-		        width: 50px;
-		        height: 30px;
-		        background: skyblue;
-		        color: white;
-		        border-radius: 10px;
-		        border: none;
-	        }
-	        .addbutton{
-		        width: 50px;
-		        height: 30px;
-		        background: skyblue;
-		        color: white;
-		        border-radius: 10px;
-		        border: none;
-	        }
+ 	       #searchbutton{
+				width: 100px;
+				height: 30px;
+				border-radius: 10px;
+			}
+			#addbutton{
+				width: 100px;
+				height: 30px;
+				border-radius: 10px;
+			}

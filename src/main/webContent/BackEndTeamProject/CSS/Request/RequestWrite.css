@@ -28,14 +28,17 @@
 		padding: 20px;
 		text-align: center;
 	}
-	 button{
-    	background-color: skyblue;
-		color: white;
-		border-radius:10px;
-		border: none;
+	#writebutton{
 		width: 100px;
 		height: 30px;
+		border-radius: 10px;
 		position: relative;
-		top: 400px;
-		left: 600px;
+		left: 400px;
+    }
+    #writecancelbutton{
+    	width: 100px;
+		height: 30px;
+		border-radius: 10px;
+		position: relative;
+		left: 400px;
     }
