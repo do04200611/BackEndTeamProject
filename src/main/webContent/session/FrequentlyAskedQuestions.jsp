@@ -1,14 +1,40 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
-<!-- index.jsp -->
-
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
-  <title>행과 열을 가진 표</title>
-  <style>
-    html,body {
+<meta charset="UTF-8">
+<title>Insert title here</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+ 	<script type="text/javascript">
+ 	window.onload = () => {
+ 		  // panel-faq-container
+ 		  const panelFaqContainer = document.querySelectorAll(".panel-faq-container"); // NodeList 객체
+ 		  
+ 		  // panel-faq-answer
+ 		  let panelFaqAnswer = document.querySelectorAll(".panel-faq-answer");
+
+ 		  // btn-all-close
+ 		  const btnAllClose = document.querySelector("#btn-all-close");
+ 		  
+ 		  // 반복문 순회하면서 해당 FAQ제목 클릭시 콜백 처리
+ 		  for( let i=0; i < panelFaqContainer.length; i++ ) {
+ 		    panelFaqContainer[i].addEventListener('click', function() { // 클릭시 처리할 일
+ 		      // FAQ 제목 클릭시 -> 본문이 보이게끔 -> active 클래스 추가
+ 		      panelFaqAnswer[i].classList.toggle('active');
+ 		    });
+ 		  };
+ 		  
+ 		  btnAllClose.addEventListener('click', function() {
+ 		    // 버튼 클릭시 처리할 일  
+ 		    for(let i=0; i < panelFaqAnswer.length; i++) {
+ 		        panelFaqAnswer[i].classList.remove('active');
+ 		    };
+ 		  });
+ 		}
+ 	</script>
+ 	<style type="text/css">
+ html,body {
   font-family: Helvetica, Arial, sans-serif;
   margin: 0;
 }
@@ -44,37 +70,11 @@
   display: block;
   /* 높이를 정해줘야지만 transition이 적용됨 */
   height: 300px;
-  </style>
-  <script>
-  window.onload = () => {
-	  // panel-faq-container
-	  const panelFaqContainer = document.querySelectorAll(".panel-faq-container"); // NodeList 객체
-	  
-	  // panel-faq-answer
-	  let panelFaqAnswer = document.querySelectorAll(".panel-faq-answer");
-
-	  // btn-all-close
-	  const btnAllClose = document.querySelector("#btn-all-close");
-	  
-	  // 반복문 순회하면서 해당 FAQ제목 클릭시 콜백 처리
-	  for( let i=0; i < panelFaqContainer.length; i++ ) {
-	    panelFaqContainer[i].addEventListener('click', function() { // 클릭시 처리할 일
-	      // FAQ 제목 클릭시 -> 본문이 보이게끔 -> active 클래스 추가
-	      panelFaqAnswer[i].classList.toggle('active');
-	    });
-	  };
-	  
-	  btnAllClose.addEventListener('click', function() {
-	    // 버튼 클릭시 처리할 일  
-	    for(let i=0; i < panelFaqAnswer.length; i++) {
-	        panelFaqAnswer[i].classList.remove('active');
-	    };
-	  });
-	}
-  </script>
+}
+ 	</style>
 </head>
 <body>
-  <div class="container">
+	<div class="container">
     <h3 style="text-align: center; padding-top: 50px;">
       FAQ
       <small class="text-muted">with faded secondary text</small>
@@ -202,4 +202,3 @@
   </div>
 </body>
 </html>
-	
