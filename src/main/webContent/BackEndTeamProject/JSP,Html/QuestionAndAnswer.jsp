@@ -106,121 +106,91 @@
 	<!-- 회원 명단을 표로 구현 한 부분 -->
 	<div class="container">
     <h3 style="text-align: center; padding-top: 50px;">
-      FAQ
-      <small class="text-muted">with faded secondary text</small>
+      Forest
+      <small class="text-muted">자주 묻는 질문 게시판</small>
     </h3>
+    <button id="btn-all-close">FAQ ALL Close</button>
     <br>
     <table class="table table-bordered table-striped table-dark table-hover">
-      <caption>FAQ List of Articles</caption>
+      <caption>자주 묻는 질문 게시판</caption>
       <thead class="thead-light text-center">
         <tr>
-          <th>No</th>
-          <th>FAQ Title</th>
-          <th>Category</th>
-          <th>Date</th>
-          <th>Hit</th>
+          <th style="text-align: center;">FAQ Title</th>
         </tr>
       </thead>
       <tbody class="text-center">
         <tr>
-          <td>1</td>
-          <td class="text-left" width="50%">
+          <td class="text-left" >
             <div class="panel-faq-container">
-              <p class="panel-faq-title">로그인은 어떻게 하나요?</p>
+              <p class="panel-faq-title" >로그인 하지 않았는데, 자동으로 로그인 됩니다.</p>
               <div class="panel-faq-answer">
-                <p>Answer (1) ... ↓</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                  aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur.</p>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                  laborum.</p>
+                <p>	
+					로그인 창에서 '자동 로그인'을 체크한 경우 아이디(이메일)과 비밀번호를 입력하지 않아도 로그인 상태가 유지됩니다. 
+					'자동 로그인' 기능을 원치 않는 경우에는 로그아웃 후, 로그인 창에서 '자동로그인' 체크 해제를 해주시면 됩니다. </p>
+                <p>※ 개인정보보호를 위해 여러 사람이 함께 사용하는 공용 PC, 모바일에서는 사용을 제한해 주시기 바랍니다.</p>
               </div>
             </div>
           </td>
-          <td>이용안내</td>
-          <td>2032.01.01</td>
-          <td>84</td>
         </tr>
         <tr>
-          <td>2</td>
-          <td class="text-left" width="50%">
+          <td class="text-left">
             <div class="panel-faq-container">
-              <p class="panel-faq-title">물건 구매는 어떻게 하나요?</p>
+              <p class="panel-faq-title">[본인인증] 로그인 시 여러 번 인증 실패로 새로운 환경에서 이용이 불가합니다.</p>
               <div class="panel-faq-answer">
-                <p>Answer (2) ... ↓</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                  aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur.</p>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                  laborum.</p>
+                <p>새로운 환경에서 여러 번 로그인을 실패하면 고객님의 개인정보를 보호하기 위해 당일 밤 12시까지 로그인이 제한됩니다.
+                   다음 날 0시 이후 다시 로그인을 시도할 수 있습니다. 만약, 본인이 로그인을 시도한 것이 아니라면 
+                   쿠팡 고객센터로 문의해 주시기 바랍니다.</p>
               </div>
             </div>
           </td>
-          <td>회원가입</td>
-          <td>2032.02.02</td>
-          <td>114</td>
         </tr>
         <tr>
-          <td>3</td>
-          <td class="text-left" width="50%">
+          <td class="text-left" >
             <div class="panel-faq-container">
-              <p class="panel-faq-title">배송은 언제 되나요?</p>
-              <div class="panel-faq-answer">
-                <p>Answer (3) ... ↓</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                  aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur.</p>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                  laborum.</p>
+              <p class="panel-faq-title">[본인인증] 로그인을 할 때 왜 휴대폰/이메일 본인 인증을 해야 하나요?</p>
+              <div class="panel-faq-answer" style="overflow: scroll;">
+                <p>	
+					로그인을 할 때 본인 인증을 하면 새로운 환경에서의 접속을 알 수 있어 고객님의 개인정보를 보호할 수 있습니다. 
+					본인 인증번호는 휴대폰 문자 또는 이메일로 전송됩니다. 
+					만약 인증 요청 후 인증번호를 받지 못하셨다면, 아래의 내용을 확인해 주시기 바랍니다.</p>
+
+ 
+				<p>휴대폰 인증 후 문자를 못 받은 경우</p>
+				<p>본인의 휴대폰에서 아래의 전화번호가 수신거부 되어있는지 확인 후 해제해 주시기 바랍니다.</p>
+				<p>• 쿠팡 고객센터 전화번호 : 1577-7011</p>
+				<p>• 한국모바일인증 전화번호 : 02-2033-8500</p>	
+				<p>이메일 인증 후 메일을 못 받은 경우</p>
+				<p>본인의 이메일에서 아래의 메일주소가 스팸처리 되어있는지 확인 후 해제해 주시기 바랍니다.</p>
+				<p>• noreply@coupang.com</p>
+				<p>• noreply@e.coupang.com </p>
               </div>
             </div>
           </td>
-          <td>결제관련</td>
-          <td>2032.03.03</td>
-          <td>98</td>
         </tr>
         <tr>
-          <td>4</td>
-          <td class="text-left" width="50%">
+          <td class="text-left">
             <div class="panel-faq-container">
-              <p class="panel-faq-title">환불은 어떻게 하나요</p>
-              <div class="panel-faq-answer">
-                <p>Answer (4) ... ↓</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                  aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur.</p>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                  laborum.</p>
+              <p class="panel-faq-title">[회원정보] 광고성 이메일과 문자를 받지 않으려면 어떻게 하나요?</p>
+              <div class="panel-faq-answer" style="overflow: scroll;">
+                <p>마이쿠팡에서 광고성 정보 수신 동의를 철회하시면 됩니다. 수신 동의 철회 후 약 2~3일 뒤부터 광고성 이메일과 문자가 발송되지 않습니다. 
+					단, 구매 정보 및 서비스 정책 변경 등의 정보성 안내 메일은 수신 동의 철회와 무관하게 발송됩니다.</p>
+                <p>광고성 이메일/문자 수신 거부하기</p>
+                <p>마이쿠팡 → MY정보 → 비밀번호 입력 → 광고성 정보 수신 OFF → [동의 철회] 클릭</p>
               </div>
             </div>
           </td>
-          <td>이용안내</td>
-          <td>2032.04.04</td>
-          <td>43</td>
         </tr>
         <tr>
-          <td>5</td>
-          <td class="text-left" width="50%">
+          <td class="text-left" >
             <div class="panel-faq-container">
-              <p class="panel-faq-title">The standard Lorem Ipsum passage, used since the 1500s</p>
+              <p class="panel-faq-title">[forest] forest의 탈퇴/해지는 어떻게 하나요?</p>
               <div class="panel-faq-answer">
-                <p>Answer (5) ... ↓</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                  aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur.</p>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                  laborum.</p>
+                <p>쿠팡플레이는 와우 멤버십을 해지하면 자동으로 함께 해지됩니다. 
+                   쿠팡플레이 해지 후 5일이 지나면 기존의 프로필, 시청기록 등 모든 정보가 소멸되니 재가입 시 유의 부탁드립니다.</p>
+                <p>와우 멤버십 해지하기 마이쿠팡 → 해지하기</p>
               </div>
             </div>
           </td>
-          <td>배송관련</td>
-          <td>2032.05.05</td>
-          <td>90</td>
         </tr>
         <tr class="bg-info">
           <td colspan=4 class="text-left">자주 묻는 질문 총 합계</td>

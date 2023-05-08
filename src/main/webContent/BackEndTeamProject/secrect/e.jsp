@@ -43,7 +43,8 @@
 .active {
   display: block;
   /* 높이를 정해줘야지만 transition이 적용됨 */
-  height: 300px;
+  height: 90px;
+  }
   </style>
   <script>
   window.onload = () => {
@@ -85,117 +86,69 @@
       <caption>FAQ List of Articles</caption>
       <thead class="thead-light text-center">
         <tr>
-          <th>No</th>
           <th>FAQ Title</th>
-          <th>Category</th>
-          <th>Date</th>
-          <th>Hit</th>
         </tr>
       </thead>
       <tbody class="text-center">
         <tr>
-          <td>1</td>
-          <td class="text-left" width="50%">
+          <td class="text-left">
             <div class="panel-faq-container">
-              <p class="panel-faq-title">What is Lorem Ipsum?</p>
+              <p class="panel-faq-title">로그인 하지 않았는데, 자동으로 로그인 됩니다.</p>
               <div class="panel-faq-answer">
-                <p>Answer (1) ... ↓</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                  aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur.</p>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                  laborum.</p>
+                 <p>	
+					로그인 창에서 '자동 로그인'을 체크한 경우 아이디(이메일)과 비밀번호를 입력하지 않아도 로그인 상태가 유지됩니다. 
+					'자동 로그인' 기능을 원치 않는 경우에는 로그아웃 후, 로그인 창에서 '자동로그인' 체크 해제를 해주시면 됩니다. </p>
+                <p>※ 개인정보보호를 위해 여러 사람이 함께 사용하는 공용 PC, 모바일에서는 사용을 제한해 주시기 바랍니다.</p>
               </div>
             </div>
           </td>
-          <td>이용안내</td>
-          <td>2032.01.01</td>
-          <td>84</td>
         </tr>
         <tr>
-          <td>2</td>
-          <td class="text-left" width="50%">
+          <td class="text-left">
             <div class="panel-faq-container">
-              <p class="panel-faq-title">Where does it come from?</p>
+              <p class="panel-faq-title">[본인인증] 로그인 시 여러 번 인증 실패로 새로운 환경에서 이용이 불가합니다.</p>
               <div class="panel-faq-answer">
-                <p>Answer (2) ... ↓</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                  aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur.</p>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                  laborum.</p>
+               <p>새로운 환경에서 여러 번 로그인을 실패하면 고객님의 개인정보를 보호하기 위해 당일 밤 12시까지 로그인이 제한됩니다.
+                   다음 날 0시 이후 다시 로그인을 시도할 수 있습니다. 만약, 본인이 로그인을 시도한 것이 아니라면 
+                   쿠팡 고객센터로 문의해 주시기 바랍니다.</p>
               </div>
             </div>
           </td>
-          <td>회원가입</td>
-          <td>2032.02.02</td>
-          <td>114</td>
         </tr>
         <tr>
-          <td>3</td>
-          <td class="text-left" width="50%">
+          <td class="text-left">
             <div class="panel-faq-container">
-              <p class="panel-faq-title">Why do we use it?</p>
+              <p class="panel-faq-title">배송은 언제 되나요?</p>
               <div class="panel-faq-answer">
-                <p>Answer (3) ... ↓</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                  aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur.</p>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                  laborum.</p>
+                <p>새로운 환경에서 여러 번 로그인을 실패하면 고객님의 개인정보를 보호하기 위해 당일 밤 12시까지 로그인이 제한됩니다.
+                   다음 날 0시 이후 다시 로그인을 시도할 수 있습니다. 만약, 본인이 로그인을 시도한 것이 아니라면 
+                   쿠팡 고객센터로 문의해 주시기 바랍니다.</p>
               </div>
             </div>
           </td>
-          <td>결제관련</td>
-          <td>2032.03.03</td>
-          <td>98</td>
         </tr>
         <tr>
-          <td>4</td>
-          <td class="text-left" width="50%">
+          <td class="text-left">
             <div class="panel-faq-container">
               <p class="panel-faq-title">Where can I get some?</p>
               <div class="panel-faq-answer">
                 <p>Answer (4) ... ↓</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                  aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur.</p>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                  laborum.</p>
               </div>
             </div>
           </td>
-          <td>이용안내</td>
-          <td>2032.04.04</td>
-          <td>43</td>
         </tr>
         <tr>
-          <td>5</td>
-          <td class="text-left" width="50%">
+          <td class="text-left">
             <div class="panel-faq-container">
               <p class="panel-faq-title">The standard Lorem Ipsum passage, used since the 1500s</p>
               <div class="panel-faq-answer">
-                <p>Answer (5) ... ↓</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                   et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                   aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
                   dolore eu fugiat nulla pariatur.</p>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                  laborum.</p>
               </div>
             </div>
           </td>
-          <td>배송관련</td>
-          <td>2032.05.05</td>
-          <td>90</td>
-        </tr>
-        <tr class="bg-info">
-          <td colspan=4 class="text-left">자주 묻는 질문 총 합계</td>
-          <td>429</td>
         </tr>
       </tbody>
     </table>
