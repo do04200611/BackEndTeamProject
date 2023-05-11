@@ -4,13 +4,14 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<link rel="shortcut icon" type="image/x-icon" href="../../images/forest-brand-mark.png">
-	<link rel="stylesheet" href="../CSS/QuestionAndAnswer.css">
-	<link rel="stylesheet" href="../CSS/Menubar.css">
-	<link rel="stylesheet" href="../CSS/VerticalMenubar.css">
-	<link rel="stylesheet" href="../CSS/UpponMenubar.css">
-	<link rel="stylesheet" href="../../CSS/custom.css">
-	<link rel="stylesheet" href="../../CSS/bootstrap.css">
+	<link rel="shortcut icon" type="image/x-icon" href="../../../images/forest-brand-mark.png">
+	<link rel="stylesheet" href="../../CSS/QuestionAndAnswer.css">
+	<link rel="stylesheet" href="../../CSS/Menubar.css">
+	<link rel="stylesheet" href="../../CSS/VerticalMenubar.css">
+	<link rel="stylesheet" href="../../CSS/UpponMenubar.css">
+	<link rel="stylesheet" href="../../../CSS/custom.css">
+	<link rel="stylesheet" href="../../../CSS/bootstrap.css">
+	<link rel="stylesheet" href="../../CSS/FrequentlyAskedQuestionBoard/FrequentlyAskedQuestionBoard.css">
 	<meta charset="UTF-8" name="viewport" 
 		  content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	 
@@ -52,7 +53,7 @@
 					<span class="icon-bar"></span>
 			</button>
 				<a class="navbar-brand" href="HomePage.jsp">
-				<img id="menubar-forestbrand-mark" src="../../images/forest-brand-mark.png" ></a>
+				<img id="menubar-forestbrand-mark" src="../../../images/forest-brand-mark.png" ></a>
 			</div>
 			<div class="coollapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav ">
@@ -95,10 +96,22 @@
 	<!--상단 메뉴바 -->
 	<nav class="upponmenubarnav" >
 	  <ul class="upponmenubarul">
-	    <li class="upponmenubardetail"><a href="Request/RequestList.jsp">답변 게시판</a></li>
-	    <li class="upponmenubardetail"><a href="QuestionAndAnswer.jsp">자주 묻는 질문</a></li>
-	    <li class="upponmenubardetail"><a href="productreview/ProductReviewList.jsp">상품 후기</a></li>
-	    <li class="upponmenubardetail" ><a href="notice/NoticeList.jsp">공지사항</a></li>
+	    <li class="upponmenubardetail"><a href="../Request/RequestList.jsp">답변 게시판</a></li>
+	    <li class="upponmenubardetail"><a href="../QuestionAndAnswer.jsp">자주 묻는 질문</a></li>
+	    <li class="upponmenubardetail"><a href="../productreview/ProductReviewList.jsp">상품 후기</a></li>
+	    <li class="upponmenubardetail" ><a href="../notice/NoticeList.jsp">공지사항</a></li>
+	  </ul>
+	</nav>
+	
+	<nav class="questionboardupponmenubarnav" >
+	  <ul class="questionboardupponmenubarul">
+	    <li class="questionboardupponmenubardetail"><a href="../Request/RequestList.jsp">취소/교환/반품</a></li>
+	    <li class="questionboardupponmenubardetail"><a href="../QuestionAndAnswer.jsp">보호 조치</a></li>
+	    <li class="questionboardupponmenubardetail"><a href="../productreview/ProductReviewList.jsp">배송 문의</a></li>
+	    <li class="questionboardupponmenubardetail" ><a href="../notice/NoticeList.jsp">주문결제</a></li>
+        <li class="questionboardupponmenuardetail" ><a href="../notice/NoticeList.jsp">회원 서비스</a></li>
+	  	<li class="questionboardupponmenuardetail" ><a href="../notice/NoticeList.jsp">환불</a></li>
+	  	<li class="questionboardupponmenuardetail" ><a href="../notice/NoticeList.jsp">정기 배송</a></li>
 	  </ul>
 	</nav>
 	<!-- 회원 명단을 표로 구현 한 부분 -->
@@ -211,24 +224,6 @@
       </tbody>
     </table>
   </div>
-  <table class="table table-bordered table-striped table-dark table-hover">
-	  	 <tbody class="text-center">
-        <tr>
-          <td class="text-left" >
-            <div class="otherpanel-faq-container">
-            <p class="otherpanel-faq-title" >더보기</p>
-              <p class="otherpanel-faq-title" >더보기</p>
-              <div class="otherpanel-faq-answer">
-                <p>	
-					로그인 창에서 '자동 로그인'을 체크한 경우 아이디(이메일)과 비밀번호를 입력하지 않아도 로그인 상태가 유지됩니다. 
-					'자동 로그인' 기능을 원치 않는 경우에는 로그아웃 후, 로그인 창에서 '자동로그인' 체크 해제를 해주시면 됩니다. </p>
-                <p>※ 개인정보보호를 위해 여러 사람이 함께 사용하는 공용 PC, 모바일에서는 사용을 제한해 주시기 바랍니다.</p>
-              </div>
-              </div>
-          </td>
-        </tr>
-   </tbody>
-  </table>
  
 </body>
 </html>

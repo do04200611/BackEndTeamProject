@@ -1,5 +1,26 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@page import="java.sql.*"%>
+<%
+//연결 정보와 SQL
+String url = "jdbc:mariadb://localhost:3306/gildongdb";
+String user = "root";
+String passwd = "1111";
+
+//1. DB 연동 드라이버 로드
+Class.forName("org.mariadb.jdbc.Driver");
+
+//2. 연결 객체 생성
+try (Connection con = DriverManager.getConnection(url, user, passwd); 
+		 Statement st = con.createStatement();) {
+
+	//3. 생성된 연결을 통해 SQL문 실행 의뢰 준비
+	String sql = "SELECT * FROM membership";
+
+	//4. SQL 실행
+	ResultSet rs = st.executeQuery(sql);
+%>
+    
 <!DOCTYPE html>
 <html>
 <head>
@@ -82,13 +103,31 @@
 			<table class="table table-striped" style="text-align:center; border:1px solid #dddddd; position: relative; top: 50px; left: 30px; "> 
 				<tbody>
 					<tr>	
-						<td style="width: 20%; colspan=2">회원명</td><td>비밀번호</td><td>전화번호</td><td>id</td><td> 성별</td>
+						<td style="width: 20%; colspan=2">아이디</td><td>비밀번호</td><td>이메일</td><td> 성별</td>
 					</tr>
+			<% 		
+					while (rs.next()) {
+						String userID = rs.getString("userID");
+						String userPassword = rs.getString("userPassword");
+						String userEmail = rs.getString("userEmail");
+						String userGender = rs.getString("userGender");
+			%>
 					<tr>
-						<td>김강현</td><td>11naeri</td><td>Do19801960@</td><td>남</td>
+						<td><a href="updateForm.jsp?userID=<%=userID%>"><%=userID%></a></td>
+
+						<td><%=userPassword%></td>
+						<td><%=userEmail%></td>
+						<td><%=userGender%></td>
 					</tr>
-					
 				</tbody>
+					<%
+			}
+	} catch (Exception e) {
+		e.printStackTrace();
+	}
+%>
+				
+				
 				</table>
 			</div>
 		</div>

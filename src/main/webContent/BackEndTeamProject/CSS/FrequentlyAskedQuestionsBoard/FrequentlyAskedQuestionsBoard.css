@@ -1,0 +1,31 @@
+@charset "UTF-8";
+	.questionboardupponmenubarnav .questionboardupponmenubarul {
+	  overflow: hidden;
+	  margin: 0;
+	  padding: 0;
+	  display: flex; /* 메뉴 항목을 가로 방향으로 정렬하기 위해 flexbox를 사용합니다. */
+	}
+
+	.questionboardupponmenubarnav .questionboardupponmenubarul .questionboardupponmenubardetail {
+	  list-style: none;
+	  text-align: center;
+	  border-left: 1px solid #fff;
+	  border-right: 1px solid #ccc;
+	  flex-grow: 1; /* 항목의 너비를 자동으로 조정하기 위해 flex-grow 속성을 사용합니다. */
+	  box-sizing: border-box;
+	}
+	
+	.questionboardupponmenubarnav .questionboardupponmenubarul .questionboardupponmenubardetail:first-child {
+	  border-left: none;
+	}
+	
+	.questionboardupponmenubarnav .questionboardupponmenubarul .questionboardupponmenubardetail a {
+	  display: block;
+	  text-decoration: none;
+	  color: white;
+	  background-color: skyblue;
+	  padding: 10px 0;
+	  box-sizing: border-box;
+	  border-radius: 10px;
+	  width: 100%
+	}

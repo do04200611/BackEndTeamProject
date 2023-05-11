@@ -88,33 +88,33 @@
 			
 			
 				<h3 style="text-align: center;">회원가입 화면</h3>
-				
+				<form method="post" action="MemberShipRegistrationPro.jsp">
 				<div class="form-group">
 					<input type="image" src="../../images/email.png"  id="userIdimage">
-					<input type="text" class="form-control" placeholder="아이디" name="userID" maxlength="20">
+					<input type="text" class="form-control" placeholder="아이디" name="userID" id="userID" maxlength="20">
 					
 				</div>
 				
 				<div class="form-group">
 					<input type="image" src="../../images/userpassword.png"  id="userPasswordimage" >
-					<input type="password" class="form-control" placeholder="비밀번호" name="userPassword" maxlength="20">
+					<input type="password" class="form-control" placeholder="비밀번호" name="userPassword" id="userPassword" maxlength="20">
 					
 					</div>
 				<div class="form-group">
 					<input type="image" src="../../images/userpassword.png"  id="userPasswordimage" >
-					<input type="password" class="form-control" placeholder="비밀번호" name="userPasswordCheck" maxlength="20">
+					<input type="password" class="form-control" placeholder="비밀번호" name="userPassword"  id="userPassword" maxlength="20">
 				</div>
 				<div class="form-group">
 					<input type="image" src="../../images/email.png"  id="userEmailimage" >
-					<input type="email" class="form-control" placeholder="이메일"name="userEmail" maxlength="20">
+					<input type="email" class="form-control" placeholder="이메일"name="userEmail" id="userEmail" maxlength="20">
 					
 				</div>
 				<div class="form-group">
 					<input type="image" src="../../images/usergender.png"  id="userGenderimage" >
-					<input type="email" class="form-control" placeholder="성별"name="userGender" maxlength="20">
+					<input type="text" class="form-control" placeholder="성별" name="userGender" id="userGender" maxlength="20">
 					
 				</div>
-				<form method="post" action="HomePage.jsp">
+				
 					<input type="submit" class="btn btn-primary form-control" value="로그인">
 					
 				</form>

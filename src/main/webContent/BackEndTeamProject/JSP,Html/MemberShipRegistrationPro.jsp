@@ -12,10 +12,10 @@
     import ="java.sql.*" %>
     
 <%	request.setCharacterEncoding("utf-8");
-	String id = request.getParameter("id");
-	String name = request.getParameter("name");
-	String pwd = request.getParameter("pwd");
-
+	String userID = request.getParameter("userID");
+	String userPassword = request.getParameter("userPassword");
+	String userEmail = request.getParameter("userEmail");
+	String userGender = request.getParameter("userGender");
 	//1. DB 연동 드라이버 로드
 	Class.forName("org.mariadb.jdbc.Driver");
 	
@@ -26,12 +26,13 @@
 	Connection con = DriverManager.getConnection(url, user, passwd);
 
 	//3. 생성된 연결을 통해 SQL문 실행 의뢰 준비
-	String sql = "INSERT INTO login(id,name,pwd) VALUES(?,?,?)";
+	String sql = "INSERT INTO membership(userID,userPassword,userEmail,userGender) VALUES(?,?,?,?)";
 	
 	PreparedStatement pstmt = con.prepareStatement(sql);
-	pstmt.setString(1, id);
-	pstmt.setString(2, name);
-	pstmt.setString(3, pwd);
+	pstmt.setString(1, userID);
+	pstmt.setString(2, userPassword);
+	pstmt.setString(3, userEmail);
+	pstmt.setString(4, userGender);
 	
 	//4. SQL 실행
 	int i = pstmt.executeUpdate();
@@ -41,7 +42,7 @@
 	con.close();
 	
 	
-	response.sendRedirect("list.jsp");
+	response.sendRedirect("MemberManagementBulletinBoard.jsp");
 %>
 
 

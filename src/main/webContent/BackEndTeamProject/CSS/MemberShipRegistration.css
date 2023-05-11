@@ -2,14 +2,6 @@
 	.pageexplanation{
 		text-align: center;
 	}
-	#userid {
-		width: 300px;
-		height: 50px;
-		border-radius: 10px;
-		position: relative;
-		left: 100px;
-		bottom: 50px;
-	}
 	#userIdimage{
 		width: 30px;
 		height: 30px;
@@ -25,24 +17,6 @@
 		top: 30px;
 	}
 	
-	
-	#userPassword {
-		width: 300px;
-		height: 50px;
-		border-radius: 10px;
-		position: relative;
-		left: 100px;
-	}
-	
-	
-	
-	#userPasswordcheck {
-		width: 300px;
-		height: 50px;
-		border-radius: 10px;
-		position: relative;
-		left: 100px;
-	}
 	#userPasswordcheckimage{
 		width: 30px;
 		height: 30px;
@@ -51,27 +25,12 @@
 		top: 30px;
 	}
 
-	#userEmail {
-		width: 300px;
-		height: 50px;
-		border-radius: 10px;
-		position: relative;
-		left: 100px;
-	}
 	#userEmailimage{
 		width: 30px;
 		height: 30px;
 		position: relative;
 		right: 40px;
 		top: 30px;
-	}
-
-	#userGender {
-		width: 300px;
-		height: 50px;
-		border-radius: 10px;
-		position: relative;
-		left: 575px;
 	}
 	#userGenderimage{
 		width: 30px;
