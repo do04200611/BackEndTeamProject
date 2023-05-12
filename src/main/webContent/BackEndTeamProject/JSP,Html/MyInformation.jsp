@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 
-    pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8"
+    import="java.sql.*"%>
     
 <!DOCTYPE html>
 
@@ -13,7 +14,35 @@
 <!--뷰포트-->
 
 <meta name ="viewport" content = "width = device-width" initial-scale="1">
+<% 	String userID = request.getParameter("userID");
+	String userPassword = request.getParameter("userPassword");
+	String userEmail = request.getParameter("userEmail");
+	String userGender = request.getParameter("userGender");
+	
+	Class.forName("org.mariadb.jdbc.Driver");
+	String url ="jdbc:mariadb://localhost:3306/gildongdb";
+	String user ="root";
+	String passwd ="1111";
+	Connection con = DriverManager.getConnection(url, user, passwd);
+	
+	String sql = "select * from membership where userID = ?";
+	PreparedStatement pstmt = con.prepareStatement(sql);
+	pstmt.setString(1, userID);
+	pstmt.setString(2, userPassword);
+	pstmt.setString(3, userEmail);
+	pstmt.setString(4, userGender);
+	ResultSet rs = pstmt.executeQuery();
+	
+	String name ="";
+	String pwd ="";
+	
+	if(rs.next()){
+		name = rs.getString("name");
+		pwd = rs.getString("pwd");
+	}
 
+
+%>
 <!-- 스타일시트-->
 	<link rel="stylesheet" href="../CSS/Menubar.css">
 	<link rel="stylesheet" href="../CSS/bootstrap.css">
@@ -88,35 +117,33 @@
 			
 			
 				<h3 style="text-align: center;">나의 정보 확인 화면</h3>
-				
+				<form action="MyInformationPro.jsp" method="post">
 				<div class="form-group">
 					<input type="image" src="../../images/email.png"  id="userIdimage">
-					<input type="text" class="form-control" placeholder="아이디" name="userID" maxlength="20">
+					<input type="text" class="form-control" placeholder="아이디" name="userID" id="userID" maxlength="20">
 					
 				</div>
 				
 				<div class="form-group">
 					<input type="image" src="../../images/userpassword.png"  id="userPasswordimage" >
-					<input type="password" class="form-control" placeholder="비밀번호" name="userPassword" maxlength="20">
+					<input type="password" class="form-control" placeholder="비밀번호" name="userPassword" id="userPassword" maxlength="20">
 					
 					</div>
 				<div class="form-group">
 					<input type="image" src="../../images/userpassword.png"  id="userPasswordimage" >
-					<input type="password" class="form-control" placeholder="비밀번호" name="userPasswordCheck" maxlength="20">
+					<input type="password" class="form-control" placeholder="비밀번호" name="userPassword" id="userPassword" maxlength="20">
 				</div>
 				<div class="form-group">
 					<input type="image" src="../../images/email.png"  id="userEmailimage" >
-					<input type="email" class="form-control" placeholder="이메일"name="userEmail" maxlength="20">
+					<input type="email" class="form-control" placeholder="이메일"name="userEmail" id="userEmail" maxlength="20">
 					
 				</div>
 				<div class="form-group">
 					<input type="image" src="../../images/usergender.png"  id="userGenderimage" >
-					<input type="email" class="form-control" placeholder="성별"name="userGender" maxlength="20">
+					<input type="text" class="form-control" placeholder="성별"name="userGender" id="userGender" maxlength="20">
 					
 				</div>
-				<form method="post" action="HomePage.jsp">
 					<input type="submit" class="btn btn-primary form-control" value="로그인">
-					
 				</form>
 				
 				</div>
