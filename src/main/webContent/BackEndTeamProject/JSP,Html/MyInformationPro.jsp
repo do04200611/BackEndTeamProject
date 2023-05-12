@@ -45,6 +45,6 @@
 	<script>
 		let ans = alert("변경되었습니다!");
 		if (!ans){
-			location.href='Homepage.jsp';
+			location.href='HomePage.jsp';
 		}
 	</script>
