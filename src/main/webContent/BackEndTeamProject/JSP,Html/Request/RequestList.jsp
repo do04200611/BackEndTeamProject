@@ -108,7 +108,7 @@ ArrayList<BulletinBoardDto> dtos = dao.list();
 						<td style="width: 20%;">글번호</td>
 						<td>제목</td>
 		                <td>작성자</td>
-		                <td>작성일</td>
+		                <td>내용</td>
 		                <td>조회수</td>
 						<td colspan="2"></td>
 					<!-- </tr>
@@ -128,9 +128,10 @@ ArrayList<BulletinBoardDto> dtos = dao.list();
 			%>
 			<tr>
 				<td><a href="RequestUpdateForm.jsp?id=<%=dto.getId()%>"><%=dto.getId()  %></a></td>
+				<td><a href="RequestContent.jsp?title=<%=dto.getTitle()%>"><%=dto.getTitle() %></a></td>
 				<td><%=dto.getWriter()%></td>
 				<td><%=dto.getContent()%></td>
-				<td><%=dto.getTitle() %></td>
+				
 			</tr>
 			
 			<%

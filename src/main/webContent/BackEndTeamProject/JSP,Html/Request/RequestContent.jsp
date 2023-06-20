@@ -1,5 +1,13 @@
+<%@page import="java.util.ArrayList"%>
+<%@page import="cs.dit.BulletinBoardDao"%>
+<%@page import="cs.dit.BulletinBoardDto"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+<%@page import="java.sql.*"%>
+<%
+BulletinBoardDao dao = new BulletinBoardDao();
+ArrayList<BulletinBoardDto> dtos = dao.list();
+%>   
     
 <!DOCTYPE html>
 <html>
@@ -68,24 +76,27 @@
 		<div class = "row">
 			<table class="table table-striped" style="text-align:center; border:1px solid #dddddd; position: relative; bottom: 50px; left: 30px; "> 
 				<tbody>
+					<tbody>
 					<tr>
-						
-						<td style="width: 20%;">제목</td>
-		                <td>배송이 너무 늦어요</td>
+						<td style="width: 20%;">글번호</td>
+						<td>제목</td>
+		                <td>작성자</td>
+		                <td>작성일</td>
+		                <td>조회수</td>
 						<td colspan="2"></td>
-					</tr>
-					<tr>
-						<td>작성자</td>
-						<td>11nae***</td>
-		            <tr>
-	           		 	<td>작성일</td>
-						<td>2023.03.04</td>
-		            </tr>
-		         	<tr>
-			        	<td>조회 수</td>
-						<td>104</td>
-						<td colspan="2"></td>
-					</tr>
+							<%
+			for (BulletinBoardDto dto : dtos) {
+			%>
+			<tr>
+				<td><%=dto.getId()  %></td>
+				<td><%=dto.getWriter()%></td>
+				<td><%=dto.getContent()%></td>
+				<td><%=dto.getTitle() %></td>
+			</tr>
+			
+			<%
+			}
+			%>
 				</tbody>
 				</table>
 			</div>
