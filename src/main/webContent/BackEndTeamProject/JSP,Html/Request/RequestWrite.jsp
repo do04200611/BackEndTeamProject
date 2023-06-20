@@ -1,46 +1,21 @@
-<%@ page contentType="text/html; charset=UTF-8"%>
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" language="java"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%
-	request.setCharacterEncoding("UTF-8");
-	String cp = request.getContextPath();
-%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%@page import="cs.dit.BulletinBoardDao"%>
+<%@page import="cs.dit.BulletinBoardDto"%>
+
+<!DOCTYPE>
 <html>
 	<head>
 		<title>Forest</title>
 	 
-		<link rel="stylesheet" href="<%=cp %>/imageTest/css/style.css" type="text/css" />
+		
 		<link rel="shortcut icon" type="image/x-icon" href="../../../images/forest-brand-mark.png">
 		<link rel="stylesheet" href="../../CSS/Menubar.css">
 		<link rel="stylesheet" href="../../CSS/BrandMark.css">
 		<link rel="stylesheet" href="../../CSS/Request/RequestWrite.css">
 	
-	<script type="text/javascript" src="<%=cp%>/imageTest/data/image.js"></script>
-	<script type="text/javascript">
-		function sendIt() {
-			
-		    f = document.myForm;
-		    
-		    str = f.subject.value;
-		    str = str.trim();
-		    if(!str) {
-		        alert("제목을 입력하세요 !!!");
-		        f.subject.focus();
-		        return;
-		    }
-		    f.subject.value = str;
-		
-		    str = f.uploadFile.value;
-		    if(!str) {
-		        alert("이미지 파일을 선택 하세요 !!!");
-		        f.uploadFile.focus();
-		        return;
-		    }
-		    
-		    f.action="/study/image/write_ok.do";
-		    f.submit();
-		}
-	</script>
+
+	
 	</head>
 	<body>
 	 <nav class="navbar navbar-default">
@@ -88,88 +63,35 @@
 			</ul>
 		</div>
 	</nav>
-		<form method="post" action="writeAction.jsp">
-				<table class="bulletinwrite" >
-					<thead>
-						<tr>
-							<th class="bulletinboardtitle" colspan="2" style="background-color: #eeeeee; 
-								text-align: center;"> 답변 게시판 글쓰기
-							</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>
-								<input type="text" class="form-control" placeholder="글 제목" name="bbsTitle" 
-								maxlength="50">
-							</td>
-						</tr>
-						<tr>	
-							<td>
-								<textarea class="form-control" placeholder="글 내용" name="bbsContent"
-								 maxlength="2048" style="height: 350px;">
-							</textarea>
-							</td>
-						</tr>
-					</tbody>
-				</table>
-			</form>
-		</div>
-	
-            <div class="imageplus">
-            	<br/><br/>
-		<table width="1000" border="2" cellpadding="0" cellspacing="0"
-		bordercolor="#d6d4a6" align="center">
-		 
-		<tr  height="40">
-		   <td style="padding-left: 20px;">
-		   <b>이미지 게시판</b>
-		   </td>
-		</tr>   
-		</table>
-		 
-	<form action="<%=cp%>/image/write_ok.do" method="post" enctype="multipart/form-data"></form>
-	
-		<table width="1000" border="0" cellspacing="0" align="center">
-			<tr><td colspan="2" height="1" bgcolor="#dbdbdb" align="center"></td></tr>   
-	   	<tr>
-	      <td width="1000" height="30" bgcolor="#eeeeee" style="padding-left: 20px;">
-	      제&nbsp;&nbsp;&nbsp;목
-	      </td>
-	      <td width="560" style="padding-left: 10px;">
-	      <input type="text" name="subject" size="35" maxlength="20" class="boxTF"/>
-	      </td>
-	   </tr>
-   
-	   <tr><td colspan="2" height="1" bgcolor="#dbdbdb" align="center"></td></tr>   
-	   
-	   <tr>
-	      	<td width="1000" height="30" bgcolor="#eeeeee" style="padding-left: 20px;">
-	     	 파&nbsp;&nbsp;&nbsp;일
-	      	</td>
-	      	<td width="1000" style="padding-left: 10px;">
-	      		<input type="file" name="upload" maxlength="100" size="48" class="filebutton"/>
-	      	</td>
-   		</tr>      
-   
-   		<tr><td colspan="2" height="3" bgcolor="#dbdbdb" align="center"></td></tr>   
-   		</table>
-   		
- 
-   		<table width="1000" border="0" cellpadding="0" cellspacing="3" align="center">
-   			<tr align="center">
-      			<td height="40">
-      			<!-- mailSend(); -> mail.js에 있다. --> 			
-		      </td>
-	      </tr>
-		</table>	
+		<div class="container">
+		<br>
+		<h2 class="text-center font-weight-bold">사용자 입력</h2>
+		<hr>
+		<form action="RequestWritePro.jsp" method="post">
+		<div class="form-group">
+	      <label for="id">ID:</label>
+	      <input type="text" class="form-control" id="id" name="id">
+	    </div>
+	    <div class="form-group">
+	      <label for="title">제목:</label>
+	      <input type="text" class="form-control" id="title" name="title">
+	    </div>
+	    <div class="form-group">
+	      <label for="content">내용:</label>
+	      <input type="text" class="form-control" id="content" name="content">
+	    </div>
+	     <div class="form-group">
+	      <label for="writer">작성자:</label>
+	      <input type="text" class="form-control" id="writer" name="writer">
+	    </div>
+	    <br>
+	</div>
 				<div>	
-	      			<a href="RequestList.jsp">
-	      				<input type="submit" id="writebutton" class="btn btn-primary form-control" value="등록하기">	
-					    <input type="submit" id="writecancelbutton" class="btn btn-primary form-control" value="작성취소">
-	      			</a>
+	      				<input type="submit" id="writebutton" class="btn btn-primary form-control" value="등록하기" onclick="location.href='RequestWritePro.jsp">	
+					    <input type="submit" id="writecancelbutton" class="btn btn-primary form-control" value="작성취소" onclick="location.href='RequestList.jsp">
+	      			
 				</div>			
-			
+			</form>
  
 	</body>
 </html>

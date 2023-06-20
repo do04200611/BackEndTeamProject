@@ -14,10 +14,10 @@
 <!--뷰포트-->
 
 <meta name ="viewport" content = "width = device-width" initial-scale="1">
-<% 	String userID = request.getParameter("userID");
-	String userPassword = request.getParameter("userPassword");
-	String userEmail = request.getParameter("userEmail");
-	String userGender = request.getParameter("userGender");
+<!-- DB 연결 코드 -->
+<% 	String id = request.getParameter("id");
+	String pwd = request.getParameter("pwd");
+	String name = request.getParameter("name");
 	
 	Class.forName("org.mariadb.jdbc.Driver");
 	String url ="jdbc:mariadb://localhost:3306/gildongdb";
@@ -25,20 +25,18 @@
 	String passwd ="1111";
 	Connection con = DriverManager.getConnection(url, user, passwd);
 	
-	String sql = "select * from membership where userID = ?";
+	String sql = "select * from login where id = ?";
 	PreparedStatement pstmt = con.prepareStatement(sql);
-	pstmt.setString(1, userID);
-	pstmt.setString(2, userPassword);
-	pstmt.setString(3, userEmail);
-	pstmt.setString(4, userGender);
+	pstmt.setString(1, id);
+	pstmt.setString(2, pwd);
+	pstmt.setString(3, name);
 	ResultSet rs = pstmt.executeQuery();
 	
-	String name ="";
-	String pwd ="";
+	
 	
 	if(rs.next()){
-		name = rs.getString("name");
 		pwd = rs.getString("pwd");
+		name = rs.getString("name");
 	}
 
 
@@ -143,7 +141,8 @@
 					<input type="text" class="form-control" placeholder="성별"name="userGender" id="userGender" maxlength="20">
 					
 				</div>
-					<input type="submit" class="btn btn-primary form-control" value="로그인">
+					<input type="submit" class="btn btn-primary form-control" value="확인" onclick="location.href='HomePage.jsp'">
+					<input type="submit" class="btn btn-primary form-control" value="탈퇴" onclick="location.href='delete.jsp?id=<%=%>'">
 				</form>
 				
 				</div>

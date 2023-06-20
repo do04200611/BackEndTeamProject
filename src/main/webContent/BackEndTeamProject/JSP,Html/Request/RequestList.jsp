@@ -1,8 +1,15 @@
+<%@page import="java.util.ArrayList"%>
+<%@page import="cs.dit.BulletinBoardDao"%>
+<%@page import="cs.dit.BulletinBoardDto"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@page import="java.sql.*"%>
 <%@page import="javax.swing.text.html.CSS.*"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>  
+<%
+BulletinBoardDao dao = new BulletinBoardDao();
+ArrayList<BulletinBoardDto> dtos = dao.list();
+%>
 <html>
 <head>
 	<link rel="stylesheet" href="../../CSS/Request/RequestList.css">
@@ -104,7 +111,7 @@
 		                <td>작성일</td>
 		                <td>조회수</td>
 						<td colspan="2"></td>
-					</tr>
+					<!-- </tr>
 					<tr>
 						  <td>1</td>
 		            <td>
@@ -115,7 +122,20 @@
 			         <td>2023.03.01</td>
 			         <td>101</td>
 						<td colspan="2"></td>
-					</tr>
+					</tr> -->
+					<%
+			for (BulletinBoardDto dto : dtos) {
+			%>
+			<tr>
+				<td><a href="RequestUpdateForm.jsp?id=<%=dto.getId()%>"><%=dto.getId()  %></a></td>
+				<td><%=dto.getWriter()%></td>
+				<td><%=dto.getContent()%></td>
+				<td><%=dto.getTitle() %></td>
+			</tr>
+			
+			<%
+			}
+			%>
 				</tbody>
 				</table>
 		           
@@ -180,12 +200,11 @@
 
 		            
 		            <input type="text" size="20" name="condition"/>
-		             <input type="submit" id="searchbutton" class="btn btn-primary form-control" value="검색하기">	
-   		            <a href="RequestWrite.jsp"><!-- 버튼을 누르면 ProductReviewWrite.jsp로 값을 넘겨준다. -->
+		             <input type="button" id="searchbutton" class="btn btn-primary form-control" value="검색하기">	
+   
    		            	<!--ProductReviewWrite.jsp로 값을 넘겨줄 버튼을 만드는 코드 -->	            	
-					    <input type="submit" id="addbutton" class="btn btn-primary form-control" value="등록하기">
-	            	</a>
-		            
+					    <input type="button" id="addbutton" class="btn btn-primary form-control" value="등록하기" onclick="location.href='RequestWrite.jsp'">
+	            
 	            </div>
 		           
 		            

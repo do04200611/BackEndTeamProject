@@ -29,10 +29,10 @@
 	String sql = "UPDATE membership SET userPassword=?, userEmail = ? ,userGender = ? WHERE userID=?";
 	
 	PreparedStatement pstmt = con.prepareStatement(sql);
-	pstmt.setString(1, userPassword);
-	pstmt.setString(2, userEmail);
-	pstmt.setString(3, userGender);
-	pstmt.setString(4, userID);
+	pstmt.setString(1,userID);
+	pstmt.setString(2, userPassword);
+	pstmt.setString(3, userEmail);
+	pstmt.setString(4, userGender  );
 	
 	//4. SQL 실행
 	int i = pstmt.executeUpdate();

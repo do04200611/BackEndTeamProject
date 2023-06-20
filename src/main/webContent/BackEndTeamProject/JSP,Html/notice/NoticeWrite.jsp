@@ -104,12 +104,13 @@
 								maxlength="50">
 							</td>
 						</tr>
-						<tr>	
+						<tr>
 							<td>
 								<textarea class="form-control" placeholder="글 내용" name="bbsContent"
 								 maxlength="2048" style="height: 350px;">
 							</textarea>
 							</td>
+							
 						</tr>
 					</tbody>
 				</table>
@@ -118,7 +119,7 @@
 	
             <div class="imageplus">
             	<br/><br/>
-		<table width="1000" border="2" cellpadding="0" cellspacing="0"
+		<%-- <table width="1000" border="2" cellpadding="0" cellspacing="0"
 		bordercolor="#d6d4a6" align="center">
 		 
 		<tr  height="40">
@@ -162,7 +163,7 @@
       			<!-- mailSend(); -> mail.js에 있다. --> 			
 		      </td>
 	      </tr>
-		</table>	
+		</table>	 --%>
 				</div>
            		<div>	
 	      			<a href="NoticeList.jsp">

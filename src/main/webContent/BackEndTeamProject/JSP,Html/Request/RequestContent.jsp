@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    
 <!DOCTYPE html>
 <html>
 <head>
@@ -99,6 +100,12 @@
             <input type="submit" id="searchbutton" class="btn btn-primary form-control" value="댓글">	
 		            <a href="../Request/RequestList.jsp"> 
 		            	<input type="submit" id="addbutton" class="btn btn-primary form-control" value="목록">
-		            </a>			
+		            </a>		
+		            <a href="../Request/RequestUpdateForm.jsp"> 
+		            	<input type="button" class="btn btn-primary form-control" value="수정" style="border-radius:10px; width: 100px;">
+		            </a>	
+		            <a href="../Request/RequestDelete.jsp"> 
+		            	<input type="button" class="btn btn-primary form-control" value="삭제" style="border-radius:10px; width: 100px;">
+		            </a>		
 	</body>
 </html>

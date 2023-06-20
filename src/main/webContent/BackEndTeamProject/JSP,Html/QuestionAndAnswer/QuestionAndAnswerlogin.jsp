@@ -102,18 +102,8 @@
 	    <li class="upponmenubardetail" ><a href="../notice/NoticeList.jsp">공지사항</a></li>
 	  </ul>
 	</nav>
+
 	
-	<nav class="questionboardupponmenubarnav" >
-	  <ul class="questionboardupponmenubarul">
-	    <li class="questionboardupponmenubardetail"><a href="../Request/RequestList.jsp">취소/교환/반품</a></li>
-	    <li class="questionboardupponmenubardetail"><a href="../QuestionAndAnswer.jsp">보호 조치</a></li>
-	    <li class="questionboardupponmenubardetail"><a href="../productreview/ProductReviewList.jsp">배송 문의</a></li>
-	    <li class="questionboardupponmenubardetail" ><a href="../notice/NoticeList.jsp">주문결제</a></li>
-        <li class="questionboardupponmenuardetail" ><a href="../notice/NoticeList.jsp">회원 서비스</a></li>
-	  	<li class="questionboardupponmenuardetail" ><a href="../notice/NoticeList.jsp">환불</a></li>
-	  	<li class="questionboardupponmenuardetail" ><a href="../notice/NoticeList.jsp">정기 배송</a></li>
-	  </ul>
-	</nav>
 	<!-- 회원 명단을 표로 구현 한 부분 -->
 	<div class="container">
     <h3 style="text-align: center; padding-top: 50px;">

@@ -30,3 +30,37 @@
 	  width: 100%
 	}
 		 
+/* ================================*/
+ 	.otherupponmenubarnav .otherupponmenubarul {
+	  overflow: hidden;
+	  margin: 0;
+	  padding: 0px;
+	  display: flex; /* 메뉴 항목을 가로 방향으로 정렬하기 위해 flexbox를 사용합니다. */
+	}
+
+	.otherupponmenubarnav .otherupponmenubarul .otherupponmenubardetail {
+	  list-style: none;
+	  text-align: center;
+	  border-left: 1px solid #fff;
+	  margin-bottom: 20px;
+	}
+	
+	.otherupponmenubarnav .otherupponmenubarul .otherupponmenubardetail:first-child {
+	  border-left: none;
+	}
+	
+	.otherupponmenubarnav .otherupponmenubarul .otherupponmenubardetail a {
+	  text-decoration: none;
+	  color: white;
+	  background-color: skyblue;
+	  padding: 50px 0;
+	  box-sizing: border-box;
+	  border-radius: 30px;
+	  width: 100px;
+	  height: 100px;
+	  position: absolute;
+	  left: 500px;
+	  top: 150px;
+	  
+	}
+		 	 

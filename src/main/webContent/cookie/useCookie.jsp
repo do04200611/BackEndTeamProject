@@ -8,7 +8,7 @@
 </head>
 <body>
 	<h3>쿠키보기</h3>
-	<%
+	<%-- <%
 		Cookie[] rcookies = request.getCookies();
 	
 		if(cookies != null){
@@ -17,12 +17,12 @@
 					
 	%>
 				쿠키의 속성명<%=cookies[i].getName() %>
-				쿠키의 값:<%=cookies[i].getValue() %>
-	<%
+				쿠키의 값:<%=cookies[i].getValue() %> --%>
+	<%-- <%
 				}
 			}
 		}
 	%>
-			
+		 --%>	
 </body>
 </html>

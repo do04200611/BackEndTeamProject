@@ -54,7 +54,7 @@
 	//7.사용자가 유효한 경우
 	if (rs.next()){
 		session.setAttribute("userID",userID);
-		response.sendRedirect("HomePage.jsp");
+		response.sendRedirect("LogoutHomePage.jsp");
 	}else{
 		response.sendRedirect("MemberShipRegistration.jsp");
 %>
