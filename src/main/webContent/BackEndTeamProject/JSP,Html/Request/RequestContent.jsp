@@ -78,11 +78,9 @@ ArrayList<BulletinBoardDto> dtos = dao.list();
 				<tbody>
 					<tbody>
 					<tr>
-						<td style="width: 20%;">글번호</td>
+						<td >글번호</td>
 						<td>제목</td>
 		                <td>작성자</td>
-		                <td>작성일</td>
-		                <td>조회수</td>
 						<td colspan="2"></td>
 							<%
 			for (BulletinBoardDto dto : dtos) {
@@ -90,24 +88,26 @@ ArrayList<BulletinBoardDto> dtos = dao.list();
 			<tr>
 				<td><%=dto.getId()  %></td>
 				<td><%=dto.getWriter()%></td>
-				<td><%=dto.getContent()%></td>
 				<td><%=dto.getTitle() %></td>
+				<td></td>
 			</tr>
 			
-			<%
-			}
-			%>
+		
+			
+			
 				</tbody>
 				</table>
+				<hr>
+				<h1 id="answertitle">답변</h1><br>
+				<%=dto.getContent() %>
+				<%
+			}
+			%>
 			</div>
 		</div>
 	<hr>
-		<p class="bulletincontent">배송이 너무 늦게 옵니다. 
-		상담원에게 전화를 해도 어쩔 수 없다고 얘기하고 해서 인력을 고용해서 배송 시간을 단축 시키면 좋겠습니다.</p>
-		<p class="bulletincontent">화가 매우 나니 정중한 사과도 요구합니다.</p>
-	<hr>
-		<h1 id="answertitle">답변</h1><br>
-		<p class="bulletincontent">배송이 너무 늦은 점 정말이지 죄송하게 생각하며 이런 일이 없도록 하겠습니다.</p><br>
+	
+	
             <input type="submit" id="searchbutton" class="btn btn-primary form-control" value="댓글">	
 		            <a href="../Request/RequestList.jsp"> 
 		            	<input type="submit" id="addbutton" class="btn btn-primary form-control" value="목록">

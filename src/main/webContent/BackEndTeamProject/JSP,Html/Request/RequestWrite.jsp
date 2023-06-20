@@ -63,34 +63,55 @@
 			</ul>
 		</div>
 	</nav>
-		<div class="container">
-		<br>
-		<h2 class="text-center font-weight-bold">사용자 입력</h2>
-		<hr>
+	
+		
 		<form action="RequestWritePro.jsp" method="post">
-		<div class="form-group">
-	      <label for="id">ID:</label>
-	      <input type="text" class="form-control" id="id" name="id">
-	    </div>
-	    <div class="form-group">
-	      <label for="title">제목:</label>
-	      <input type="text" class="form-control" id="title" name="title">
-	    </div>
-	    <div class="form-group">
-	      <label for="content">내용:</label>
-	      <input type="text" class="form-control" id="content" name="content">
-	    </div>
-	     <div class="form-group">
-	      <label for="writer">작성자:</label>
-	      <input type="text" class="form-control" id="writer" name="writer">
-	    </div>
-	    <br>
-	</div>
+				<table class="bulletinwrite" >
+				
+					<thead>
+						<tr>
+							<th class="bulletinboardtitle" colspan="2" style="background-color: #eeeeee; 
+								text-align: center;"> 답변 게시판 글쓰기
+							</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>
+							 <input type="text" class="form-control" id="id" name="id">
+							</td>
+							</tr>
+							<tr>
+							<tr>
+							<td>
+								<input type="text" class="form-control" id="writer" name="writer">
+							</td>
+							
+						</tr>
+							<td>
+								<input type="text" class="form-control" placeholder="글 제목" name="bbsTitle" 
+								maxlength="50" id="title">
+							</td>
+						</tr>
+						<tr>	
+							<td>
+								<textarea class="form-control" placeholder="글 내용" name="bbsContent"
+								 maxlength="2048" style="height: 350px;" id="content" >
+							</textarea>
+							</td>
+							</tr>
+							
+					</tbody>
+				</table>
+		
+		
 				<div>	
-	      				<input type="submit" id="writebutton" class="btn btn-primary form-control" value="등록하기" onclick="location.href='RequestWritePro.jsp">	
+	      				<input type="submit" id="writebutton" class="btn btn-primary form-control" value="등록하기" onclick="location.href='RequestWritePro.jsp" >	
 					    <input type="submit" id="writecancelbutton" class="btn btn-primary form-control" value="작성취소" onclick="location.href='RequestList.jsp">
+					    
 	      			
-				</div>			
+				</div>		
+				
 			</form>
  
 	</body>
