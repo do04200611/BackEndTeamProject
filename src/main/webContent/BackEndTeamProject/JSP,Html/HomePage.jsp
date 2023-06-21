@@ -56,7 +56,6 @@
 						aria-expanded="false">홈페이지<span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li class="active"><a href="Login.jsp">로그인</a></li>
-						<li class="active"><a href="MemberManagementBulletinBoard.jsp">관리자페이지</a></li>
 					</ul>
 				</li>
 			</ul>

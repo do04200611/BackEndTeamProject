@@ -146,12 +146,12 @@
 					
 				</div>
 					<input type="submit" id="mebershipRegistration" class="btn btn-primary form-control" value="확인" >
-					<input type="submit" id="mebershipRegistrationcancel" class="btn btn-primary form-control" value="취소">
 				</form>
 				
 				</div>
-				
+				<input type="submit" id="mebershipRegistrationcancel" class="btn btn-primary form-control" value="취소" onclick="location.href='Login.jsp'" >
 				</div>
+				
 				<div class="col-lg-4"></div>
 			</div>
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js">

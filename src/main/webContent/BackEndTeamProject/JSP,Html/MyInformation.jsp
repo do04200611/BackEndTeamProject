@@ -144,8 +144,8 @@
 					<input type="text" class="form-control" placeholder="성별"name="userGender" id="userGender" maxlength="20" value="<%=userGender%>">
 					
 				</div>
-					<input type="submit" class="btn btn-primary form-control" value="변경" onclick="location.href='HomePage.jsp'">
-					<input type="submit" class="btn btn-primary form-control" value="탈퇴" onclick="location.href='delete.jsp?id=<%=userID%>'">
+					<input type="submit" class="btn btn-primary form-control" value="변경" onclick="location.href='LogoutHomePage.jsp'" >
+					<input type="submit" class="btn btn-primary form-control" value="탈퇴" onclick="location.href='delete.jsp?id=<%=userID%>'" style="position: relative; top:30px; ">
 				</form>
 				
 				</div>
