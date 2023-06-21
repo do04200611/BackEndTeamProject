@@ -3,6 +3,7 @@
 
 
 <H1>백앤드 팀 프로젝트를 준비하면서 만든 코드 및 파일을 올려둔 것입니다.</H1>
+<H3>아래 영상은 시행영상, 사진은 발표자료 PPT 입니다.</H3>
 
 
 https://github.com/do04200611/BackEndTeamProject/assets/74278578/2e4843a4-34cb-4a4d-a806-b475ce089121
