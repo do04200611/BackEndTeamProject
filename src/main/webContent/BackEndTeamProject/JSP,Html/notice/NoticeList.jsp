@@ -1,8 +1,15 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@page import="java.sql.*"%>
+<%@page import="java.util.ArrayList"%>
+<%@page import="cs.dit.BulletinBoardDao"%>
+<%@page import="cs.dit.BulletinBoardDto"%>
 <%@page import="javax.swing.text.html.CSS.*"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>  
+<%
+BulletinBoardDao dao = new BulletinBoardDao();
+request.setAttribute("dtoList", new BulletinBoardDao().list() );
+%>
 <html>
 <head>
 	
@@ -97,22 +104,26 @@
 		    <h1>공지사항</h1>
 		    <div class="container">
 		<div class = "row">
-			<table class="table table-striped" style="text-align:center; border:1px solid #dddddd; position: relative; right: 100px; bottom:100px;"> 
+			<table class="table table-striped" style="text-align:center; border:1px solid #dddddd; position: relative; bottom: 100px; "> 
 				<tbody>
 					<tr>
 						<td style="width: 20%;">글번호</td>
-						<td>작성자</td>
-						 <td>작성일</td>
-						  <td>조회수</td>
+						<td>제목</td>
+		                <td>작성자</td>
+		                <td>내용</td>
+		                <td>조회수</td>
 						<td colspan="2"></td>
-					</tr>
-					<tr>
-						 <td>1.</td>
-			           <td> <a href="NoticeContent.jsp">서비스 점검 안내</a></td>
-			            <td>2023.03.01</td>
-			            <td>100</td>
-						<td colspan="2"></td>
-					</tr>
+						
+				<c:forEach var="dto" items="${dtoList}">
+			<tr>
+				<td><a href="RequestUpdateForm.jsp?id= ${ dto.getId()}">${dto.getId()}</a></td>
+				<td><a href="RequestContent.jsp?title=${dto.getTitle()}">${dto.getTitle()}</a></td>
+				<td>${dto.getWriter()}</td>
+				<td>${dto.getContent()}</td>
+				
+			</tr>
+			</c:forEach>
+			
 				</tbody>
 				</table>
 		        <c:forEach var="board" items="${requestScope.list}">

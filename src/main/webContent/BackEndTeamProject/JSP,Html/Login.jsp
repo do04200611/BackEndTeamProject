@@ -99,7 +99,7 @@
 						<input type="image" src="../../images/userpassword.png"  id="userPasswordimage" >
 						<input type="password" class="form-control" placeholder="비밀번호" name="userPassword"  id="userPassword" maxlength="20">
 					</div>
-						<input type="submit" class="btn btn-primary form-control" value="로그인">
+						<input type="submit" class="btn btn-primary form-control" value="로그인" onclick="location.href='loginPro.jsp.jsp'">
 				</form>
 				
 				</div>

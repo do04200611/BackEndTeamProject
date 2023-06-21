@@ -15,7 +15,8 @@
 
 <meta name ="viewport" content = "width = device-width" initial-scale="1">
 <!-- DB 연결 코드 -->
-<% 	String userID = request.getParameter("userID");
+<% 	
+	String userID = request.getParameter("userID");
 	String userPassword = request.getParameter("userPassword");
 	String userEmail = request.getParameter("userEmail");
 	String userGender = request.getParameter("userGender");
@@ -31,7 +32,7 @@
 	pstmt.setString(1, userID);
 	pstmt.setString(2, userPassword);
 	pstmt.setString(3, userEmail);
-	pstmt.setString(3, userGender);
+	pstmt.setString(4, userGender);
 	ResultSet rs = pstmt.executeQuery();
 	
 	
@@ -117,35 +118,35 @@
 			
 			
 			
-				<h3 style="text-align: center;">나의 정보 확인 화면</h3>
-				<form action="MyInformationPro.jsp" method="post">
+				<h3 style="text-align: center;">회원 가입 화면</h3>
+				<form action="MemberShipRegistrationPro.jsp" method="post">
 				<div class="form-group">
 					<input type="image" src="../../images/email.png"  id="userIdimage">
-					<input type="text" class="form-control" placeholder="아이디" name="userID" id="userID" maxlength="20" value="<%=userID%>">
+					<input type="text" class="form-control" placeholder="아이디" name="userID" id="userID" maxlength="20">
 					
 				</div>
 				
 				<div class="form-group">
 					<input type="image" src="../../images/userpassword.png"  id="userPasswordimage" >
-					<input type="password" class="form-control" placeholder="비밀번호" name="userPassword" id="userPassword" maxlength="20" value="<%=userPassword%>">
+					<input type="password" class="form-control" placeholder="비밀번호" name="userPassword" id="userPassword" maxlength="20">
 					
 					</div>
 				<div class="form-group">
 					<input type="image" src="../../images/userpassword.png"  id="userPasswordimage" >
-					<input type="password" class="form-control" placeholder="비밀번호" name="userPassword" id="userPassword" maxlength="20"  value="<%=userPassword%>" >
+					<input type="password" class="form-control" placeholder="비밀번호" name="userPassword" id="userPassword" maxlength="20">
 				</div>
 				<div class="form-group">
 					<input type="image" src="../../images/email.png"  id="userEmailimage" >
-					<input type="email" class="form-control" placeholder="이메일"name="userEmail" id="userEmail" maxlength="20" value="<%=userEmail%>">
+					<input type="email" class="form-control" placeholder="이메일"name="userEmail" id="userEmail" maxlength="20">
 					
 				</div>
 				<div class="form-group">
 					<input type="image" src="../../images/usergender.png"  id="userGenderimage" >
-					<input type="text" class="form-control" placeholder="성별"name="userGender" id="userGender" maxlength="20" value="<%=userGender%>">
+					<input type="text" class="form-control" placeholder="성별"name="userGender" id="userGender" maxlength="20">
 					
 				</div>
-					<input type="submit" class="btn btn-primary form-control" value="변경" onclick="location.href='HomePage.jsp'">
-					<input type="submit" class="btn btn-primary form-control" value="탈퇴" onclick="location.href='delete.jsp?id=<%=userID%>'">
+					<input type="submit" class="btn btn-primary form-control" value="확인" >
+					<input type="submit" class="btn btn-primary form-control" value="취소">
 				</form>
 				
 				</div>

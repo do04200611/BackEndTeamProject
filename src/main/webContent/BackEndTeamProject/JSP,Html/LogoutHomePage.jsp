@@ -59,11 +59,7 @@
 					</ul>
 				</li>
 			</ul>
-			<ul class="nav navbar-nav navbar-right">
-				<li class="dropdown">
-					<%=session.getAttribute("userID") %>님반갑습니다!!
-				</li>
-			</ul>
+			
 			
 		</div>
 	</nav>

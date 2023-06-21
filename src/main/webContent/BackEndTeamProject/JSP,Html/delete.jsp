@@ -23,10 +23,10 @@
 	Connection con = DriverManager.getConnection(url, user, passwd);
 
 	//3. 생성된 연결을 통해 SQL문 실행 의뢰 준비
-	String sql = "DELETE FROM login2 WHERE ID=?";
+	String sql = "DELETE FROM membership WHERE userID=?";
 	
 	PreparedStatement pstmt = con.prepareStatement(sql);
-	
+	pstmt.setString(1, request.getParameter("userID"));
 	//5. SQL 실행
 	int i = pstmt.executeUpdate();
 	

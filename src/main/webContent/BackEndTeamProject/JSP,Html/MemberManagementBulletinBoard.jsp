@@ -113,7 +113,7 @@ try (Connection con = DriverManager.getConnection(url, user, passwd);
 						String userGender = rs.getString("userGender");
 			%>
 					<tr>
-						<td><a href="updateForm.jsp?userID=<%=userID%>"><%=userID%></a></td>
+						<td><a href="MyInformation.jsp?userID=<%=userID%>"><%=userID%></a></td>
 
 						<td><%=userPassword%></td>
 						<td><%=userEmail%></td>
