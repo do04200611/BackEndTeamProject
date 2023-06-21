@@ -35,7 +35,7 @@
 						aria-expanded="false">게시판<span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li><a href="../productreview/ProductReviewList.jsp">상품 후기</a></li>
-						<li><a href="../QuestionAndAnswer.jsp">자주묻는 질문</a></li>
+						<li><a href=".../QuestionAndAnswer/QuestionAndAnswerlogin.jsp">자주묻는 질문</a></li>
 						<li><a href="../Request/RequestList.jsp">답변 게시판</a></li>
 						<li><a href="../notice/NoticeList.jsp">공지 사항</a></li>
 					</ul>
@@ -57,8 +57,8 @@
 		<ul>
 		  <li><a class="vertical" href="../notice/NoticeList.jsp">공지사항</a></li>
 		  <li><a class="vertical" href="../Request/RequestList.jsp">답변 게시판</a></li>
-		  <li><a class="vertical" href="../QuestionAndAnswer.jsp">자주 묻는 질문</a></li>
-		  <li><a class="vertical" href="../productreview/AlbumBulletinBoardList.jsp">상품 후기</a></li>
+		  <li><a class="vertical" href="../QuestionAndAnswer/QuestionAndAnswerlogin.jsp">자주 묻는 질문</a></li>
+		  <li><a class="vertical" href="../productreview/ProductReviewList.jsp">상품 후기</a></li>
 		  <li><a class="vertical" href="../PurchasePage.jsp">구매 페이지</a></li>
 		</ul>
 		<!--게시글 내용 -->

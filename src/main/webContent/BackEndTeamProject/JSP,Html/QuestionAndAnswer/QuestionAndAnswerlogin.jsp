@@ -71,7 +71,7 @@
 						aria-expanded="false">게시판<span class="caret"></span></a>
 					<ul class="dropdown-menu">
 						<li><a href="productreview/ProductReviewList.jsp">상품 후기</a></li>
-						<li><a href="QuestionAndAnswer.jsp">자주묻는 질문</a></li>
+						<li><a href="../QuestionAndAnswer/QuestionAndAnswerlogin.jsp">자주묻는 질문</a></li>
 						<li><a href="Request/RequestList.jsp">답변 게시판</a></li>
 						<li><a href="notice/NoticeList.jsp">공지 사항</a></li>
 					</ul>
@@ -83,7 +83,7 @@
 							data-toggle="dropdown" role="button" aria-haspopup="true"
 							aria-expanded="false">홈페이지<span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li class="active"><a href="과제2.jsp">로그인</a></li>
+							<li class="active"><a href="../Login.jsp">로그인</a></li>
 						</ul>
 					</li>
 				</ul>
@@ -91,17 +91,16 @@
 	</nav>
 	<!-- 세로 메뉴바 -->
 	<ul>
-	  <li><a class="vertical" href="notice/NoticeList.jsp">공지사항</a></li>
-	  <li><a class="vertical" href="Request/RequestList.jsp">답변 게시판</a></li>
-	  <li><a class="vertical" href="QuestionAndAnswer.jsp">자주 묻는 질문</a></li>
-	  <li><a class="vertical" href="productreview/ProductReviewList.jsp">상품 후기</a></li>
-	  <li><a class="vertical" href="PurchasePage.jsp">구매 페이지</a></li>
+	  <li><a class="vertical" href="../notice/NoticeList.jsp">공지사항</a></li>
+	  <li><a class="vertical" href="../Request/RequestList.jsp">답변 게시판</a></li>
+	  <li><a class="vertical" href="../QuestionAndAnswer/QuestionAndAnswerlogin.jsp">자주 묻는 질문</a></li>
+	  <li><a class="vertical" href="../productreview/ProductReviewList.jsp">상품 후기</a></li>
 	</ul>
 	<!--상단 메뉴바 -->
 	<nav class="upponmenubarnav" >
 	  <ul class="upponmenubarul">
 	    <li class="upponmenubardetail"><a href="../Request/RequestList.jsp">답변 게시판</a></li>
-	    <li class="upponmenubardetail"><a href="../QuestionAndAnswer.jsp">자주 묻는 질문</a></li>
+	    <li class="upponmenubardetail"><a href="../QuestionAndAnswer/QuestionAndAnswerlogin.jsp">자주 묻는 질문</a></li>
 	    <li class="upponmenubardetail"><a href="../productreview/ProductReviewList.jsp">상품 후기</a></li>
 	    <li class="upponmenubardetail" ><a href="../notice/NoticeList.jsp">공지사항</a></li>
 	  </ul>

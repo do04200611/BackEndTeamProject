@@ -59,7 +59,7 @@
                     aria-expanded="false">게시판<span class="caret"></span></a>
                 <ul class="dropdown-menu">
                     <li><a href="../productreview/ProductReviewList.jsp">상품 후기</a></li>
-                    <li><a href="../QuestionAndAnswer.jsp">자주묻는 질문</a></li>
+                    <li><a href="../QuestionAndAnswer/QuestionAndAnswerlogin.jsp">자주묻는 질문</a></li>
                     <li><a href="../Request/RequestList.jsp">답변 게시판</a></li>
                     <li><a href="../notice/NoticeList.jsp">공지 사항</a></li>
                 </ul>
@@ -94,7 +94,7 @@
 	  </li>
 	  <li>
 	  	<!-- 자주 묻는 질문을 누르면 QuestionAndAnswer.jsp페이지로 이동시킨다. -->
-	  	<a class="vertical" href="../QuestionAndAnswer.jsp">자주 묻는 질문</a>
+	  	<a class="vertical" href="../QuestionAndAnswer/QuestionAndAnswerlogin.jsp">자주 묻는 질문</a>
 	  </li>
 	  <li>
 	  	<!-- 상품후기 누르면 ProductReviewList.jsp페이지로 이동시킨다. -->
