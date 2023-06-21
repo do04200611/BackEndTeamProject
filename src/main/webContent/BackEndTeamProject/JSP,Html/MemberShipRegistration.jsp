@@ -145,8 +145,8 @@
 					<input type="text" class="form-control" placeholder="성별"name="userGender" id="userGender" maxlength="20">
 					
 				</div>
-					<input type="submit" class="btn btn-primary form-control" value="확인" >
-					<input type="submit" class="btn btn-primary form-control" value="취소">
+					<input type="submit" id="mebershipRegistration" class="btn btn-primary form-control" value="확인" >
+					<input type="submit" id="mebershipRegistrationcancel" class="btn btn-primary form-control" value="취소">
 				</form>
 				
 				</div>

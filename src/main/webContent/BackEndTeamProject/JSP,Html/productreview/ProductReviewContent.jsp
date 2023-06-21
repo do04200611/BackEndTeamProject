@@ -66,7 +66,7 @@
 		</ul>
 			<h1 id="customerrequire">상품 게시판</h1>
 			 <div class="container">
-
+	<!--상품 후기 게시판 내용 -->
 		<div class = "row">
 		<table class="table table-striped" style="text-align:center; border:1px solid #dddddd; position: relative; left: 100px; bottom:50px; "> 
 				<tbody>

@@ -61,6 +61,7 @@
 		  <li><a class="vertical" href="../productreview/AlbumBulletinBoardList.jsp">상품 후기</a></li>
 		  <li><a class="vertical" href="../PurchasePage.jsp">구매 페이지</a></li>
 		</ul>
+		<!--게시글 내용 -->
 			<h1 id="customerrequire">공지 사항</h1>
 		 <div class="container">
 		<div class = "row">

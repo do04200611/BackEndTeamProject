@@ -113,10 +113,10 @@ ArrayList<BulletinBoardDto> dtos = dao.list();
 		            	<input type="submit" id="addbutton" class="btn btn-primary form-control" value="목록">
 		            </a>		
 		            <a href="../Request/RequestUpdateForm.jsp"> 
-		            	<input type="button" class="btn btn-primary form-control" value="수정" style="border-radius:10px; width: 100px;">
+		            	<input type="submit" class="btn btn-primary form-control" value="수정" style="border-radius:10px; width: 100px;" onclick="location.href='RequestUpdateForm.jsp'">
 		            </a>	
 		            <a href="../Request/RequestDelete.jsp"> 
-		            	<input type="button" class="btn btn-primary form-control" value="삭제" style="border-radius:10px; width: 100px;">
+		            	<input type="submit" class="btn btn-primary form-control" value="삭제" style="border-radius:10px; width: 100px;" onclick="location.href='RequestDelete.jsp'" >
 		            </a>		
 	</body>
 </html>

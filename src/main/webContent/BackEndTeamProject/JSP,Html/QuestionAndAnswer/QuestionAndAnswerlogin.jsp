@@ -4,6 +4,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
+	 <!-- CSS 및 Bootstrap 스타일시트 -->
 	<link rel="shortcut icon" type="image/x-icon" href="../../../images/forest-brand-mark.png">
 	<link rel="stylesheet" href="../../CSS/QuestionAndAnswer.css">
 	<link rel="stylesheet" href="../../CSS/Menubar.css">
@@ -12,10 +13,12 @@
 	<link rel="stylesheet" href="../../../CSS/custom.css">
 	<link rel="stylesheet" href="../../../CSS/bootstrap.css">
 	<link rel="stylesheet" href="../../CSS/FrequentlyAskedQuestionBoard/FrequentlyAskedQuestionBoard.css">
+	  <!-- Viewport 메타 태그 -->
 	<meta charset="UTF-8" name="viewport" 
 		  content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">	 
 	<title>Forest</title>
+	 <!-- JavaScript 코드 -->
 	<script type="text/javascript">
 	window.onload = () => {
 		  // panel-faq-container
@@ -43,6 +46,7 @@
 	</script>
 </head>
 <body>
+<!-- 네비게이션 바 -->
 	<nav class="navbar navbar-default">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed"

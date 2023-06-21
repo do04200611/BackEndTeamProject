@@ -140,7 +140,7 @@ ArrayList<BulletinBoardDto> dtos = dao.list();
 				</tbody>
 				</table>
 		           
-		            	
+		            	<table>
 		        <c:forEach var="board" items="${requestScope.list}">
 		            <tr>
 		                <td>${board.board_num}</td>

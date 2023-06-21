@@ -40,14 +40,16 @@
 		top: 30px;
 	}
 
-	#loginbutton {
-		height: 50px;
-		width: 200px;
+	#mebershipRegistration {
 		text-align: center;
 		border-radius: 10px;
 		position: relative;
-		left: 600px;
-		bottom: 270px;
+		top: 50px;
+	}
+	#mebershipRegistrationcancel{
+		position: relative;
+		top: 70px;
+		border-radius: 10px;
 	}
 	.page {
 		width: 40%;

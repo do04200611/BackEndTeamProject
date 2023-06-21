@@ -56,9 +56,9 @@
 	      <input type="text" class="form-control" id="writer" name="writer" value="<%=dto.getWriter()%>">
 	    </div>
 	    <div>	
-	      			<input type="submit" id="writebutton" class="btn btn-primary form-control" value="변경하기" onclick="location.href='RequestUpdatePro.jsp">	
-					<input type="submit" id="writecancelbutton" class="btn btn-primary form-control" value="작성취소" onclick="location.href='RequestList.jsp">	
-	      			<input type="button" id="writecancelbutton" class="btn btn-primary form-control" value="삭제" onclick="location.href='RequestDelete.jsp?id=<%=id%>'">
+	      			<input type="submit" id="writebutton" class="btn btn-primary form-control" value="변경하기" onclick="location.href='RequestUpdatePro.jsp" style="position:relative; top: 10px;">	
+					<input type="submit" id="writecancelbutton" class="btn btn-primary form-control" value="작성취소" onclick="location.href='RequestList.jsp" style="position:relative; top: 30px;">	
+	      			<input type="button" id="writecancelbutton" class="btn btn-primary form-control" value="삭제" onclick="location.href='RequestDelete.jsp?id=<%=id%>'" style="position:relative; top: 50px;">
 	      			
 				</div>		
 	    </form>

@@ -86,7 +86,7 @@ request.setAttribute("dtoList", new BulletinBoardDao().list() );
 		<ul class="verticalmenuul">
 		  <li><a class="vertical" href="../notice/NoticeList.jsp">공지사항</a></li>
 		  <li><a class="vertical" href="../Request/RequestList.jsp">답변 게시판</a></li>
-		  <li><a class="vertical" href="../QuestionAndAnswer.jsp">자주 묻는 질문</a></li>
+		  <li><a class="vertical" href="../QuestionAndAnswer/QuestionAndAnswerlogin.jsp">자주 묻는 질문</a></li>
 		  <li><a class="vertical" href="../productreview/ProductReviewList.jsp">상품 후기</a></li>
 		  <li><a class="vertical" href="../PurchasePage.jsp">구매 페이지</a></li>
 		</ul>
@@ -94,7 +94,7 @@ request.setAttribute("dtoList", new BulletinBoardDao().list() );
 	  <ul class="upponmenubarul">
 	 	 <li class="upponmenubardetail"><a href="../productreview/ProductReviewList.jsp">상품 후기</a></li>
 	    <li class="upponmenubardetail" ><a href="../Request/RequestList.jsp">답변 게시판</a></li>
-	    <li class="upponmenubardetail"><a href="../QuestionAndAnswer.jsp">자주 묻는 질문</a></li>
+	    <li class="upponmenubardetail"><a href="../QuestionAndAnswer/QuestionAndAnswer.jsp">자주 묻는 질문</a></li>
 	    <li class="upponmenubardetail" ><a href="NoticeList.jsp">공지사항</a></li>
 	  </ul>
 	</nav>
@@ -116,8 +116,8 @@ request.setAttribute("dtoList", new BulletinBoardDao().list() );
 						
 				<c:forEach var="dto" items="${dtoList}">
 			<tr>
-				<td><a href="RequestUpdateForm.jsp?id= ${ dto.getId()}">${dto.getId()}</a></td>
-				<td><a href="RequestContent.jsp?title=${dto.getTitle()}">${dto.getTitle()}</a></td>
+				<td><a href="NoticeWrite.jsp?id= ${ dto.getId()}">${dto.getId()}</a></td>
+				<td><a href="NoticeContent.jsp?title=${dto.getTitle()}">${dto.getTitle()}</a></td>
 				<td>${dto.getWriter()}</td>
 				<td>${dto.getContent()}</td>
 				
@@ -186,7 +186,7 @@ request.setAttribute("dtoList", new BulletinBoardDao().list() );
 		            
 		            <input type="text" size="20" name="condition"/>
 		   			<input type="submit" id="searchbutton" class="btn btn-primary form-control" value="검색하기">	
-   		            <a href="NoticeWrite.jsp"><input type="submit" id="addbutton" class="btn btn-primary form-control" value="등록하기"></a>
+   		            <a href="NoticeWrite.jsp"><input type="submit" id="addbutton" class="btn btn-primary form-control" value="등록하기" onclick="location.href='NoticeWrite33.jsp'"></a>
    		            	<!--ProductReviewWrite.jsp로 값을 넘겨줄 버튼을 만드는 코드 -->	            	
 					    
 	 

@@ -88,6 +88,7 @@
 			</ul>
 		</div>
 	</nav>
+	 <!-- 게시판 글 등록 -->
 		<form method="post" action="writeAction.jsp">
 				<table class="bulletinwrite" >
 					<thead>
@@ -98,30 +99,40 @@
 						</tr>
 					</thead>
 					<tbody>
-						<tr>
+					<tr>
 							<td>
-								<input type="text" class="form-control" placeholder="글 제목" name="bbsTitle" 
-								maxlength="50">
+								<input type="text" class="form-control" placeholder="숫자" name="id" 
+								maxlength="50" value="${ dto.getId()}" >
 							</td>
 						</tr>
 						<tr>
 							<td>
-								<textarea class="form-control" placeholder="글 내용" name="bbsContent"
-								 maxlength="2048" style="height: 350px;">
+								<input type="text" class="form-control" placeholder="작성자" name="writer" 
+								maxlength="50"  value="${dto.getWriter()}">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="text" class="form-control" placeholder="글 제목" name="title" 
+								maxlength="50" value="${dto.getTitle()}">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<textarea class="form-control" placeholder="글 내용" name="content" 
+								 maxlength="2048" style="height: 350px;" value="${dto.getContent()}">
 							</textarea>
 							</td>
 							
 						</tr>
 					</tbody>
 				</table>
-			</form>
-		</div>
-	
+			</form>	
             <div class="imageplus">
             	<br/><br/>
-		<%-- <table width="1000" border="2" cellpadding="0" cellspacing="0"
+	 <table width="1000" border="2" cellpadding="0" cellspacing="0"
 		bordercolor="#d6d4a6" align="center">
-		 
+		 <!-- 이미지 등록 창 -->
 		<tr  height="40">
 		   <td style="padding-left: 20px;">
 		   <b>이미지 게시판</b>
@@ -163,11 +174,11 @@
       			<!-- mailSend(); -> mail.js에 있다. --> 			
 		      </td>
 	      </tr>
-		</table>	 --%>
+		</table>	
 				</div>
            		<div>	
 	      			<a href="NoticeList.jsp">
-	      				<input type="submit" id="writebutton" class="btn btn-primary form-control" value="등록하기">	
+	      				<input type="submit" id="writebutton" class="btn btn-primary form-control" value="변경하기">	
 					    <input type="submit" id="writecancelbutton" class="btn btn-primary form-control" value="작성취소">
 	      			</a>
 				</div>			

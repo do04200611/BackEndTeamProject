@@ -81,13 +81,14 @@
 							 <input type="text" class="form-control" id="id" name="id">
 							</td>
 							</tr>
-							<tr>
+							
 							<tr>
 							<td>
 								<input type="text" class="form-control" id="writer" name="writer">
 							</td>
 							
 						</tr>
+						<tr>
 							<td>
 								<input type="text" class="form-control" placeholder="글 제목" name="bbsTitle" 
 								maxlength="50" id="title">
@@ -106,8 +107,8 @@
 		
 		
 				<div>	
-	      				<input type="submit" id="writebutton" class="btn btn-primary form-control" value="등록하기" onclick="location.href='RequestWritePro.jsp" >	
-					    <input type="submit" id="writecancelbutton" class="btn btn-primary form-control" value="작성취소" onclick="location.href='RequestList.jsp">
+	      				<input type="submit" id="writebutton" class="btn btn-primary form-control" value="등록하기" onclick="location.href='RequestWritePro.jsp" style="position:relative; top: 550px;">	
+					    <input type="submit" id="writecancelbutton" class="btn btn-primary form-control" value="작성취소" onclick="location.href='RequestList.jsp" style="position:relative; top: 550px;">
 					    
 	      			
 				</div>		

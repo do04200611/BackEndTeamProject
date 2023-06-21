@@ -12,6 +12,7 @@ import javax.sql.DataSource;
 public class BulletinBoardDao {
 
 	private Connection getConnection() throws Exception {
+		// 데이터베이스 연결을 위한 Connection 객체를 반환하는 메서드입니다.
 		Context initCtx = new InitialContext();
 		Context envCtx = (Context) initCtx.lookup("java:comp/env");
 		DataSource ds = (DataSource) envCtx.lookup("jdbc/gh");
@@ -20,7 +21,7 @@ public class BulletinBoardDao {
 	}
 	
 	  public void insert(BulletinBoardDto dto) {
-	  
+		// 게시글을 데이터베이스에 삽입하는 메서드입니다.
 	  String sql = "INSERT INTO request(ID, Title,Content, Writer ) VALUES(?,?,?,?)";
 	  try ( 
 			  Connection con = getConnection(); 
@@ -42,6 +43,7 @@ public class BulletinBoardDao {
 	 
 
 	public ArrayList<BulletinBoardDto> list() {
+		// 게시글 목록을 데이터베이스에서 가져오는 메서드입니다.
 		String sql = "SELECT * FROM request";
 		ArrayList<BulletinBoardDto> dtos = new ArrayList<BulletinBoardDto>();
 
@@ -68,6 +70,7 @@ public class BulletinBoardDao {
 	}
 
 	public BulletinBoardDto selectOne(String id) {
+		// 특정 게시글을 데이터베이스에서 조회하는 메서드입니다.
 		String sql = "SELECT * FROM request WHERE id=?";
 		BulletinBoardDto dto = new BulletinBoardDto();
 
@@ -96,6 +99,7 @@ public class BulletinBoardDao {
 	}
 
 	public void update(BulletinBoardDto dto) {
+		// 게시글을 수정하는 메서드입니다.
 		String sql = "UPDATE request SET title =?, writer=?,content= ? WHERE Id =?";
 		try (
 			Connection con = getConnection(); 
@@ -116,6 +120,7 @@ public class BulletinBoardDao {
 	}
 	
 	public void delete(String id) {
+		// 게시글을 삭제하는 메서드입니다.
 		String sql = "DELETE FROM request WHERE id =?";
 		
 		try(
