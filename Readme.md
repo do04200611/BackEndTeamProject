@@ -6,8 +6,8 @@
 <H3>아래 영상은 시행영상, 사진은 발표자료 PPT 입니다.</H3>
 
 
-https://github.com/do04200611/BackEndTeamProject/assets/74278578/2e4843a4-34cb-4a4d-a806-b475ce089121
-
+###[본 프로젝트](https://github.com/do04200611/BackEndTeamProject/assets/74278578/2e4843a4-34cb-4a4d-a806-b475ce089121)
+###[이 프로젝트의 호스팅 파일](https://do04200611.github.io/BackEndTeamProject/)
 
 ![image](https://github.com/do04200611/BackEndTeamProject/assets/74278578/f48ea413-b2d0-4b4f-b0c0-956485ebb993)
 ![image](https://github.com/do04200611/BackEndTeamProject/assets/74278578/1bb54426-fd3f-45fd-996f-40cc7fcfeb14)
