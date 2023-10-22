@@ -1,5 +1,6 @@
 
 
+[org_방정철최종보고서.docx](https://github.com/do04200611/BackEndTeamProject/files/13062667/org_.docx)
 
 
 <H1>백앤드 팀 프로젝트를 준비하면서 만든 코드 및 파일을 올려둔 것입니다.</H1>
