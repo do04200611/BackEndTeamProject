@@ -11,6 +11,7 @@
 
 ### [이 프로젝트의 호스팅 파일](https://do04200611.github.io/BackEndTeamProject/)
 ### [프로젝트 실행 영상](https://www.youtube.com/watch?v=nWUVOtQVmxw)
+### [프로젝트 최종 보고](https://github.com/do04200611/BackEndTeamProject/blob/main/%EB%B0%B1%EC%95%A4%EB%93%9C%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%B5%9C%EC%A2%85%EB%B3%B4%EA%B3%A0%EC%84%9C.pdf)
 
 ![image](https://github.com/do04200611/BackEndTeamProject/assets/74278578/f48ea413-b2d0-4b4f-b0c0-956485ebb993)
 ![image](https://github.com/do04200611/BackEndTeamProject/assets/74278578/1bb54426-fd3f-45fd-996f-40cc7fcfeb14)
