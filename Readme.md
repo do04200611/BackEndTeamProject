@@ -13,6 +13,10 @@
 ### [프로젝트 실행 영상](https://www.youtube.com/watch?v=nWUVOtQVmxw)
 ### [프로젝트 최종 보고](https://do04200611.github.io/otherdata/%EB%B0%B1%EC%95%A4%EB%93%9C%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%B5%9C%EC%A2%85%EB%B3%B4%EA%B3%A0%EC%84%9C.pdf)
 
+ | ポートフォリオ           |  作る期間     |            説明  |
+  |------------------------|---------------|----------------------------------------------|
+  | <a href="https://www.youtube.com/channel/UC484ZJMavtoPOI4ey-HFdCA"><img src="https://img.shields.io/badge/-YouTube-red?style=for-the-badge&logo=youtube"   alt="YouTube"></a>|11月|ウェブバージョン|
+  |<a href="https://www.canva.com/design/DAFzY5opUiA/Ge33dSKE16cErBaDJDp-BA/edit"><img src="https://img.shields.io/badge/canva-purple?style=for-the-badge&logo=canva" alt="canva"></a>| 11月|<img src="https://img.shields.io/badge/canva-purple?style=for-the-badge&logo=canva" alt="canva">バージョン|
 ![image](https://github.com/do04200611/BackEndTeamProject/assets/74278578/f48ea413-b2d0-4b4f-b0c0-956485ebb993)
 ![image](https://github.com/do04200611/BackEndTeamProject/assets/74278578/1bb54426-fd3f-45fd-996f-40cc7fcfeb14)
 ![image](https://github.com/do04200611/BackEndTeamProject/assets/74278578/ebcc27fd-05aa-470d-b75e-92add5daa14c)
