@@ -8,8 +8,8 @@
 <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
 <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-##[프로젝트 실행 영상](https://www.youtube.com/watch?v=nWUVOtQVmxw)<br>
-##[이 프로젝트의 호스팅 파일](https://do04200611.github.io/BackEndTeamProject/)
+### [프로젝트 실행 영상](https://www.youtube.com/watch?v=nWUVOtQVmxw)<br>
+### [이 프로젝트의 호스팅 파일](https://do04200611.github.io/BackEndTeamProject/)
 
 ![image](https://github.com/do04200611/BackEndTeamProject/assets/74278578/f48ea413-b2d0-4b4f-b0c0-956485ebb993)
 ![image](https://github.com/do04200611/BackEndTeamProject/assets/74278578/1bb54426-fd3f-45fd-996f-40cc7fcfeb14)
