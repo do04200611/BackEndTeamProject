@@ -15,7 +15,8 @@
  | ポートフォリオ           |  作る期間     |            説明  |
   |------------------------|---------------|----------------------------------------------|
   | <a href="https://www.youtube.com/watch?v=nWUVOtQVmxw"><img src="https://img.shields.io/badge/-YouTube-red?style=for-the-badge&logo=youtube" alt="YouTube"></a>|7月|실행 영상입니다.|
-  |<a href="https://do04200611.github.io/BackEndTeamProject/"><img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git" alt="canva"></a>| 7月|<img src="https://img.shields.io/badge/canva-purple?style=for-the-badge&logo=canva" alt="canva">バージョン|
+  |<a href="https://do04200611.github.io/BackEndTeamProject/"><img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git" alt="canva"></a>| 7月|웹호스팅 페이지입니다.|
+  |[pdf](https://play-lh.googleusercontent.com/nufRXPpDI9XP8mPdAvOoJULuBIH_OK4YbZZVu8i_-eDPulZpgb-Xp-EmI8Z53AlXHpqX=w240-h480-rw)| 7月|<img src="https://img.shields.io/badge/canva-purple?style=for-the-badge&logo=canva" alt="canva">バージョン|
 ![image](https://github.com/do04200611/BackEndTeamProject/assets/74278578/f48ea413-b2d0-4b4f-b0c0-956485ebb993)
 ![image](https://github.com/do04200611/BackEndTeamProject/assets/74278578/1bb54426-fd3f-45fd-996f-40cc7fcfeb14)
 ![image](https://github.com/do04200611/BackEndTeamProject/assets/74278578/ebcc27fd-05aa-470d-b75e-92add5daa14c)
