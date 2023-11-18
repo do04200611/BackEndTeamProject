@@ -4,10 +4,10 @@
 <H1>백앤드 팀 프로젝트를 준비하면서 만든 코드 및 파일을 올려둔 것입니다.</H1>
 <H3>아래 영상은 시행영상, 사진은 발표자료 PPT 입니다.</H3>
 
-<img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white">
-<img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-<img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+![java](https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white)
+![html](https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![css](https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![javascript](https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 ### [이 프로젝트의 호스팅 파일](https://do04200611.github.io/BackEndTeamProject/)
 ### [프로젝트 실행 영상](https://www.youtube.com/watch?v=nWUVOtQVmxw)
